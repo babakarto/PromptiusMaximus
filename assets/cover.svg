@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 650" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1300" height="650" fill="#111118"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#333340" stroke-width="1.5" fill="none">
+    <!-- Top-left -->
+    <polyline points="16,40 16,16 40,16"/>
+    <!-- Top-right -->
+    <polyline points="1260,16 1284,16 1284,40"/>
+    <!-- Bottom-left -->
+    <polyline points="16,610 16,634 40,634"/>
+    <!-- Bottom-right -->
+    <polyline points="1260,634 1284,634 1284,610"/>
+  </g>
+
+  <!-- "AI PROMPT LIBRARY" label -->
+  <text x="60" y="60" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="13" fill="#4a4a5a" letter-spacing="4" font-weight="500">AI PROMPT LIBRARY</text>
+
+  <!-- Main title: "Promptium" — outline stroke font -->
+  <text x="55" y="270" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="120" font-weight="900" fill="none" stroke="#e8e8ec" stroke-width="1.8" letter-spacing="-3">Promptium</text>
+
+  <!-- "Maximus" — outline stroke italic -->
+  <text x="55" y="395" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="120" font-weight="900" fill="none" stroke="#e8e8ec" stroke-width="1.8" letter-spacing="-3" font-style="italic">Maximus</text>
+
+  <!-- Center dot -->
+  <circle cx="635" cy="340" r="5" fill="#e8e8ec"/>
+
+  <!-- Bottom tagline -->
+  <text x="60" y="565" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="13" fill="#4a4a5a" font-weight="400">Curated prompts for every AI generator.</text>
+  <text x="60" y="585" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="13" fill="#4a4a5a" font-weight="400">Image. Video. Audio. Text. Code.</text>
+
+  <!-- ============ RIGHT SIDE: Category cards ============ -->
+
+  <!-- IMAGE -->
+  <g transform="translate(660, 42)">
+    <text x="0" y="36" font-family="'Inter', sans-serif" font-size="30" font-weight="700" fill="#e8e8ec">Image</text>
+    <text x="555" y="36" font-family="'JetBrains Mono', monospace" font-size="15" fill="#e8645a" font-weight="500" text-anchor="end">--img</text>
+    <line x1="0" y1="60" x2="555" y2="60" stroke="#222230" stroke-width="1"/>
+    <text x="0" y="82" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#2e2e3a">a cinematic wide shot of a neon-lit alley in Tokyo during heavy rain, reflections on wet asphalt, film...</text>
+  </g>
+
+  <!-- VIDEO -->
+  <g transform="translate(660, 187)">
+    <text x="0" y="36" font-family="'Inter', sans-serif" font-size="30" font-weight="700" fill="#e8e8ec">Video</text>
+    <text x="555" y="36" font-family="'JetBrains Mono', monospace" font-size="15" fill="#2dd4a8" font-weight="500" text-anchor="end">--vid</text>
+    <line x1="0" y1="60" x2="555" y2="60" stroke="#222230" stroke-width="1"/>
+    <text x="0" y="82" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#2e2e3a">slow dolly forward through a foggy ancient forest at golden hour, volumetric god rays piercing through...</text>
+  </g>
+
+  <!-- AUDIO -->
+  <g transform="translate(660, 332)">
+    <text x="0" y="36" font-family="'Inter', sans-serif" font-size="30" font-weight="700" fill="#e8e8ec">Audio</text>
+    <text x="555" y="36" font-family="'JetBrains Mono', monospace" font-size="15" fill="#7b8aec" font-weight="500" text-anchor="end">--aud</text>
+    <line x1="0" y1="60" x2="555" y2="60" stroke="#222230" stroke-width="1"/>
+    <text x="0" y="82" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#2e2e3a">ambient lo-fi piano melody with warm vinyl crackle, soft rain pattering on a window in the background...</text>
+  </g>
+
+  <!-- CODE -->
+  <g transform="translate(660, 477)">
+    <text x="0" y="36" font-family="'Inter', sans-serif" font-size="30" font-weight="700" fill="#e8e8ec">Code</text>
+    <text x="555" y="36" font-family="'JetBrains Mono', monospace" font-size="15" fill="#e8645a" font-weight="500" text-anchor="end">--dev</text>
+    <line x1="0" y1="60" x2="555" y2="60" stroke="#222230" stroke-width="1"/>
+    <text x="0" y="82" font-family="'JetBrains Mono', monospace" font-size="11.5" fill="#2e2e3a">build a production-ready REST API with JWT authentication, rate limiting middleware, RedSocket real-ti...</text>
+  </g>
+
+</svg>

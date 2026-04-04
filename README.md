@@ -1,10 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="PromptiusMaximus" width="700"/>
-</p>
-
-<p align="center">
-  <strong>The ultimate prompt engineering toolkit for AI video & image generation.</strong><br/>
-  Battle-tested prompts, production workflows, and technique guides for 14+ AI models.
+  <img src="assets/cover.svg" alt="Promptium Maximus — AI Prompt Library" width="100%"/>
 </p>
 
 <p align="center">
