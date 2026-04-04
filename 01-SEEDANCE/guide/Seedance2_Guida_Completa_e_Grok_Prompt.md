@@ -1,77 +1,77 @@
-# Seedance 2.0 - Guida Completa Prompt Engineering + Prompt Grok.com
+# Seedance 2.0 - Complete Prompt Engineering Guide + Grok.com Prompt
 
-Ricerca approfondita su fonti verificate: sito ufficiale ByteDance, risorse ufficiali Dreamina/CapCut, guide con prompt testati da creator, GitHub curati, Reddit e showcase YouTube reali.
-
----
-
-## Cos'e Seedance 2.0
-
-Seedance 2.0 e il modello video AI multimodale di ByteDance (2026), integrato principalmente su **Dreamina** (dreamina.capcut.com) e **CapCut**. Supporta testo + fino a 9 immagini + 3 video + 3 audio (totale max 12 file, video/audio ≤15s). E fortissimo su coerenza personaggio, fisica realistica, movimenti di camera cinematici e audio sincronizzato. I prompt funzionano esattamente uguali su tutte le piattaforme che usano il modello (Dreamina e la piu diretta e affidabile).
+In-depth research from verified sources: official ByteDance website, official Dreamina/CapCut resources, tested prompt guides from creators, curated GitHub repos, Reddit, and real YouTube showcases.
 
 ---
 
-## 1. Struttura Prompt Ideale (Formula Magica)
+## What is Seedance 2.0
 
-Tutte le guide testate convergono su questo ordine preciso (riduce drift e massimizza controllo):
+Seedance 2.0 is ByteDance's multimodal AI video model (2026), primarily integrated on **Dreamina** (dreamina.capcut.com) and **CapCut**. It supports text + up to 9 images + 3 videos + 3 audio (max 12 files total, video/audio ≤15s). It excels at character consistency, realistic physics, cinematic camera movements, and synchronized audio. Prompts work exactly the same across all platforms using the model (Dreamina is the most direct and reliable).
+
+---
+
+## 1. Ideal Prompt Structure (Magic Formula)
+
+All tested guides converge on this exact order (reduces drift and maximizes control):
 
 ```
-[@Riferimenti] + Soggetto + Azione + Scena/Ambiente + Camera + Illuminazione + Stile + Audio/Qualita + Constraints
+[@References] + Subject + Action + Scene/Environment + Camera + Lighting + Style + Audio/Quality + Constraints
 ```
 
-### Template Copy-Paste Pronto (WaveSpeed + ImagineArt + Dreamina official)
+### Ready-to-Use Copy-Paste Template (WaveSpeed + ImagineArt + Dreamina official)
 
 ```
-@image1 come personaggio principale / @video1 per movimento camera
-[Descrizione soggetto chiaro, una persona/oggetto]
-[Verbo azione al presente, specifica e singola]
-[Ambiente + atmosfera]
-[Camera: shot size + movimento + angolo + lente]
+@image1 as main character / @video1 for camera movement
+[Clear subject description, one person/object]
+[Action verb in present tense, specific and singular]
+[Environment + atmosphere]
+[Camera: shot size + movement + angle + lens]
 [Lighting + color grading]
-[Stile visivo: un solo anchor forte (es. "cinematografia Blade Runner", "National Geographic", "Zara campaign")]
-[4K ultra HD, dettagli ricchi, nitidezza cinematografica, motion stabile]
-[Constraints / negative]
+[Visual style: one strong anchor (e.g. "Blade Runner cinematography", "National Geographic", "Zara campaign")]
+[4K ultra HD, rich details, cinematic sharpness, stable motion]
+[Constraints / negatives]
 ```
 
-**Lunghezza ideale su Dreamina:** 30-100 parole. Troppo corto = vago. Troppo lungo = perde focus e qualita cala.
+**Ideal length on Dreamina:** 30-100 words. Too short = vague. Too long = loses focus and quality drops.
 
 ---
 
-## 2. Trick e Modi di Scrittura (I Piu Potenti, Testati)
+## 2. Writing Tricks and Techniques (Most Powerful, Tested)
 
-### Regole Base
-- **Inizia sempre col soggetto** (lead with the subject) → l'AI focalizza subito su quello che conta
-- **Un verbo d'azione per shot** → evita caos
+### Basic Rules
+- **Always start with the subject** (lead with the subject) → the AI immediately focuses on what matters
+- **One action verb per shot** → avoids chaos
 
-### Camera Vocabulary Preciso (Oro su Seedance)
+### Precise Camera Vocabulary (Gold on Seedance)
 
-| Categoria | Opzioni |
+| Category | Options |
 |-----------|---------|
 | **Shot** | wide / medium / close-up / extreme close-up |
-| **Movimento** | slow dolly-in, tracking shot, push-in, crane up, handheld (per UGC), gimbal-smooth, drone ascending, whip-pan (solo se vuoi effetto dinamico) |
-| **Angolo + lente** | eye-level normal lens, low-angle telephoto, high-angle wide |
+| **Movement** | slow dolly-in, tracking shot, push-in, crane up, handheld (for UGC), gimbal-smooth, drone ascending, whip-pan (only for dynamic effect) |
+| **Angle + lens** | eye-level normal lens, low-angle telephoto, high-angle wide |
 
-### Timeline per Multi-Shot (Perfetto per Storie)
+### Timeline for Multi-Shot (Perfect for Stories)
 
 ```
 [00-05s] Shot 1: ...
 [05-10s] Shot 2: ...
 ```
 
-### @Riferimenti (La Feature Piu Potente)
+### @References (The Most Powerful Feature)
 
-- `@image1` come personaggio principale o `@image1 as main character reference`
-- `@video1` per movimento camera o `@video1's camera movement`
-- `@image2` come primo frame, `@image3` come ultimo frame
-- Puoi descrivere in linguaggio naturale: "Usa @image1 come ragazza con capelli corti e @video1 per il movimento fluido del vestito"
-- **Per coerenza massima:** carica sempre la stessa foto del personaggio in ogni generazione
+- `@image1` as main character or `@image1 as main character reference`
+- `@video1` for camera movement or `@video1's camera movement`
+- `@image2` as first frame, `@image3` as last frame
+- You can describe in natural language: "Use @image1 as girl with short hair and @video1 for the fluid dress movement"
+- **For maximum consistency:** always upload the same character photo in every generation
 
-### Quality Suffix Finale (Aggiungilo Sempre)
+### Final Quality Suffix (Always Add It)
 
 ```
 4K Ultra HD, rich details, sharp clarity, cinematic texture, stable picture, no distortion, maintain face and clothing consistency
 ```
 
-### Negative Prompts / Constraints (Usa 3-5 max, Mettili alla Fine)
+### Negative Prompts / Constraints (Use 3-5 max, Put Them at the End)
 
 ```
 No jitter, no shake, no wobble, no warping, no elastic deformation
@@ -79,34 +79,34 @@ No extra fingers, no deformed hands, no extra characters
 No text overlays, no logos, no watermarks, no captions
 No snap zooms, no whip pans, no Dutch angles, no jump cuts
 No temporal flicker, no blurry motion
-No cartoon/anime (se vuoi realistico)
+No cartoon/anime (if you want realistic)
 ```
 
-### Trucco Pro
-Cambia una sola variabile tra una generazione e l'altra (solo lighting, solo camera, solo stile). Evita di riscrivere tutto.
+### Pro Trick
+Change only one variable between generations (only lighting, only camera, only style). Avoid rewriting everything.
 
-### Best Practice Dreamina Specifiche (Da Test Reali)
-- Clip migliori sotto i **10-12 secondi** (qualita cala dopo)
-- Usa sempre riferimenti immagine/video per coerenza
-- Per viral: **primi 3 secondi fortissimi** (hook visivo)
+### Dreamina-Specific Best Practices (From Real Tests)
+- Best clips under **10-12 seconds** (quality drops after)
+- Always use image/video references for consistency
+- For viral: **strong first 3 seconds** (visual hook)
 
 ---
 
-## 3. Esempi Prompt Testati e Pronti
+## 3. Tested and Ready-to-Use Example Prompts
 
-Selezionati da guide ufficiali/testate, gia ottimizzati per Dreamina/Seedance 2.0.
+Selected from official/tested guides, already optimized for Dreamina/Seedance 2.0.
 
 ### Cinematic / Narrative (AtlasCloud + ImagineArt)
 
-#### 1. Epic Drone Reveal (9/10 successo)
+#### 1. Epic Drone Reveal (9/10 success rate)
 
 ```
 Sweeping drone shot ascending from a misty valley floor, slowly revealing a vast mountain range at sunrise, golden light breaking through clouds, long shadows on pine forests, orchestral grandeur, National Geographic documentary quality, ultra-smooth camera movement. 4K, stable, cinematic texture.
 ```
 
-> Perche funziona: tensione + reveal + anchor forte.
+> Why it works: tension + reveal + strong anchor.
 
-#### 2. Emozionale Close-Up (Blade Runner style)
+#### 2. Emotional Close-Up (Blade Runner style)
 
 ```
 Extreme close-up of a young woman's face, eyes slowly opening to reveal reflected city lights, single tear rolling down cheek catching light, shallow depth of field bokeh, intimate emotional, Blade Runner cinematography, warm amber and cool blue contrast. Slow push-in.
@@ -120,7 +120,7 @@ Extreme close-up of a young woman's face, eyes slowly opening to reveal reflecte
 A martial artist performing a spinning kick in slow motion, silk ribbons trailing from wrists creating spiral patterns, ancient temple courtyard with cherry blossom petals falling, dramatic side-angle tracking shot, Crouching Tiger Hidden Dragon aesthetic, golden hour backlighting silhouette.
 ```
 
-### Product / Commercial (Super Stabili)
+### Product / Commercial (Super Stable)
 
 #### 4. Wristwatch Luxury
 
@@ -128,7 +128,7 @@ A martial artist performing a spinning kick in slow motion, silk ribbons trailin
 Premium wristwatch floating mid-air slowly rotating, water droplets suspended around it like diamonds catching light, pure black background, single dramatic spotlight from above, extreme macro detail, high-end jewelry commercial, ultra-smooth rotation.
 ```
 
-#### 5. Iced Coffee Pour (Ipnotico)
+#### 5. Iced Coffee Pour (Hypnotic)
 
 ```
 Tall glass of iced coffee being poured in slow motion, rich dark coffee meeting swirling cream creating mesmerizing patterns, ice cubes clinking, condensation droplets, close-up to medium shot, warm cafe lighting, Starbucks commercial quality.
@@ -142,7 +142,7 @@ Tall glass of iced coffee being poured in slow motion, rich dark coffee meeting 
 Fast-paced video of a cat knocking over objects with exaggerated reactions, meme-style captions, quick zooms for comedic effect.
 ```
 
-### Multi-Shot con Riferimenti (Esempio Avanzato)
+### Multi-Shot with References (Advanced Example)
 
 #### 7. Cyberpunk Assassin Chase
 
@@ -152,31 +152,31 @@ Use @image1 as main character. @video1 as camera movement reference. A lone cybe
 
 ---
 
-## 4. Risorse Verificate
+## 4. Verified Resources
 
-- Sito ufficiale ByteDance Seedance 2.0
+- Official ByteDance Seedance 2.0 website
 - Dreamina official prompt guide & tips
-- Guide testate: ImagineArt (70 prompt), AtlasCloud (15 best, con % successo), WaveSpeed (template + negatives)
-- GitHub awesome-seedance-2-prompts (500+ curati)
+- Tested guides: ImagineArt (70 prompts), AtlasCloud (15 best, with success %), WaveSpeed (template + negatives)
+- GitHub awesome-seedance-2-prompts (500+ curated)
 
 ---
 
 ---
 
-# Prompt per Simulare una Ricerca Grok.com
+# Prompt to Simulate a Grok.com Research
 
-## Prompt Principale (Ottimizzato per Coerenza UI e Dinamismo)
+## Main Prompt (Optimized for UI Consistency and Dynamism)
 
 ### Settings
 - **Mode:** Omni Reference
 - **AR:** 16:9
 - **Duration:** 15s
-- **1 reference Image** (screenshot reale di grok.com)
+- **1 reference Image** (real screenshot of grok.com)
 
 ### Prompt
 
 ```
-@image1 come riferimento esatto dell'interfaccia grok.com (screenshot della homepage o chat pulita)
+@image1 as exact reference of the grok.com interface (screenshot of homepage or clean chat)
 
 Realistic live screen recording of the official grok.com interface by xAI, dark minimalist cyber UI, clean white text on deep black background, xAI logo top left, subtle blue neon glow accents, modern sidebar with Grok avatar.
 
@@ -187,33 +187,33 @@ Results populate dynamically: cards with titles, summaries, inline citations [we
 Slow cinematic push-in from full screen to focused chat window, subtle screen reflections and soft parallax on UI elements, futuristic yet clean digital aesthetic exactly like grok.com 2026. 4K ultra HD, razor sharp text, zero jitter, zero distortion, stable motion, cinematic screen capture style, rich UI textures, perfect consistency of interface elements.
 ```
 
-### Perche Funziona su Seedance 2.0
+### Why It Works on Seedance 2.0
 
-- **@image1** → carica uno screenshot reale di grok.com per avere l'interfaccia perfettamente identica (coerenza 95%+)
-- **Inizia col soggetto** (l'interfaccia) → l'AI non si distrae
-- **Azione singola e chiara** (typing → tool activation → risultati) → Seedance ama verbi precisi
-- **Camera + movimento fluido** → evita il "video statico noioso"
-- **Quality suffix finale** → elimina jitter e warping tipici dei video UI
+- **@image1** → upload a real screenshot of grok.com to get a perfectly identical interface (95%+ consistency)
+- **Starts with the subject** (the interface) → the AI doesn't get distracted
+- **Single clear action** (typing → tool activation → results) → Seedance loves precise verbs
+- **Camera + fluid movement** → avoids the "boring static video" effect
+- **Final quality suffix** → eliminates jitter and warping typical of UI videos
 
 ---
 
-## Varianti Rapide
+## Quick Variants
 
-### Versione Cinematografica / "Hacker Style"
+### Cinematic / "Hacker Style" Version
 
-Aggiungi dopo il prompt base:
+Add after the base prompt:
 
 ```
 ... dramatic volumetric lighting from screen, subtle matrix rain in background, cyberpunk neon blue and purple accents, slow dramatic zoom on the reasoning text while tools activate.
 ```
 
-### Versione Timelapse Ultra-Veloce (Per Video Virali 8-10 secondi)
+### Ultra-Fast Timelapse Version (For 8-10 Second Viral Videos)
 
 ```
 ... fast-forward timelapse style, 3x speed, query typed instantly, tools flash rapidly, full research completed in 8 seconds, smooth speed-ramping at the end.
 ```
 
-### Versione con Grok "Personaggio" (Avatar Animato)
+### Version with Grok "Character" (Animated Avatar)
 
 ```
 ... Grok AI mascot (cute robot with xAI style) appears on the left of the chat, nodding and gesturing while tools activate and results appear.
@@ -221,8 +221,8 @@ Aggiungi dopo il prompt base:
 
 ---
 
-## Note
+## Notes
 
-- Per cambiare argomento di ricerca: sostituisci solo la query nel prompt (es. "ricerca su Bitcoin", "ricerca su un prodotto", ecc.)
-- Per formato verticale TikTok/Reels: cambia AR a 9:16
-- Carica sempre uno screenshot reale e aggiornato di grok.com come @image1 per massima coerenza
+- To change the research topic: replace only the query in the prompt (e.g. "research on Bitcoin", "research on a product", etc.)
+- For vertical TikTok/Reels format: change AR to 9:16
+- Always upload a real, up-to-date screenshot of grok.com as @image1 for maximum consistency

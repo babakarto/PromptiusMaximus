@@ -1,228 +1,228 @@
-# 10 Trucchi CapCut Che Ogni Pro Editor Usa (Ma Tu No)
+# 10 CapCut Tricks Every Pro Editor Uses (But You Don't)
 
-> **Autore:** Patrik Key
+> **Author:** Patrik Key
 > **Video:** https://www.youtube.com/watch?v=Ri9gUz9iNto
-> **Concetto chiave:** 10 effetti di alta qualita che il 90% degli utenti CapCut non usa mai
+> **Key concept:** 10 high-quality effects that 90% of CapCut users never use
 
 ---
 
-## 1. Effetto Contatore di Numeri (Counter Effect)
+## 1. Number Counter Effect
 
-I numeri catturano l'attenzione del cervello istantaneamente. Quando crescono, non puoi distogliere lo sguardo.
+Numbers capture the brain's attention instantly. When they grow, you can't look away.
 
-### Come Fare:
-1. Crea un **text layer** > elimina il testo di default
-2. Scrivi un numero (es. `1137572`)
-3. Scegli il font che preferisci
-4. Vai **5 frame avanti** (premi freccia destra 5 volte)
-5. **Taglia** in quel punto
-6. Elimina la parte dopo il taglio
-7. Prendi il testo e mettilo accanto
-8. **Seleziona entrambi** > copia e incolla sulla timeline
-9. Ripeti: 2 > 4 > 8 > **16 colonne di testo**
-10. Cambia i numeri in ogni colonna, facendo **piccoli incrementi graduali**
-11. L'ultimo numero = il numero finale (es. 1,000,000)
-12. Aggiungi un **sound effect**
+### How To:
+1. Create a **text layer** > delete the default text
+2. Type a number (e.g. `1137572`)
+3. Choose your preferred font
+4. Go **5 frames forward** (press right arrow 5 times)
+5. **Cut** at that point
+6. Delete the part after the cut
+7. Take the text and place it next to it
+8. **Select both** > copy and paste on the timeline
+9. Repeat: 2 > 4 > 8 > **16 text columns**
+10. Change the numbers in each column, making **small gradual increments**
+11. The last number = the final number (e.g. 1,000,000)
+12. Add a **sound effect**
 
-> **Importante:** Fai salti piccoli nei numeri (non passare da 137K a 300K, sembrerebbe strano). Scala gradualmente.
-
----
-
-## 2. Barra di Progressione / Loading Bar
-
-Trigger psicologico: le barre di caricamento dicono al pubblico che qualcosa sta arrivando. Aggiungono ritmo e urgenza.
-
-### Come Fare:
-1. Crea un **text layer** > rimuovi il testo > spazia tutto
-2. Seleziona **Background** > colore bianco (base)
-3. **Duplica** il layer > cambia colore a **verde** (progresso)
-4. Seleziona entrambi > **Create Compound Clip** (o Option+G su Mac)
-5. Dentro il compound: metti il verde sul **secondo layer**
-6. Sul layer verde: **Mask** > **Split** > ruota
-7. Mettilo all'inizio della clip
-8. Clicca **keyframe** > vai alla fine > trascina la mask fino in fondo
-9. Gioca con il **feathering** per un look piu dinamico
-10. Per smoothare: tasto destro > **Show Variable Speed Animation** > seleziona i keyframe > **Quad Out**
-
-### Per personalizzare la durata:
-- Crea un text layer della durata desiderata (es. 10 secondi)
-- Imposta keyframe all'inizio e alla fine del text layer
-
-### Forma finale:
-- Seleziona entrambe le clip > **Create Compound**
-- Vai su **Mask** > **Rectangle** (o altra forma)
-- Arrotonda gli angoli a piacere
+> **Important:** Make small jumps in the numbers (don't go from 137K to 300K, it would look weird). Scale gradually.
 
 ---
 
-## 3. Effetto 3D Flip
+## 2. Progress Bar / Loading Bar
 
-Ribalta lo schermo e resetta l'attenzione dello spettatore. Perfetto per transizioni o highlight dinamici.
+Psychological trigger: loading bars tell the audience that something is coming. They add rhythm and urgency.
 
-### Come Fare:
-1. Posiziona il logo/immagine
-2. Vai su **Animations** > scorri fino alla serie **Flip**
-3. Usa **Flip 4** (consigliato)
-4. Aumenta le dimensioni
+### How To:
+1. Create a **text layer** > remove the text > space everything out
+2. Select **Background** > white color (base)
+3. **Duplicate** the layer > change color to **green** (progress)
+4. Select both > **Create Compound Clip** (or Option+G on Mac)
+5. Inside the compound: put the green on the **second layer**
+6. On the green layer: **Mask** > **Split** > rotate
+7. Place it at the beginning of the clip
+8. Click **keyframe** > go to the end > drag the mask all the way across
+9. Play with the **feathering** for a more dynamic look
+10. To smooth: right-click > **Show Variable Speed Animation** > select the keyframes > **Quad Out**
 
-### Bonus - Fermare il Flip in una Posizione:
-1. Crea un **Compound Clip** dal flip
-2. Ora appare l'opzione **Freeze**
-3. Freezo nella posizione desiderata
-4. Elimina le parti prima e dopo
-5. Hai un logo/immagine con angolazione 3D fissa
+### To customize the duration:
+- Create a text layer of the desired duration (e.g. 10 seconds)
+- Set keyframes at the beginning and end of the text layer
 
----
-
-## 4. Testo Gradient (Sfumatura)
-
-Il gradient fa sembrare tutto piu premium. Fonts bianchi e colori semplici vanno bene, ma manca sempre qualcosa.
-
-### Come Fare:
-1. Crea un **text layer** (es. "PREMIUM")
-2. **Duplica** il layer
-3. Scegli il font
-4. Layer 1: colore **giallo**
-5. Layer 2: colore **arancione**
-6. Crea **Compound Clip separati** per ogni layer
-7. Sul layer superiore: **Video** > **Mask** > **Split**
-8. Alza il **Feathering** (es. valore 35)
-9. Aggiusta la posizione della mask
-
-### Bonus - Aggiungere Glow:
-1. Seleziona entrambi i compound > crea un **altro compound**
-2. Vai su **Effects** > cerca **"Glow Too"**
-3. Trascina l'effetto sul compound
-4. Abbassa l'intensita per non esagerare
+### Final shape:
+- Select both clips > **Create Compound**
+- Go to **Mask** > **Rectangle** (or other shape)
+- Round the corners as desired
 
 ---
 
-## 5. Effetto Shine (Brillantezza)
+## 3. 3D Flip Effect
 
-Aggiunge movimento e glow a qualsiasi elemento. Smooth, stiloso, upgrade istantaneo.
+Flips the screen and resets the viewer's attention. Perfect for transitions or dynamic highlights.
 
-### Come Fare (su Icona):
-1. **Duplica** l'icona
-2. Sulla copia: **Adjustment** > **Curves** > porta la linea all'angolo in alto
-3. Vai su **Video** > **Mask** > **Film Strip**
-4. Ruota la mask come preferisci
-5. Gioca con il **feathering** per piu brillantezza
-6. Se troppo intenso: **Basic** > **Blend** > abbassa il valore
-7. Vai su **Mask Setting** (in fondo)
-8. Imposta un **keyframe** all'inizio
-9. Vai alla fine > sposta la mask > imposta un altro keyframe
-10. Per smoothare: **Variable Speed Animation** > seleziona i keyframe > **Rebound Out** (consigliato)
-11. Aggiungi un **shine sound effect**
+### How To:
+1. Position the logo/image
+2. Go to **Animations** > scroll to the **Flip** series
+3. Use **Flip 4** (recommended)
+4. Increase the size
 
-### Su Testo Gradient:
-- Copia un layer del gradient
-- Incolla dove serve > **Undo Compound**
-- Cambia colore a **bianco** (o il colore shine desiderato)
-- Crea compound > **Mask** > **Film Strip**
-- Rimpicciolisci, posiziona, anima con keyframe
+### Bonus - Freezing the Flip in a Position:
+1. Create a **Compound Clip** from the flip
+2. Now the **Freeze** option appears
+3. Freeze at the desired position
+4. Delete the parts before and after
+5. You have a logo/image with a fixed 3D angle
 
 ---
 
-## 6. Effetto Cinematico Istantaneo
+## 4. Gradient Text
 
-Trasforma footage noioso in contenuto cinematico in pochi click.
+Gradient makes everything look more premium. White fonts and simple colors are fine, but something is always missing.
 
-### Come Fare:
-1. Vai su **Effects**
-2. Cerca **"Cinematic"**
-3. Seleziona l'effetto **Cinema**
-4. Trascinalo sulla timeline
-5. Rendilo della stessa lunghezza della clip
+### How To:
+1. Create a **text layer** (e.g. "PREMIUM")
+2. **Duplicate** the layer
+3. Choose the font
+4. Layer 1: **yellow** color
+5. Layer 2: **orange** color
+6. Create **separate Compound Clips** for each layer
+7. On the top layer: **Video** > **Mask** > **Split**
+8. Increase the **Feathering** (e.g. value 35)
+9. Adjust the mask position
 
-> Fatto. Davvero cosi semplice.
-
----
-
-## 7. Motion Tracking - Testo Agganciato al Soggetto
-
-Aggancia testo o grafiche a un soggetto in movimento. Storytelling attraverso il movimento.
-
-### Come Fare:
-1. Crea un **text layer** (es. "Video Editing")
-2. Rendilo della stessa durata della clip (attiva **snap**)
-3. Scegli stile/effetto del testo
-4. Vai su **Tracking** > **Motion Tracking**
-5. Posiziona il box sul soggetto
-6. Premi **Start** e lascia fare a CapCut
-7. Per maggiore fluidita: disattiva **Scale** e **Distance**
+### Bonus - Adding Glow:
+1. Select both compounds > create **another compound**
+2. Go to **Effects** > search **"Glow Too"**
+3. Drag the effect onto the compound
+4. Lower the intensity to avoid overdoing it
 
 ---
 
-## 8. Effetto Floating (Galleggiamento)
+## 5. Shine Effect
 
-Animazioni floating che sembrano fatte in After Effects, ma in pochi secondi su CapCut.
+Adds movement and glow to any element. Smooth, stylish, instant upgrade.
 
-### Come Fare:
-1. Posiziona l'icona/testo/immagine
-2. Vai su **Effects** > cerca **"Play"**
-3. Usa **Play Pendulum**
-4. Trascina sull'elemento
-5. Riduci **Twist** e **Sharpen** per un look pulito
+### How To (on an Icon):
+1. **Duplicate** the icon
+2. On the copy: **Adjustment** > **Curves** > bring the line to the top corner
+3. Go to **Video** > **Mask** > **Film Strip**
+4. Rotate the mask as you prefer
+5. Play with the **feathering** for more shine
+6. If too intense: **Basic** > **Blend** > lower the value
+7. Go to **Mask Setting** (at the bottom)
+8. Set a **keyframe** at the beginning
+9. Go to the end > move the mask > set another keyframe
+10. To smooth: **Variable Speed Animation** > select the keyframes > **Rebound Out** (recommended)
+11. Add a **shine sound effect**
 
-### Fix per Bordi Tagliati (su forme circolari):
-1. Rimuovi l'effetto Play Pendulum
-2. Crea un **Compound Clip**
-3. **Ora** applica Play Pendulum sul compound
-4. I bordi non saranno piu tagliati
-
-### Fix per Glow con Bordi:
-- Stessa soluzione: rimuovi glow > crea compound > riapplica glow
-
----
-
-## 9. Testo Dietro il Soggetto (Behind Subject)
-
-Effetto "After Effects look" senza toccare After Effects. Veloce, pulito, upgrade visivo istantaneo.
-
-### Come Fare:
-1. Crea un **text layer** (es. "TEXT")
-2. Scegli font e dimensione
-3. Posiziona dove vuoi
-4. **Duplica la clip video**
-5. Sulla clip duplicata: usa **Auto Removal** (rimuovi sfondo)
-6. Sul testo: crea **Compound Clip** (Option+G / tasto destro)
-7. Vai su **Video** > **Basic** > metti il testo sul **secondo layer**
-8. Il testo ora appare **dietro** il soggetto
+### On Gradient Text:
+- Copy a layer from the gradient
+- Paste where needed > **Undo Compound**
+- Change color to **white** (or desired shine color)
+- Create compound > **Mask** > **Film Strip**
+- Shrink, position, animate with keyframes
 
 ---
 
-## 10. Smooth Zoom In Cinematico
+## 6. Instant Cinematic Effect
 
-Zoom-in fluido con variable speed animation. Un piccolo dettaglio che rende l'edit molto piu high-end.
+Transform boring footage into cinematic content in a few clicks.
 
-### Come Fare:
-1. Clicca sul **keyframe** in **Transform**
-2. Vai qualche frame avanti (dove vuoi che finisca lo zoom)
-3. Aggiungi un altro **keyframe**
-4. Zooma la clip (es. **145%**)
-5. Tasto destro > **Show Variable Speed Animation**
-6. Sul secondo keyframe: clicca **Auto Curve**
-7. Sul primo keyframe: clicca **Auto Curve**
-8. Trascina la **linea blu** del secondo keyframe verso l'inizio
+### How To:
+1. Go to **Effects**
+2. Search **"Cinematic"**
+3. Select the **Cinema** effect
+4. Drag it onto the timeline
+5. Make it the same length as the clip
 
-### Curva di Velocita:
-- **Linea blu verso l'inizio** = inizia veloce, rallenta alla fine (piu naturale)
-- Puoi giocare con entrambi i keyframe per effetti diversi:
-  - Lento > veloce > lento = effetto molto cinematico
+> Done. Really that simple.
 
 ---
 
-## Riepilogo Rapido
+## 7. Motion Tracking - Text Attached to a Subject
 
-| # | Effetto | Difficolta | Impatto |
-|---|---------|------------|---------|
-| 1 | Counter Numbers | Media | Alto |
-| 2 | Loading/Progress Bar | Media | Alto |
-| 3 | 3D Flip | Facile | Medio |
-| 4 | Gradient Text | Media | Alto |
-| 5 | Shine Effect | Media-Alta | Alto |
-| 6 | Cinematic Filter | Facilissimo | Medio |
-| 7 | Motion Tracking Text | Facile | Alto |
-| 8 | Floating/Pendulum | Facile | Medio |
-| 9 | Text Behind Subject | Facile | Alto |
-| 10 | Smooth Zoom In | Media | Alto |
+Attach text or graphics to a moving subject. Storytelling through motion.
+
+### How To:
+1. Create a **text layer** (e.g. "Video Editing")
+2. Make it the same duration as the clip (enable **snap**)
+3. Choose the text style/effect
+4. Go to **Tracking** > **Motion Tracking**
+5. Position the box on the subject
+6. Press **Start** and let CapCut do its thing
+7. For smoother results: disable **Scale** and **Distance**
+
+---
+
+## 8. Floating Effect
+
+Floating animations that look like they were made in After Effects, but in seconds on CapCut.
+
+### How To:
+1. Position the icon/text/image
+2. Go to **Effects** > search **"Play"**
+3. Use **Play Pendulum**
+4. Drag it onto the element
+5. Reduce **Twist** and **Sharpen** for a clean look
+
+### Fix for Cropped Edges (on circular shapes):
+1. Remove the Play Pendulum effect
+2. Create a **Compound Clip**
+3. **Now** apply Play Pendulum on the compound
+4. The edges will no longer be cropped
+
+### Fix for Glow with Edges:
+- Same solution: remove glow > create compound > reapply glow
+
+---
+
+## 9. Text Behind Subject
+
+"After Effects look" effect without touching After Effects. Fast, clean, instant visual upgrade.
+
+### How To:
+1. Create a **text layer** (e.g. "TEXT")
+2. Choose font and size
+3. Position where you want
+4. **Duplicate the video clip**
+5. On the duplicated clip: use **Auto Removal** (remove background)
+6. On the text: create **Compound Clip** (Option+G / right-click)
+7. Go to **Video** > **Basic** > put the text on the **second layer**
+8. The text now appears **behind** the subject
+
+---
+
+## 10. Smooth Cinematic Zoom In
+
+Smooth zoom-in with variable speed animation. A small detail that makes the edit look much more high-end.
+
+### How To:
+1. Click on the **keyframe** in **Transform**
+2. Go a few frames forward (where you want the zoom to end)
+3. Add another **keyframe**
+4. Zoom the clip (e.g. **145%**)
+5. Right-click > **Show Variable Speed Animation**
+6. On the second keyframe: click **Auto Curve**
+7. On the first keyframe: click **Auto Curve**
+8. Drag the **blue line** of the second keyframe toward the beginning
+
+### Speed Curve:
+- **Blue line toward the beginning** = starts fast, slows down at the end (more natural)
+- You can play with both keyframes for different effects:
+  - Slow > fast > slow = very cinematic effect
+
+---
+
+## Quick Summary
+
+| # | Effect | Difficulty | Impact |
+|---|--------|------------|--------|
+| 1 | Counter Numbers | Medium | High |
+| 2 | Loading/Progress Bar | Medium | High |
+| 3 | 3D Flip | Easy | Medium |
+| 4 | Gradient Text | Medium | High |
+| 5 | Shine Effect | Medium-High | High |
+| 6 | Cinematic Filter | Very Easy | Medium |
+| 7 | Motion Tracking Text | Easy | High |
+| 8 | Floating/Pendulum | Easy | Medium |
+| 9 | Text Behind Subject | Easy | High |
+| 10 | Smooth Zoom In | Medium | High |

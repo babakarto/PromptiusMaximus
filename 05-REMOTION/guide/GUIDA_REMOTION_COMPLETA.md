@@ -1,90 +1,90 @@
-# GUIDA REMOTION + HIGGSFIELD VIBE MOTION — Progetto Candy
+# REMOTION + HIGGSFIELD VIBE MOTION COMPLETE GUIDE — Candy Project
 
-> Compilata: 2 Aprile 2026
-> Fonti: remotion.dev docs, LogRocket guide, Tella YouTube tutorial, Medium (Remotion + Claude Code), Higgsfield blog x2
+> Compiled: April 2, 2026
+> Sources: remotion.dev docs, LogRocket guide, Tella YouTube tutorial, Medium (Remotion + Claude Code), Higgsfield blog x2
 
 ---
 
-## 1. REMOTION — FONDAMENTALI
+## 1. REMOTION — FUNDAMENTALS
 
-### Cos'e' Remotion
-Remotion = **React per video**. Scrivi componenti TypeScript/React che renderizzano frame per frame in MP4. Niente timeline, niente GUI — tutto e' codice.
+### What is Remotion
+Remotion = **React for video**. You write TypeScript/React components that render frame by frame into MP4. No timeline, no GUI — everything is code.
 
-### Concetto Base
-> "Remotion ti da un numero di frame e un canvas vuoto, su cui puoi renderizzare qualsiasi cosa usando React."
+### Core Concept
+> "Remotion gives you a frame number and a blank canvas, on which you can render anything using React."
 
-- I video sono **una funzione di immagini nel tempo**
-- Cambiare il contenuto ad ogni frame = animazione
-- Frame numbering parte da `0`
-- Frame finale = `durationInFrames - 1`
-- Durata in secondi = `durationInFrames / fps`
+- Videos are **a function of images over time**
+- Changing content on each frame = animation
+- Frame numbering starts from `0`
+- Last frame = `durationInFrames - 1`
+- Duration in seconds = `durationInFrames / fps`
 
-### Proprieta' Video (obbligatorie)
-| Proprieta' | Tipo | Esempio |
+### Video Properties (required)
+| Property | Type | Example |
 |---|---|---|
 | `width` | pixels | 1080 |
 | `height` | pixels | 1920 |
-| `durationInFrames` | numero frame totali | 450 |
+| `durationInFrames` | total frame count | 450 |
 | `fps` | framerate | 30 |
 
-### Hook Principali
+### Main Hooks
 ```tsx
-// Frame corrente (parte da 0)
+// Current frame (starts from 0)
 const frame = useCurrentFrame();
 
-// Tutte le proprieta' video
+// All video properties
 const { width, height, fps, durationInFrames } = useVideoConfig();
 ```
 
-### Componenti Built-in
-| Componente | Uso |
+### Built-in Components
+| Component | Usage |
 |---|---|
-| `<AbsoluteFill>` | Container a tutto schermo (come un div fullscreen) |
-| `<Sequence>` | Timing control — mostra un componente da un certo frame |
-| `<Series>` | Playback sequenziale — uno dopo l'altro |
-| `<Video>` | Incorpora video sorgente |
-| `<Audio>` | Incorpora audio |
-| `<Img>` | Immagine statica |
+| `<AbsoluteFill>` | Full-screen container (like a fullscreen div) |
+| `<Sequence>` | Timing control — shows a component from a certain frame |
+| `<Series>` | Sequential playback — one after another |
+| `<Video>` | Embed source video |
+| `<Audio>` | Embed audio |
+| `<Img>` | Static image |
 
 ---
 
-## 2. SETUP PROGETTO
+## 2. PROJECT SETUP
 
-### Installazione
+### Installation
 ```bash
 npm init video
 ```
-- Scegli template **blank**
-- Aggiungi **Tailwind CSS** (si per lo styling)
-- Aggiungi **agent skills** per Claude Code
+- Choose the **blank** template
+- Add **Tailwind CSS** (yes for styling)
+- Add **agent skills** for Claude Code
 
-### Struttura Progetto
+### Project Structure
 ```
 my-video/
 ├── src/
-│   ├── Root.tsx          # Registra tutte le Composition
+│   ├── Root.tsx          # Registers all Compositions
 │   ├── index.ts          # Entry point
-│   └── components/       # I tuoi componenti video
-├── public/               # Assets (immagini, video, font)
+│   └── components/       # Your video components
+├── public/               # Assets (images, videos, fonts)
 ├── package.json
 └── remotion.config.ts
 ```
 
-### Avviare Remotion Studio
+### Launch Remotion Studio
 ```bash
 cd my-video
 npm run dev
 ```
-Apre Remotion in Chrome:
-- **Pannello sinistro:** lista composizioni
-- **Pannello destro:** props editabili in real-time
-- **Tab Renders:** generazione file video
+Opens Remotion in Chrome:
+- **Left panel:** composition list
+- **Right panel:** props editable in real-time
+- **Renders tab:** video file generation
 
 ---
 
-## 3. COMPOSIZIONI
+## 3. COMPOSITIONS
 
-### Registrare una Composizione
+### Registering a Composition
 In `src/Root.tsx`:
 ```tsx
 import { Composition } from "remotion";
@@ -110,7 +110,7 @@ export const RemotionRoot: React.FC = () => {
 };
 ```
 
-### Composizione con Zod Schema (props tipizzati e editabili in UI)
+### Composition with Zod Schema (typed and UI-editable props)
 ```tsx
 import { z } from "zod";
 import { zColor } from "@remotion/zod-types";
@@ -139,7 +139,7 @@ export const MyComponent: React.FC<z.infer<typeof mySchema>> = ({
 };
 ```
 
-Registra con schema:
+Register with schema:
 ```tsx
 <Composition
   id="MyComponent"
@@ -159,38 +159,38 @@ Registra con schema:
 
 ---
 
-## 4. ANIMAZIONI
+## 4. ANIMATIONS
 
-### REGOLA FONDAMENTALE
-> **Anima SEMPRE usando `useCurrentFrame()`** — mai CSS transitions o animazioni browser. Causano flickering durante il render.
+### FUNDAMENTAL RULE
+> **ALWAYS animate using `useCurrentFrame()`** — never CSS transitions or browser animations. They cause flickering during render.
 
-### Animazione Base con Frame
+### Basic Frame Animation
 ```tsx
 const frame = useCurrentFrame();
 
-// Fade in nei primi 30 frame
+// Fade in over the first 30 frames
 const opacity = Math.min(1, frame / 30);
 
-// Slide da sinistra
+// Slide from left
 const translateX = Math.max(0, 100 - frame * 5);
 
-// Scala da 0 a 1
+// Scale from 0 to 1
 const scale = Math.min(1, frame / 20);
 ```
 
-### interpolate() — Mappatura valori
+### interpolate() — Value Mapping
 
-Mappa un range di valori su un altro. 4 argomenti: valore input, range input, range output, opzioni.
+Maps one range of values to another. 4 arguments: input value, input range, output range, options.
 
 ```tsx
 import { interpolate } from "remotion";
 
-// Fade in dal frame 0 al 60
+// Fade in from frame 0 to 60
 const opacity = interpolate(frame, [0, 60], [0, 1], {
   extrapolateRight: "clamp",
 });
 
-// Slide + hold — entra dal frame 0 al 20, poi fermo
+// Slide + hold — enters from frame 0 to 20, then stays put
 const translateY = interpolate(frame, [0, 20, 50], [100, 0, 0], {
   extrapolateRight: "clamp",
 });
@@ -205,29 +205,29 @@ const fadeInOut = interpolate(
 );
 ```
 
-**Opzioni extrapolation** (cosa succede fuori dal range):
-| Opzione | Effetto |
+**Extrapolation options** (what happens outside the range):
+| Option | Effect |
 |---|---|
-| `"extend"` (default) | Continua oltre il range |
-| `"clamp"` | Si ferma al valore limite — **USARE QUASI SEMPRE** |
-| `"wrap"` | Loop ciclico |
-| `"identity"` | Ritorna il valore input originale |
+| `"extend"` (default) | Continues beyond the range |
+| `"clamp"` | Stops at the limit value — **USE ALMOST ALWAYS** |
+| `"wrap"` | Cyclic loop |
+| `"identity"` | Returns the original input value |
 
-Puoi settare `extrapolateLeft` e `extrapolateRight` separatamente.
+You can set `extrapolateLeft` and `extrapolateRight` separately.
 
-**Easing** — curva di interpolazione (default = lineare):
+**Easing** — interpolation curve (default = linear):
 ```tsx
 import { Easing } from "remotion";
 
 const opacity = interpolate(frame, [0, 30], [0, 1], {
-  easing: Easing.bezier(0.25, 0.1, 0.25, 1), // ease standard
+  easing: Easing.bezier(0.25, 0.1, 0.25, 1), // standard ease
   extrapolateRight: "clamp",
 });
 ```
 
-### spring() — Animazione fisica naturale
+### spring() — Natural Physics Animation
 
-Anima da 0 a 1 con fisica reale (rimbalzo, overshoot).
+Animates from 0 to 1 with real physics (bounce, overshoot).
 
 ```tsx
 import { spring, useCurrentFrame, useVideoConfig } from "remotion";
@@ -239,114 +239,114 @@ const scale = spring({
   frame,
   fps,
   config: {
-    mass: 1,        // peso (basso = veloce)
-    stiffness: 100,  // rimbalzo (alto = piu' bouncy)
-    damping: 10,     // freno (alto = meno rimbalzo)
-    overshootClamping: false, // true = mai oltre il target
+    mass: 1,        // weight (low = fast)
+    stiffness: 100,  // bounce (high = more bouncy)
+    damping: 10,     // friction (high = less bounce)
+    overshootClamping: false, // true = never exceed target
   },
 });
 ```
 
-**Parametri spring:**
-| Parametro | Default | Effetto |
+**Spring parameters:**
+| Parameter | Default | Effect |
 |---|---|---|
-| `frame` | required | Frame corrente |
-| `fps` | required | FPS dal video config |
-| `from` | 0 | Valore iniziale |
-| `to` | 1 | Valore finale |
-| `reverse` | false | Inverte l'animazione |
-| `delay` | 0 | Frame di ritardo prima di partire |
-| `durationInFrames` | auto | Forza durata esatta |
-| `config.mass` | 1 | Peso — basso = veloce |
-| `config.damping` | 10 | Freno — alto = meno bounce |
-| `config.stiffness` | 100 | Rigidita' — alto = piu' bouncy |
-| `config.overshootClamping` | false | Blocca overshoot |
+| `frame` | required | Current frame |
+| `fps` | required | FPS from video config |
+| `from` | 0 | Start value |
+| `to` | 1 | End value |
+| `reverse` | false | Reverses the animation |
+| `delay` | 0 | Frame delay before starting |
+| `durationInFrames` | auto | Forces exact duration |
+| `config.mass` | 1 | Weight — low = fast |
+| `config.damping` | 10 | Friction — high = less bounce |
+| `config.stiffness` | 100 | Stiffness — high = more bouncy |
+| `config.overshootClamping` | false | Blocks overshoot |
 
-**Combinare spring + interpolate:**
+**Combining spring + interpolate:**
 ```tsx
-// Spring da 0 a 1, poi mappa su marginLeft da 0 a 200px
+// Spring from 0 to 1, then map to marginLeft from 0 to 200px
 const springValue = spring({ frame, fps });
 const marginLeft = interpolate(springValue, [0, 1], [0, 200]);
 ```
 
-**Ordine applicazione:** duration → reverse → delay
+**Application order:** duration → reverse → delay
 
-### Sequence (timing dei componenti)
+### Sequence (component timing)
 
-Controlla QUANDO un componente appare e per QUANTO.
+Controls WHEN a component appears and for HOW LONG.
 
 ```tsx
 import { Sequence } from "remotion";
 
-// Titolo appare al frame 0, dura 60 frame
+// Title appears at frame 0, lasts 60 frames
 <Sequence from={0} durationInFrames={60}>
   <Title text="Hello" />
 </Sequence>
 
-// Sottotitolo appare al frame 30, dura 90 frame
+// Subtitle appears at frame 30, lasts 90 frames
 <Sequence from={30} durationInFrames={90}>
   <Subtitle text="World" />
 </Sequence>
 ```
 
-**Props Sequence:**
-| Prop | Uso |
+**Sequence Props:**
+| Prop | Usage |
 |---|---|
-| `from` | Frame di inizio (default 0) |
-| `durationInFrames` | Durata in frame (default Infinity) |
-| `name` | Nome nel timeline di Studio |
-| `layout` | `"absolute-fill"` (default) o `"none"` |
+| `from` | Start frame (default 0) |
+| `durationInFrames` | Duration in frames (default Infinity) |
+| `name` | Name in Studio timeline |
+| `layout` | `"absolute-fill"` (default) or `"none"` |
 | `style` | CSS styles |
 
 **Tricks:**
-- **Delay:** `<Sequence from={30}>` — appare dopo 30 frame
-- **Trim inizio:** `<Sequence from={-15}>` — salta i primi 15 frame del contenuto
-- **Nesting:** Sequence dentro Sequence = i from si sommano (30 + 60 = 90)
-- I figli che chiamano `useCurrentFrame()` ricevono il frame **relativo** alla Sequence (partono da 0)
+- **Delay:** `<Sequence from={30}>` — appears after 30 frames
+- **Trim start:** `<Sequence from={-15}>` — skips the first 15 frames of content
+- **Nesting:** Sequence inside Sequence = the from values add up (30 + 60 = 90)
+- Children calling `useCurrentFrame()` receive the frame **relative** to the Sequence (starting from 0)
 
-### Img — Immagini
+### Img — Images
 
 ```tsx
 import { AbsoluteFill, Img, staticFile } from "remotion";
 
-// Da public/
+// From public/
 <Img src={staticFile("hi.png")} />
 
-// Da URL remoto
+// From remote URL
 <Img src="https://example.com/image.jpg" />
 ```
-- Remotion aspetta che l'immagine carichi prima di renderizzare il frame (no flicker)
-- `maxRetries` default 2 con exponential backoff
-- NON usare per GIF — usa `@remotion/gif`
+- Remotion waits for the image to load before rendering the frame (no flicker)
+- `maxRetries` defaults to 2 with exponential backoff
+- Do NOT use for GIFs — use `@remotion/gif`
 
-### Video — Incorporare video
+### Video — Embedding video
 
 ```tsx
 import { AbsoluteFill, OffthreadVideo, staticFile } from "remotion";
 
-// OffthreadVideo = migliore performance (estrae frame con FFmpeg)
+// OffthreadVideo = better performance (extracts frames with FFmpeg)
 <OffthreadVideo src={staticFile("video.mp4")} />
 
 // Trim
 <OffthreadVideo src={staticFile("video.mp4")} trimBefore={60} />
 
-// Velocita'
+// Speed
 <OffthreadVideo src={staticFile("video.mp4")} playbackRate={0.5} />
 
-// Muto
+// Muted
 <OffthreadVideo src={staticFile("video.mp4")} muted />
 ```
 
 **OffthreadVideo vs Html5Video:**
 | | OffthreadVideo | Html5Video |
 |---|---|---|
-| Performance | Migliore (FFmpeg) | Browser-based |
-| Rendering | Frame estratti come immagini | Video tag nativo |
-| Trasparenza | `transparent={true}` | No |
-| Client-side | NO | SI |
-| Consigliato per | Render finale | Preview in Studio |
+| Performance | Better (FFmpeg) | Browser-based |
+| Rendering | Frames extracted as images | Native video tag |
+| Transparency | `transparent={true}` | No |
+| Client-side | NO | YES |
+| Recommended for | Final render | Preview in Studio |
 
-### fitText() — Testo che si adatta
+### fitText() — Auto-fitting text
 
 ```tsx
 import { fitText } from "@remotion/layout-utils";
@@ -358,35 +358,35 @@ const { fontSize } = fitText({
   fontWeight: "bold",
 });
 
-// Usa in style
+// Use in style
 <div style={{ fontSize }}>Hello World</div>
 ```
-- Il font DEVE essere caricato prima di chiamare `fitText()`
-- Usa `outline` invece di `border` (border rimpicciolisce il container per box-sizing)
+- The font MUST be loaded before calling `fitText()`
+- Use `outline` instead of `border` (border shrinks the container due to box-sizing)
 
 ---
 
 ## 5. RENDERING
 
-### Da Remotion Studio
-1. Click **Render video** nel tab Renders
-2. Configura output (qualita', formato)
-3. Click **Render video** per generare MP4
-4. FFmpeg e' gia' embedded — nessuna installazione separata
+### From Remotion Studio
+1. Click **Render video** in the Renders tab
+2. Configure output (quality, format)
+3. Click **Render video** to generate MP4
+4. FFmpeg is already embedded — no separate installation needed
 
-### Da CLI
+### From CLI
 ```bash
 # Render MP4
 npx remotion render src/index.ts MyComposition out/video.mp4
 
-# Render PNG sequence (per compositing in Premiere/ffmpeg)
+# Render PNG sequence (for compositing in Premiere/ffmpeg)
 npx remotion render src/index.ts MyComposition --sequence --image-format=png out/frames
 
-# Render ProRes (massima qualita')
+# Render ProRes (maximum quality)
 npx remotion render src/index.ts MyComposition --codec=prores --prores-profile=4444 out/video.mov
 ```
 
-### Compositing PNG + Video con ffmpeg
+### Compositing PNG + Video with ffmpeg
 ```bash
 # YouTube quality
 ffmpeg -y -i public/source.mp4 \
@@ -400,41 +400,41 @@ ffmpeg -y -i public/source.mp4 \
 
 ---
 
-## 6. WORKFLOW CON CLAUDE CODE
+## 6. WORKFLOW WITH CLAUDE CODE
 
-### Come Funziona
-1. **Trova ispirazione** — Pinterest, screenshot da YouTube, immagini statiche
-2. **Dai l'immagine a Claude** — drag & drop nel terminale
-3. **Prompt semplice** — "animate this", "recreate this as a motion graphic"
-4. **Claude scrive il codice** — crea il componente React + lo registra
-5. **Preview in Remotion Studio** — vedi il risultato in tempo reale in Chrome
-6. **Itera** — "make the font smaller", "change colors", "make it horizontal"
-7. **Render** — esporta in MP4 o ProRes
+### How It Works
+1. **Find inspiration** — Pinterest, YouTube screenshots, static images
+2. **Give the image to Claude** — drag & drop into the terminal
+3. **Simple prompt** — "animate this", "recreate this as a motion graphic"
+4. **Claude writes the code** — creates the React component + registers it
+5. **Preview in Remotion Studio** — see the result in real-time in Chrome
+6. **Iterate** — "make the font smaller", "change colors", "make it horizontal"
+7. **Render** — export as MP4 or ProRes
 
-### Tips dal Video Tutorial (Tella)
-- **Inizia semplice** — non complicare il primo prompt
-- **Dai prima solo l'immagine** — lascia che Claude interpreti, poi correggi
-- **Le frecce sono difficili** — evitale inizialmente
-- **Puoi dare dati Excel** — Claude li trasforma in grafici animati
-- **Per video di ispirazione** — usa ffmpeg per analizzare frame per frame:
+### Tips from the Video Tutorial (Tella)
+- **Start simple** — don't overcomplicate the first prompt
+- **Give only the image first** — let Claude interpret, then correct
+- **Arrows are tricky** — avoid them initially
+- **You can provide Excel data** — Claude transforms it into animated charts
+- **For inspiration videos** — use ffmpeg to analyze frame by frame:
   ```
   "Use ffmpeg to analyze [file] and create a similar animation where words come in one by one"
   ```
-- **Ogni composizione** appare automaticamente nel pannello sinistro di Remotion Studio
-- **Render ProRes** per massima qualita' quando esporti
+- **Each composition** automatically appears in the left panel of Remotion Studio
+- **Render ProRes** for maximum quality when exporting
 
-### Prompt Efficaci per Claude + Remotion
+### Effective Prompts for Claude + Remotion
 ```
-# Da immagine statica
+# From static image
 "Animate this diagram as a Remotion composition. Make the bars grow from bottom to top."
 
-# Da screenshot video
+# From video screenshot
 "Use ffmpeg to analyze this video and recreate the animation where text appears word by word."
 
-# Modifica
+# Modification
 "Make the diagram horizontal and make sure the center font isn't yellow."
 
-# Dati custom
+# Custom data
 "Make this an upward graph showing newsletter subscriber growth to 12,500 subscribers."
 ```
 
@@ -442,82 +442,82 @@ ffmpeg -y -i public/source.mp4 \
 
 ## 7. HIGGSFIELD VIBE MOTION
 
-### Cos'e'
-AI motion design tramite chat — crei motion graphics, presentazioni, e visual con interfaccia conversazionale invece di timeline editor.
+### What it is
+AI motion design via chat — you create motion graphics, presentations, and visuals with a conversational interface instead of a timeline editor.
 
 ### Workflow
-1. **Concept** — descrivi l'idea a parole ("Create a kinetic typography intro")
-2. **Assets** — carica immagini, video, loghi, PDF
-3. **Template** (opzionale) — scegli un template con logica di motion gia' pronta
-4. **Refine in UI** — aggiusta font, colori, velocita' animazione manualmente
-5. **Iterate** — cambiamenti si vedono in tempo reale
+1. **Concept** — describe the idea in words ("Create a kinetic typography intro")
+2. **Assets** — upload images, videos, logos, PDFs
+3. **Template** (optional) — choose a template with pre-built motion logic
+4. **Refine in UI** — adjust fonts, colors, animation speed manually
+5. **Iterate** — changes are visible in real-time
 
-### Casi d'Uso
-- **Infografiche animate** — numeri che crescono, sezioni che appaiono in sequenza
-- **Presentazioni** — investor deck, sales, product walkthrough
-- **Logo/Brand animations** — animazioni riutilizzabili da loghi caricati
+### Use Cases
+- **Animated infographics** — growing numbers, sections appearing in sequence
+- **Presentations** — investor decks, sales, product walkthroughs
+- **Logo/Brand animations** — reusable animations from uploaded logos
 
-### Tips per Animazioni Migliori
+### Tips for Better Animations
 
-**Sketch e Input**
-- Disegni semplici con contorni chiari
-- Evita sfondi disordinati o scene affollate
-- Un'azione principale per frame
+**Sketches and Input**
+- Simple drawings with clear outlines
+- Avoid cluttered backgrounds or crowded scenes
+- One main action per frame
 
 **Easing Styles**
-| Tipo | Quando usarlo |
+| Type | When to use |
 |---|---|
-| Linear | Robot, macchine, tech |
-| Ease In | Inizio movimento personaggio |
-| Ease Out | Stop dolci |
-| Ease In-Out | Movimento naturale e dinamico |
+| Linear | Robots, machines, tech |
+| Ease In | Character movement start |
+| Ease Out | Gentle stops |
+| Ease In-Out | Natural, dynamic movement |
 
 **Keyframe Spacing**
-- Keyframe vicini = movimento veloce
-- Keyframe distanti = movimento lento
+- Close keyframes = fast movement
+- Far keyframes = slow movement
 
-**Effetti Cinematici**
-- Motion blur: minimo per scene lente, forte per azione veloce
-- Depth of field: focus sul soggetto, blur sullo sfondo
-- Dettagli sottili: rimbalzo capelli, flutter vestiti, blink
+**Cinematic Effects**
+- Motion blur: minimal for slow scenes, strong for fast action
+- Depth of field: focus on subject, blur on background
+- Subtle details: hair bounce, clothing flutter, blink
 
-**Prompt Engineering per Higgsfield**
-- Descrizioni dettagliate = risultati migliori
-- Usa **negative prompts**: "no blur, no noise, no extra limbs"
-- Evita richieste impossibili ("square shaped sphere")
+**Prompt Engineering for Higgsfield**
+- Detailed descriptions = better results
+- Use **negative prompts**: "no blur, no noise, no extra limbs"
+- Avoid impossible requests ("square shaped sphere")
 
-**Quality Check Pre-Export**
-- Risoluzione minima 1024x1024
-- Preview frame per frame
-- Verifica motion blur e depth of field
-- Scegli formato giusto (MP4 per video, GIF per loop)
+**Quality Check Before Export**
+- Minimum resolution 1024x1024
+- Preview frame by frame
+- Verify motion blur and depth of field
+- Choose the right format (MP4 for video, GIF for loops)
 
 ---
 
-## 8. LEZIONI DAL PROGETTO ARDOINO (Remotion)
+## 8. LESSONS FROM THE ARDOINO PROJECT (Remotion)
 
-Dal progetto precedente nella cartella `ardoino/remotion-news/`:
+From the previous project in the `ardoino/remotion-news/` folder:
 
-### Setup che Funzionava
+### Setup That Worked
 - Remotion 4.0.267 + React 19 + TypeScript 5.7
 - 1280x720, 30000/1001 fps (29.97 NTSC)
-- Video sorgente in `public/`
+- Source video in `public/`
 
-### Pattern Overlay Trasparente
-Due composizioni:
-| ID | Uso |
+### Transparent Overlay Pattern
+Two compositions:
+| ID | Usage |
 |---|---|
-| `NewsVideo` | Video + overlay (export completo) |
-| `OverlayOnly` | Solo testo su trasparente (per compositing in Premiere/ffmpeg) |
+| `NewsVideo` | Video + overlay (complete export) |
+| `OverlayOnly` | Text only on transparent (for compositing in Premiere/ffmpeg) |
 
 ### Typewriter Effect
-- Font monospace terminale
-- Velocita' variabile (1-2 chars/frame)
-- Cursore `▌` lampeggiante (15 frame on/off)
-- Linee precedenti si rimpiccioliscono con opacity fade
-- Glow bianco sottile via text-shadow
+- Monospace terminal font
+- Variable speed (1-2 chars/frame)
+- Blinking cursor `▌` (15 frames on/off)
+- Previous lines shrink with opacity fade
+- Subtle white glow via text-shadow
 
-### Export Definitivo (NO render diretto, SI PNG sequence)
+### Final Export (NO direct render, YES PNG sequence)
 ```bash
 # Step 1: PNG sequence
 npx remotion render src/index.ts OverlayOnly --sequence --image-format=png --concurrency=4 out/frames
@@ -531,65 +531,65 @@ ffmpeg -y -i public/video.mp4 \
   -r 30000/1001 out/final.mp4
 ```
 
-### Errori da Evitare
-1. **Mai `fps={29.97}`** → usare `fps={30000/1001}` per evitare frame drift
-2. **ProRes 4444 + glow = blob bianchi** → il canale alpha premoltiplicato rende i text-shadow opachi
-3. **PNG sequence + ffmpeg >> Remotion render diretto** → zero stutter
-4. **`yuvj420p` causa problemi in Premiere** → forzare `-pix_fmt yuv420p`
-5. **CRF 16** per YouTube, **CRF 20** per Twitter
+### Mistakes to Avoid
+1. **Never `fps={29.97}`** → use `fps={30000/1001}` to avoid frame drift
+2. **ProRes 4444 + glow = white blobs** → the premultiplied alpha channel makes text-shadows opaque
+3. **PNG sequence + ffmpeg >> direct Remotion render** → zero stutter
+4. **`yuvj420p` causes problems in Premiere** → force `-pix_fmt yuv420p`
+5. **CRF 16** for YouTube, **CRF 20** for Twitter
 
 ---
 
-## 9. MOTION DESIGN — PRINCIPI DA AFTER EFFECTS APPLICATI A REMOTION
+## 9. MOTION DESIGN — AFTER EFFECTS PRINCIPLES APPLIED TO REMOTION
 
-> Fonte: playlist "Motion Graphics Tutorials in After Effects" di Dope Motions (85 video)
-> Ogni concetto AE e' mappato al suo equivalente Remotion
+> Source: "Motion Graphics Tutorials in After Effects" playlist by Dope Motions (85 videos)
+> Every AE concept is mapped to its Remotion equivalent
 
 ---
 
-### 9.1 EASING E SPEED GRAPH (Timing vs Spacing)
+### 9.1 EASING AND SPEED GRAPH (Timing vs Spacing)
 
-**In AE:** Il Speed Graph controlla l'accelerazione/decelerazione. "Timing" = QUANDO succedono le cose (distanza tra keyframe). "Spacing" = COME si muovono (la curva tra i keyframe). Ease High/Ease Low controllano la rampa di accelerazione.
+**In AE:** The Speed Graph controls acceleration/deceleration. "Timing" = WHEN things happen (distance between keyframes). "Spacing" = HOW they move (the curve between keyframes). Ease High/Ease Low control the acceleration ramp.
 
 **In Remotion:**
 ```tsx
 import { Easing, interpolate } from 'remotion';
 
-// Ease-in-out morbido (equivalente di F9 in AE)
+// Smooth ease-in-out (equivalent to F9 in AE)
 const value = interpolate(frame, [0, 30], [0, 1], {
   easing: Easing.bezier(0.42, 0, 0.58, 1),
 });
 
-// Ease-out forte (equivalente di drag handle a sinistra in AE)
+// Strong ease-out (equivalent to dragging handle left in AE)
 const value = interpolate(frame, [0, 30], [0, 1], {
   easing: Easing.bezier(0, 0.55, 0.45, 1),
 });
 
-// Ease-in forte + ease-out leggero (Ease High=80, Ease Low=15)
+// Strong ease-in + light ease-out (Ease High=80, Ease Low=15)
 const value = interpolate(frame, [0, 30], [0, 1], {
   easing: Easing.bezier(0.7, 0, 0.3, 1),
 });
 
-// Bounce / overshoot con spring()
+// Bounce / overshoot with spring()
 const scale = spring({ frame, fps, config: {
   mass: 0.5, damping: 8, stiffness: 150, overshootClamping: false
 }});
 ```
 
-**Regola chiave:** Mai usare animazioni lineari. Tutto deve avere una curva di easing.
+**Key rule:** Never use linear animations. Everything should have an easing curve.
 
 ---
 
-### 9.2 TEXT ANIMATOR (Posizione + Opacita' + Blur)
+### 9.2 TEXT ANIMATOR (Position + Opacity + Blur)
 
-**In AE:** Text Animator con Position, Opacity, Blur + Range Selector con shape "Ramp Up" + Based On "Words/Characters". Crea rivelazioni testo parola per parola o carattere per carattere con blur in entrata.
+**In AE:** Text Animator with Position, Opacity, Blur + Range Selector with "Ramp Up" shape + Based On "Words/Characters". Creates word-by-word or character-by-character text reveals with blur on entry.
 
 **In Remotion:**
 ```tsx
 const TextReveal: React.FC<{text: string; startFrame: number}> = ({text, startFrame}) => {
   const frame = useCurrentFrame();
   const words = text.split(' ');
-  const staggerDelay = 4; // frame tra ogni parola
+  const staggerDelay = 4; // frames between each word
 
   return (
     <div style={{display: 'flex', gap: 8, flexWrap: 'wrap'}}>
@@ -618,22 +618,22 @@ const TextReveal: React.FC<{text: string; startFrame: number}> = ({text, startFr
 };
 ```
 
-**Varianti:**
-- `Based On Characters`: cambia `text.split(' ')` con `text.split('')` e riduci `staggerDelay` a 1-2
-- `Randomize Order`: aggiungi un array di indici shufflati per l'ordine di apparizione
-- `Ramp Up / Ramp Down`: controlla la direzione della rivelazione (sinistra→destra vs destra→sinistra)
+**Variants:**
+- `Based On Characters`: change `text.split(' ')` to `text.split('')` and reduce `staggerDelay` to 1-2
+- `Randomize Order`: add a shuffled index array for appearance order
+- `Ramp Up / Ramp Down`: controls reveal direction (left→right vs right→left)
 
 ---
 
-### 9.3 STAGGER / DISPLACEMENT DI LAYER
+### 9.3 STAGGER / LAYER DISPLACEMENT
 
-**In AE:** Spostare layer di 10-15 frame l'uno dall'altro per creare animazioni a cascata. Principio fondamentale del motion design — mai animare tutto insieme.
+**In AE:** Offsetting layers by 10-15 frames from each other to create cascading animations. A fundamental motion design principle — never animate everything at once.
 
 **In Remotion:**
 ```tsx
-// Stagger semplice: ogni elemento parte N frame dopo il precedente
-const elements = ['Titolo', 'Sottotitolo', 'CTA'];
-const staggerOffset = 10; // frame tra ogni elemento
+// Simple stagger: each element starts N frames after the previous one
+const elements = ['Title', 'Subtitle', 'CTA'];
+const staggerOffset = 10; // frames between each element
 
 return (
   <AbsoluteFill>
@@ -646,17 +646,17 @@ return (
 );
 ```
 
-**Regola chiave:** Lo stagger ideale e' 8-15 frame a 30fps. Troppo poco = sembra simultaneo. Troppo = sembra lento.
+**Key rule:** Ideal stagger is 8-15 frames at 30fps. Too little = looks simultaneous. Too much = feels slow.
 
 ---
 
-### 9.4 REPEATER (Pattern Procedurali)
+### 9.4 REPEATER (Procedural Patterns)
 
-**In AE:** Il Repeater duplica e trasforma elementi proceduralmente. Due repeater annidati creano griglie. Combinato con Trim Path crea pattern complessi da un singolo shape layer.
+**In AE:** The Repeater duplicates and transforms elements procedurally. Two nested repeaters create grids. Combined with Trim Path it creates complex patterns from a single shape layer.
 
 **In Remotion:**
 ```tsx
-// Griglia procedurale con doppio repeater
+// Procedural grid with double repeater
 const PatternGrid: React.FC = () => {
   const frame = useCurrentFrame();
   const cols = 8;
@@ -693,7 +693,7 @@ const PatternGrid: React.FC = () => {
 };
 ```
 
-**Tip:** Per pattern rotanti simmetrici (stile CC Kaleidoscope), duplica e ruota lo stesso componente N volte:
+**Tip:** For symmetrical rotating patterns (CC Kaleidoscope style), duplicate and rotate the same component N times:
 ```tsx
 {Array.from({length: 6}).map((_, i) => (
   <div key={i} style={{
@@ -707,15 +707,15 @@ const PatternGrid: React.FC = () => {
 
 ---
 
-### 9.5 TRIM PATH (Animazione Stroke SVG)
+### 9.5 TRIM PATH (SVG Stroke Animation)
 
-**In AE:** Trim Paths anima l'inizio/fine di uno stroke. Usatissimo per line art, loghi, e decorazioni.
+**In AE:** Trim Paths animates the start/end of a stroke. Widely used for line art, logos, and decorations.
 
 **In Remotion:**
 ```tsx
 const AnimatedStroke: React.FC = () => {
   const frame = useCurrentFrame();
-  const pathLength = 500; // lunghezza totale del path
+  const pathLength = 500; // total path length
   const progress = interpolate(frame, [0, 40], [0, 1], {
     extrapolateRight: 'clamp',
     easing: Easing.bezier(0.65, 0, 0.35, 1),
@@ -733,7 +733,7 @@ const AnimatedStroke: React.FC = () => {
 };
 ```
 
-**Per offset animato** (equivalente dell'Offset property in Trim Paths):
+**For animated offset** (equivalent to the Offset property in Trim Paths):
 ```tsx
 const offset = interpolate(frame, [0, 150], [0, pathLength]);
 // strokeDashoffset={pathLength * (1 - progress) + offset}
@@ -741,13 +741,13 @@ const offset = interpolate(frame, [0, 150], [0, pathLength]);
 
 ---
 
-### 9.6 DROP SHADOW CON NOISE (Anti-Banding)
+### 9.6 DROP SHADOW WITH NOISE (Anti-Banding)
 
-**In AE:** Aggiungere 2-5% di noise alla drop shadow previene il color banding nei render. Le ombre danno profondita' e separazione tra elementi.
+**In AE:** Adding 2-5% noise to drop shadows prevents color banding in renders. Shadows add depth and separation between elements.
 
 **In Remotion:**
 ```tsx
-// Drop shadow CSS + noise overlay per anti-banding
+// CSS drop shadow + noise overlay for anti-banding
 <div style={{
   boxShadow: '0 20px 60px rgba(0,0,0,0.4)',
   position: 'relative',
@@ -763,7 +763,7 @@ const offset = interpolate(frame, [0, 150], [0, pathLength]);
 </div>
 ```
 
-**Inner Shadow** (effetto cut-out / intaglio):
+**Inner Shadow** (cut-out / engraving effect):
 ```tsx
 <div style={{
   boxShadow: 'inset 0 4px 30px rgba(0,0,0,0.5)',
@@ -775,7 +775,7 @@ const offset = interpolate(frame, [0, 150], [0, pathLength]);
 
 ### 9.7 DISPLACEMENT MAP / WAVE WARP
 
-**In AE:** Displacement Map distorce l'immagine basandosi su una mappa. Wave Warp aggiunge ondulazioni. Turbulent Displace crea distorsioni organiche.
+**In AE:** Displacement Map distorts the image based on a map. Wave Warp adds undulations. Turbulent Displace creates organic distortions.
 
 **In Remotion (SVG Filter):**
 ```tsx
@@ -808,9 +808,9 @@ const DisplacementEffect: React.FC<{children: React.ReactNode}> = ({children}) =
 };
 ```
 
-**Wave effect semplice senza SVG:**
+**Simple wave effect without SVG:**
 ```tsx
-// Ondulazione via transform
+// Undulation via transform
 const wave = Math.sin(frame * 0.1) * 10;
 <div style={{transform: `translateY(${wave}px) skewX(${wave * 0.5}deg)`}}>
 ```
@@ -819,11 +819,11 @@ const wave = Math.sin(frame * 0.1) * 10;
 
 ### 9.8 ALPHA MATTE / TRACK MATTE (Masking)
 
-**In AE:** Track Matte Alpha usa la trasparenza di un layer per mascherare un altro. Usato ovunque: testo che rivela immagini, shape reveal, parallax con mask.
+**In AE:** Track Matte Alpha uses a layer's transparency to mask another. Used everywhere: text revealing images, shape reveal, parallax with mask.
 
 **In Remotion:**
 ```tsx
-// Immagine rivelata attraverso testo (come Alpha Matte)
+// Image revealed through text (like Alpha Matte)
 <div style={{
   fontSize: 200, fontWeight: 900,
   backgroundImage: 'url(/media/photo.jpg)',
@@ -835,7 +835,7 @@ const wave = Math.sin(frame * 0.1) * 10;
   CANDY
 </div>
 
-// Shape reveal con overflow hidden (Stencil Alpha)
+// Shape reveal with overflow hidden (Stencil Alpha)
 const ShapeReveal: React.FC<{children: React.ReactNode}> = ({children}) => {
   const frame = useCurrentFrame();
   const scale = spring({frame, fps: 30, config: {damping: 12}});
@@ -854,7 +854,7 @@ const ShapeReveal: React.FC<{children: React.ReactNode}> = ({children}) => {
   );
 };
 
-// Clip-path reveal (piu' flessibile)
+// Clip-path reveal (more flexible)
 const clipProgress = interpolate(frame, [0, 30], [0, 100], {
   extrapolateRight: 'clamp',
 });
@@ -865,13 +865,13 @@ const clipProgress = interpolate(frame, [0, 30], [0, 100], {
 
 ### 9.9 RGB SPLIT + WIGGLE (Glitch)
 
-**In AE:** Duplicare il layer 3 volte, isolare R/G/B per canale, blend mode Screen, aggiungere wiggle expression per movimento casuale. Optics Compensation per distorsione lente.
+**In AE:** Duplicate the layer 3 times, isolate R/G/B per channel, blend mode Screen, add wiggle expression for random movement. Optics Compensation for lens distortion.
 
 **In Remotion:**
 ```tsx
 const RGBGlitch: React.FC<{children: React.ReactNode}> = ({children}) => {
   const frame = useCurrentFrame();
-  // Wiggle: sin con frequenze diverse per casualita'
+  // Wiggle: sin with different frequencies for randomness
   const offsetR = Math.sin(frame * 0.3) * 4 + Math.sin(frame * 0.7) * 2;
   const offsetB = Math.sin(frame * 0.4 + 1) * 4 + Math.cos(frame * 0.6) * 2;
 
@@ -906,11 +906,11 @@ const RGBGlitch: React.FC<{children: React.ReactNode}> = ({children}) => {
 
 ### 9.10 MOTION TRAIL / ECHO
 
-**In AE:** L'effetto Echo crea scie di movimento duplicando frame precedenti con opacita' decrescente. Combinato con motion blur crea trails cinematici.
+**In AE:** The Echo effect creates motion trails by duplicating previous frames with decreasing opacity. Combined with motion blur, it creates cinematic trails.
 
 **In Remotion:**
 ```tsx
-// Motion trail: renderizza N copie a posizioni precedenti
+// Motion trail: render N copies at previous positions
 const MotionTrail: React.FC<{getPosition: (f: number) => number; trailLength?: number}> = ({
   getPosition, trailLength = 6
 }) => {
@@ -942,9 +942,9 @@ const MotionTrail: React.FC<{getPosition: (f: number) => number; trailLength?: n
 
 ### 9.11 PARENTING + NULL OBJECT CONTROLLER
 
-**In AE:** Parenting collega layer a un parent — muovi il parent, si muovono tutti i figli. Null Object e' un controller invisibile per animare gruppi.
+**In AE:** Parenting links layers to a parent — move the parent, all children move. Null Object is an invisible controller for animating groups.
 
-**In Remotion:** E' nativo — i componenti React sono gia' annidati. Un div wrapper con transform animato muove tutti i figli:
+**In Remotion:** This is native — React components are already nested. A wrapper div with animated transform moves all children:
 ```tsx
 const GroupController: React.FC<{children: React.ReactNode}> = ({children}) => {
   const frame = useCurrentFrame();
@@ -955,7 +955,7 @@ const GroupController: React.FC<{children: React.ReactNode}> = ({children}) => {
 
   return (
     <div style={{transform: `translateY(${y}px)`}}>
-      {children}  {/* Tutto si muove insieme */}
+      {children}  {/* Everything moves together */}
     </div>
   );
 };
@@ -965,21 +965,21 @@ const GroupController: React.FC<{children: React.ReactNode}> = ({children}) => {
 
 ### 9.12 TIME REMAPPING / SPEED RAMP
 
-**In AE:** Time Remapping permette di accelerare/rallentare il video in punti specifici. La curva dello Speed Graph controlla la transizione tra velocita'.
+**In AE:** Time Remapping allows speeding up/slowing down video at specific points. The Speed Graph curve controls the transition between speeds.
 
 **In Remotion:**
 ```tsx
-// Speed ramp su video: playbackRate variabile
-// Nota: OffthreadVideo accetta playbackRate fisso, non variabile.
-// Per speed ramp complessi, usa interpolate per mappare frame non-lineari:
+// Speed ramp on video: variable playbackRate
+// Note: OffthreadVideo accepts a fixed playbackRate, not variable.
+// For complex speed ramps, use interpolate to map non-linear frames:
 
 const timeRemap = interpolate(frame, [0, 30, 45, 90], [0, 30, 60, 90], {
-  // 0-30: velocita' normale (1x)
-  // 30-45: velocita' doppia (compressi 30 frame in 15)
-  // 45-90: velocita' normale di nuovo
+  // 0-30: normal speed (1x)
+  // 30-45: double speed (30 frames compressed into 15)
+  // 45-90: normal speed again
 });
 
-// Usa timeRemap come frame "remappato" per qualsiasi animazione
+// Use timeRemap as the "remapped" frame for any animation
 const position = interpolate(timeRemap, [0, 90], [0, 1000]);
 ```
 
@@ -987,12 +987,12 @@ const position = interpolate(timeRemap, [0, 90], [0, 1000]);
 
 ### 9.13 LOOP EXPRESSIONS
 
-**In AE:** `loopOut("cycle")` ripete i keyframe all'infinito. `loopOut("pingpong")` li ripete avanti-indietro.
+**In AE:** `loopOut("cycle")` repeats keyframes infinitely. `loopOut("pingpong")` repeats them back and forth.
 
 **In Remotion:**
 ```tsx
-// Loop cycle: usa modulo
-const loopDuration = 60; // frame
+// Loop cycle: use modulo
+const loopDuration = 60; // frames
 const loopFrame = frame % loopDuration;
 const value = interpolate(loopFrame, [0, 30, 60], [0, 100, 0]);
 
@@ -1002,7 +1002,7 @@ const pingPongFrame = (() => {
   return cycle < loopDuration ? cycle : loopDuration * 2 - cycle;
 })();
 
-// Wiggle continuo (equivalente di wiggle(freq, amp))
+// Continuous wiggle (equivalent to wiggle(freq, amp))
 const wiggle = (f: number, freq: number, amp: number) =>
   Math.sin(f * freq * 0.1) * amp +
   Math.sin(f * freq * 0.23 + 1.5) * amp * 0.5 +
@@ -1013,7 +1013,7 @@ const wiggle = (f: number, freq: number, amp: number) =>
 
 ### 9.14 FLICKER REVEAL
 
-**In AE:** Alternare rapidamente opacity tra 0% e 100% su 2 frame ciascuno per creare un effetto "flicker" cinematico di rivelazione.
+**In AE:** Rapidly alternating opacity between 0% and 100% over 2 frames each to create a cinematic "flicker" reveal effect.
 
 **In Remotion:**
 ```tsx
@@ -1023,7 +1023,7 @@ const FlickerReveal: React.FC<{children: React.ReactNode; startFrame: number}> =
   const frame = useCurrentFrame();
   const localFrame = frame - startFrame;
 
-  // Pattern flicker: [on, off, on, off, on, on, on...]
+  // Flicker pattern: [on, off, on, off, on, on, on...]
   const flickerPattern = [0, 1, 0.5, 0.1, 0.8, 0.3, 1, 0.1, 0.5, 1, 1, 1, 1];
   const flickerIndex = Math.min(localFrame, flickerPattern.length - 1);
   const opacity = localFrame < 0 ? 0 :
@@ -1036,13 +1036,13 @@ const FlickerReveal: React.FC<{children: React.ReactNode; startFrame: number}> =
 
 ---
 
-### 9.15 BACKGROUND PATTERNS ANIMATI
+### 9.15 ANIMATED BACKGROUND PATTERNS
 
-**In AE:** Venetian Blinds + Wave Warp per strisce ondulate. Gradient Ramp + Turbulent Displace per sfondi organici. Motion Tile per pattern ripetuti infiniti.
+**In AE:** Venetian Blinds + Wave Warp for wavy stripes. Gradient Ramp + Turbulent Displace for organic backgrounds. Motion Tile for infinite repeating patterns.
 
 **In Remotion:**
 ```tsx
-// Strisce animate (equivalente Venetian Blinds + Wave Warp)
+// Animated stripes (equivalent to Venetian Blinds + Wave Warp)
 const AnimatedStripes: React.FC = () => {
   const frame = useCurrentFrame();
   const offset = interpolate(frame, [0, 300], [0, 100]);
@@ -1060,7 +1060,7 @@ const AnimatedStripes: React.FC = () => {
   );
 };
 
-// Gradiente animato (equivalente Gradient Ramp + Turbulent Displace)
+// Animated gradient (equivalent to Gradient Ramp + Turbulent Displace)
 const AnimatedGradient: React.FC = () => {
   const frame = useCurrentFrame();
   const hue1 = interpolate(frame, [0, 300], [200, 320]);
@@ -1078,49 +1078,49 @@ const AnimatedGradient: React.FC = () => {
 
 ---
 
-### 9.16 TABELLA RIASSUNTIVA: AE → REMOTION
+### 9.16 SUMMARY TABLE: AE → REMOTION
 
-| Concetto AE | Equivalente Remotion |
+| AE Concept | Remotion Equivalent |
 |---|---|
 | Keyframe + Easy Ease (F9) | `interpolate()` + `Easing.bezier()` |
-| Speed Graph / Influence Handles | Parametri di `Easing.bezier(x1,y1,x2,y2)` |
+| Speed Graph / Influence Handles | `Easing.bezier(x1,y1,x2,y2)` parameters |
 | Spring / Overshoot | `spring({config: {damping, stiffness, mass}})` |
-| Text Animator + Range Selector | `.map()` su parole/caratteri + `interpolate()` staggerato |
-| Stagger / Layer Offset | `<Sequence from={i * delay}>` in un loop |
-| Repeater | `.map()` + transform basato su index |
+| Text Animator + Range Selector | `.map()` over words/characters + staggered `interpolate()` |
+| Stagger / Layer Offset | `<Sequence from={i * delay}>` in a loop |
+| Repeater | `.map()` + index-based transform |
 | Trim Paths | SVG `strokeDasharray` + `strokeDashoffset` |
 | Drop Shadow | CSS `box-shadow` |
 | Inner Shadow / Bevel | CSS `box-shadow: inset` |
-| Noise (anti-banding) | SVG feTurbulence overlay a opacity 0.03 |
+| Noise (anti-banding) | SVG feTurbulence overlay at 0.03 opacity |
 | Displacement Map | SVG `feDisplacementMap` filter |
-| Wave Warp | `Math.sin()` su transform, o SVG feTurbulence |
+| Wave Warp | `Math.sin()` on transform, or SVG feTurbulence |
 | Alpha Matte / Track Matte | `overflow: hidden` / `clip-path` / `backgroundClip: text` |
-| Stencil Alpha | Container con `overflow: hidden` + shape animata |
-| RGB Split | 3 copie con offset + `mixBlendMode: screen` |
-| Wiggle Expression | `Math.sin(f * freq) * amp` (somma di sinusoidi) |
-| Echo / Motion Trail | N copie a frame precedenti con opacity decrescente |
-| Time Remapping | `interpolate()` con mapping non-lineare |
-| Motion Blur | `filter: blur()` condizionale durante movimenti rapidi |
-| Parenting | Nesting di componenti React |
-| Null Object | Div wrapper con transform animato |
-| Pre-Compose | Estrarre in componente React separato |
+| Stencil Alpha | Container with `overflow: hidden` + animated shape |
+| RGB Split | 3 copies with offset + `mixBlendMode: screen` |
+| Wiggle Expression | `Math.sin(f * freq) * amp` (sum of sinusoids) |
+| Echo / Motion Trail | N copies at previous frames with decreasing opacity |
+| Time Remapping | `interpolate()` with non-linear mapping |
+| Motion Blur | `filter: blur()` conditional during fast movements |
+| Parenting | React component nesting |
+| Null Object | Wrapper div with animated transform |
+| Pre-Compose | Extract into a separate React component |
 | Loop Out (Cycle) | `frame % loopDuration` |
-| Loop Out (Ping Pong) | Modulo + inversione nella seconda meta' |
-| CC Kaleidoscope | N copie ruotate di 360/N gradi |
-| Venetian Blinds | `repeating-linear-gradient` animato |
-| Flicker | Array di opacity + frame index |
+| Loop Out (Ping Pong) | Modulo + inversion in the second half |
+| CC Kaleidoscope | N copies rotated by 360/N degrees |
+| Venetian Blinds | Animated `repeating-linear-gradient` |
+| Flicker | Opacity array + frame index |
 
 ---
 
-## 10. RISORSE
+## 10. RESOURCES
 
-| Risorsa | URL |
+| Resource | URL |
 |---|---|
 | Remotion Docs | remotion.dev/docs |
 | Remotion Fundamentals | remotion.dev/docs/the-fundamentals |
 | LogRocket Guide | blog.logrocket.com/guide-remotion-studio/ |
-| Tutorial Video (Tella) | youtube.com/watch?v=PrGYLd7yu1s |
+| Video Tutorial (Tella) | youtube.com/watch?v=PrGYLd7yu1s |
 | Higgsfield Vibe Motion Guide | higgsfield.ai/blog/Higgsfield-Vibe-Motion-Guide-AI-Motion-Design |
 | Higgsfield Animation Tips | karavideo.ai/blog/top-tips-for-creating-stunning-animations-with-higgsfield-vibe-motion/ |
 | Medium (Remotion + Claude) | medium.com/@creativeaininja (paywall) |
-| Dope Motions AE Playlist (85 video) | youtube.com/playlist?list=PLpWEtUjzDQ2PJtxONnqYMEnJ_au6H4aIK |
+| Dope Motions AE Playlist (85 videos) | youtube.com/playlist?list=PLpWEtUjzDQ2PJtxONnqYMEnJ_au6H4aIK |

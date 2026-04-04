@@ -1,134 +1,134 @@
-# Editare 30 Reels in 4 Ore - Sistema di Batch Editing
+# Editing 30 Reels in 4 Hours - Batch Editing System
 
-> **Autore:** Patrik Key
+> **Author:** Patrik Key
 > **Video:** https://www.youtube.com/watch?v=Ksw3MtE7lg0
-> **Concetto chiave:** Un sistema per editare 30 reel in una sessione di 4 ore usando CapCut
+> **Key concept:** A system for editing 30 reels in a 4-hour session using CapCut
 
 ---
 
-## Fase 1: Raw Cut - Sprint Attraverso il Footage
+## Phase 1: Raw Cut - Sprint Through the Footage
 
-### Setup Iniziale
-1. Seleziona **tutti i reel** e mettili su **un'unica timeline**
-2. Vai su **Speed** e porta a **2x** (per scorrere il footage piu velocemente)
-3. Non preoccuparti, puoi ridurre la velocita dopo
+### Initial Setup
+1. Select **all reels** and place them on **a single timeline**
+2. Go to **Speed** and set it to **2x** (to scrub through footage faster)
+3. Don't worry, you can reduce the speed later
 
-### Shortcuts per il Raw Cut
+### Shortcuts for the Raw Cut
 
-| Tasto | Azione |
-|-------|--------|
-| **Q** | Elimina tutto a sinistra |
-| **W** | Elimina tutto a destra |
-| **S** | Split (taglia) |
+| Key | Action |
+|-----|--------|
+| **Q** | Delete everything to the left |
+| **W** | Delete everything to the right |
+| **S** | Split (cut) |
 
-### Focus del Raw Cut
-- Rimuovi i **silenzi** (guarda le onde audio - dove sono piatte non c'e contenuto)
-- Rimuovi i **bad takes**
-- Non perdere tempo su dettagli, solo taglia il grasso
+### Raw Cut Focus
+- Remove **silences** (look at the audio waves - where they're flat there's no content)
+- Remove **bad takes**
+- Don't waste time on details, just cut the fat
 
-### Dopo ogni Reel - Organizzazione
-1. **Seleziona le clip** del reel appena editato
-2. Vai su **Speed** > riduci a **1x**
-3. Premi **M** = aggiungi un **Marker** alla fine del reel
-4. Trascina un **text layer di default** e scrivi il titolo/argomento del video
-5. Premi **V** per disabilitare il text layer (serve solo come riferimento)
+### After Each Reel - Organization
+1. **Select the clips** from the reel you just edited
+2. Go to **Speed** > reduce to **1x**
+3. Press **M** = add a **Marker** at the end of the reel
+4. Drag a **default text layer** and write the title/topic of the video
+5. Press **V** to disable the text layer (it only serves as a reference)
 
-> Risultato: 12 reel raw-cut completati in **20 minuti**. Con 30 video, circa **1 ora**.
-
----
-
-## Fase 2: Creare il Text Hook
-
-Il text hook e il testo che appare all'inizio del reel per dire allo spettatore di cosa parla il video.
-
-### Come Costruire il Text Hook
-1. Scegli il **font** (es. Poppins)
-2. Scrivi la prima parola del hook (es. "Collect")
-3. Applica animazione **pop in**
-4. Ingrandisci
-5. **Duplica il layer** e scrivi la seconda parola (es. "Payment")
-6. Cambia font della seconda parola (es. Shell Edit - trending)
-7. Aggiusta le dimensioni per far entrare tutto
-
-### Replicare il Text Hook
-1. Crea il text hook per il primo reel
-2. Vai all'inizio del **secondo reel**
-3. **Incolla** il text hook
-4. Cambia solo il testo
-5. Ripeti per tutti i reel
-
-> Se vuoi giocare con i colori (es. parola chiave in giallo), fallo pure.
+> Result: 12 reels raw-cut completed in **20 minutes**. With 30 videos, about **1 hour**.
 
 ---
 
-## Fase 3: Esportazione con I/O Points
+## Phase 2: Creating the Text Hook
 
-### Shortcut per l'Export
+The text hook is the text that appears at the beginning of the reel to tell the viewer what the video is about.
 
-| Tasto | Azione |
-|-------|--------|
-| **I** | Imposta il punto di **inizio** (In point) |
-| **O** | Imposta il punto di **fine** (Out point) |
+### How to Build the Text Hook
+1. Choose the **font** (e.g. Poppins)
+2. Write the first word of the hook (e.g. "Collect")
+3. Apply **pop in** animation
+4. Enlarge
+5. **Duplicate the layer** and write the second word (e.g. "Payment")
+6. Change the font of the second word (e.g. Shell Edit - trending)
+7. Adjust sizes to fit everything
 
-### Procedura
-1. Posiziona il playhead all'inizio del reel > premi **I**
-2. Vai alla fine del reel (dove c'e il marker) > premi **O**
-3. Clicca **Export**
-4. Copia il nome dal text layer e incollalo come nome file
-5. Esporta
-6. Ripeti per ogni reel
+### Replicating the Text Hook
+1. Create the text hook for the first reel
+2. Go to the beginning of the **second reel**
+3. **Paste** the text hook
+4. Change only the text
+5. Repeat for all reels
 
----
-
-## Fase 4: Captions con AI (Submagic)
-
-Dopo aver esportato tutti i reel:
-
-1. **Carica** il video su Submagic
-2. Lascia **generare le caption** automaticamente
-3. Scegli uno **stile** di caption (es. Eman style)
-4. Personalizza: font, dimensione, colore
-5. **Salva lo stile** cosi non devi ricrearlo ogni volta
-6. Opzionale: aggiungi musica, sound effects, b-roll dalla piattaforma
+> If you want to play with colors (e.g. keyword in yellow), go for it.
 
 ---
 
-## Fase 5: Scheduling e Pubblicazione
+## Phase 3: Exporting with I/O Points
 
-Direttamente da Submagic:
-1. Vai alla sezione **Publishing**
-2. Clicca **Publish**
-3. Seleziona il **batch di reel**
-4. Scrivi/modifica la **descrizione** (generata automaticamente da AI)
-5. Scegli la piattaforma: Reel, Story, YouTube Shorts
-6. Opzionale: aggiungi un **primo commento**
-7. **Schedule**: seleziona timezone, data e ora
-8. Clicca Schedule e il gioco e fatto
+### Shortcut for Export
 
----
+| Key | Action |
+|-----|--------|
+| **I** | Set the **start** point (In point) |
+| **O** | Set the **end** point (Out point) |
 
-## Breakdown del Tempo (30 Reel)
-
-| Fase | Tempo Stimato |
-|------|---------------|
-| Raw Cut di tutti i video | ~1 ora |
-| Upload su Submagic + Captions | ~1 ora |
-| Scheduling + Descrizioni | ~1 ora |
-| Quality Check / Buffer | ~1 ora |
-| **TOTALE** | **~4 ore** |
+### Procedure
+1. Position the playhead at the beginning of the reel > press **I**
+2. Go to the end of the reel (where the marker is) > press **O**
+3. Click **Export**
+4. Copy the name from the text layer and paste it as the file name
+5. Export
+6. Repeat for each reel
 
 ---
 
-## Riepilogo del Sistema
+## Phase 4: Captions with AI (Submagic)
+
+After exporting all reels:
+
+1. **Upload** the video to Submagic
+2. Let it **generate captions** automatically
+3. Choose a caption **style** (e.g. Eman style)
+4. Customize: font, size, color
+5. **Save the style** so you don't have to recreate it every time
+6. Optional: add music, sound effects, b-roll from the platform
+
+---
+
+## Phase 5: Scheduling and Publishing
+
+Directly from Submagic:
+1. Go to the **Publishing** section
+2. Click **Publish**
+3. Select the **batch of reels**
+4. Write/edit the **description** (automatically generated by AI)
+5. Choose the platform: Reel, Story, YouTube Shorts
+6. Optional: add a **pinned comment**
+7. **Schedule**: select timezone, date and time
+8. Click Schedule and you're done
+
+---
+
+## Time Breakdown (30 Reels)
+
+| Phase | Estimated Time |
+|-------|----------------|
+| Raw Cut of all videos | ~1 hour |
+| Upload to Submagic + Captions | ~1 hour |
+| Scheduling + Descriptions | ~1 hour |
+| Quality Check / Buffer | ~1 hour |
+| **TOTAL** | **~4 hours** |
+
+---
+
+## System Summary
 
 ```
-1. Importa TUTTO su un'unica timeline
-2. Velocita 2x per sprinto
-3. Q/W/S per raw cut velocissimo
-4. Marker + Text label per ogni reel
-5. Riduci velocita a 1x dopo il cut
-6. Crea 1 text hook > replica su tutti
-7. Export con I/O points
-8. AI captions su Submagic
-9. Schedule tutto > vai a prendere un caffe
+1. Import EVERYTHING onto a single timeline
+2. Speed 2x for sprinting
+3. Q/W/S for lightning-fast raw cut
+4. Marker + Text label for each reel
+5. Reduce speed to 1x after the cut
+6. Create 1 text hook > replicate across all
+7. Export with I/O points
+8. AI captions on Submagic
+9. Schedule everything > go grab a coffee
 ```

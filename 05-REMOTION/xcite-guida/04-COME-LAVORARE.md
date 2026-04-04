@@ -1,46 +1,46 @@
-# Come lavorare su questo progetto
+# How to work on this project
 
-## IMPORTANTE: l'utente non sa lanciare npm/dev
-Ogni volta che apri una nuova chat, **TU (Claude) devi avviare il server**.
-Non chiedere all'utente di farlo. Fallo direttamente tu con:
+## IMPORTANT: the user doesn't know how to launch npm/dev
+Every time you open a new chat, **YOU (Claude) must start the server**.
+Don't ask the user to do it. Do it directly with:
 
 ```bash
 cd "/c/Users/prova/Desktop/REMOTION XCITE" && npm install && npx remotion studio src/index.ts
 ```
 
-Poi apri il browser:
+Then open the browser:
 ```bash
 start http://localhost:PORT
 ```
-(la porta cambia ogni volta, leggila dall'output del server)
+(the port changes every time, read it from the server output)
 
-## Workflow consigliato
-1. **Leggi questa cartella guida/** prima di fare qualsiasi cosa
-2. **Avvia il server** per l'utente (vedi sopra)
-3. **Fai le modifiche** ai file .tsx
-4. **Verifica** con `npx tsc --noEmit` dopo ogni cambio
-5. **Renderizza frame di test** per controllare il risultato visivo:
+## Recommended workflow
+1. **Read this guida/ folder** before doing anything
+2. **Start the server** for the user (see above)
+3. **Make changes** to the .tsx files
+4. **Verify** with `npx tsc --noEmit` after each change
+5. **Render test frames** to check the visual result:
    ```bash
-   npx remotion still src/index.ts XciteShowreel --frame=NUMERO --output=test.png
+   npx remotion still src/index.ts XciteShowreel --frame=NUMBER --output=test.png
    ```
-6. **Mostra il risultato** all'utente leggendo il PNG renderizzato
+6. **Show the result** to the user by reading the rendered PNG
 
-## Comandi utili
-| Comando | Cosa fa |
-|---------|---------|
-| `npm install` | Installa dipendenze |
-| `npx remotion studio src/index.ts` | Avvia studio (preview live) |
-| `npx remotion still src/index.ts XciteShowreel --frame=450 --output=test.png` | Renderizza un singolo frame |
-| `npx remotion render src/index.ts XciteShowreel --output=video.mp4` | Render video finale MP4 |
-| `npx tsc --noEmit` | Type check senza compilare |
-| `npx remotion compositions src/index.ts` | Lista composizioni registrate |
+## Useful commands
+| Command | What it does |
+|---------|-------------|
+| `npm install` | Install dependencies |
+| `npx remotion studio src/index.ts` | Launch studio (live preview) |
+| `npx remotion still src/index.ts XciteShowreel --frame=450 --output=test.png` | Render a single frame |
+| `npx remotion render src/index.ts XciteShowreel --output=video.mp4` | Final video MP4 render |
+| `npx tsc --noEmit` | Type check without compiling |
+| `npx remotion compositions src/index.ts` | List registered compositions |
 
-## Regole Remotion (dalle skills installate)
-- **MAI** usare CSS transitions/animations o classi Tailwind animate-*
-- **SEMPRE** usare `useCurrentFrame()` + `interpolate()`/`spring()` per animare
-- **SEMPRE** usare `<Img>` da remotion (non `<img>` HTML)
-- **SEMPRE** usare `staticFile()` per file in public/
-- **SEMPRE** `maxWidth: "none"` sulle Img dentro container con overflow:hidden
-- **SEMPRE** `premountFor={30}` sulle Sequence
-- Timing in secondi: `Math.round(seconds * fps)` non frame hardcodati
-- Spring configs dalla skill library: heavy/snappy/bouncy/punch
+## Remotion rules (from installed skills)
+- **NEVER** use CSS transitions/animations or Tailwind animate-* classes
+- **ALWAYS** use `useCurrentFrame()` + `interpolate()`/`spring()` to animate
+- **ALWAYS** use `<Img>` from remotion (not HTML `<img>`)
+- **ALWAYS** use `staticFile()` for files in public/
+- **ALWAYS** `maxWidth: "none"` on Img elements inside containers with overflow:hidden
+- **ALWAYS** `premountFor={30}` on Sequences
+- Timing in seconds: `Math.round(seconds * fps)` not hardcoded frames
+- Spring configs from the skill library: heavy/snappy/bouncy/punch

@@ -1,17 +1,17 @@
 # X-Cite Ventures — Showreel Remotion Project
 
-## Cos'è questo progetto
-Video motion graphics professionale 16:9 (1920×1080) per **X-Cite Ventures** (social gaming company).
-Durata: 20 secondi, 30fps, 600 frames totali.
+## What this project is
+Professional 16:9 (1920x1080) motion graphics video for **X-Cite Ventures** (social gaming company).
+Duration: 20 seconds, 30fps, 600 total frames.
 Tool: **Remotion 4.0.436** (video in React).
 
-## 4 Scene
-| Scena | Frames | Secondi | Stato | Descrizione |
-|-------|--------|---------|-------|-------------|
-| 1 — Kling Transition | 0–120 | 0–4s | PLACEHOLDER | Smooth fade-in da video Kling AI |
-| 2 — Why Me | 120–300 | 4–10s | PLACEHOLDER | Perché sono la persona giusta per X-Cite |
-| 3 — Skills Showcase | 300–450 | 10–15s | PLACEHOLDER | AI Video, Motion Graphics, UGC, Kling |
-| 4 — Logo Reveal | 450–600 | 15–20s | ✅ FATTO | Logo animato + "Play. Connect. Dominate." |
+## 4 Scenes
+| Scene | Frames | Seconds | Status | Description |
+|-------|--------|---------|--------|-------------|
+| 1 — Kling Transition | 0-120 | 0-4s | PLACEHOLDER | Smooth fade-in from Kling AI video |
+| 2 — Why Me | 120-300 | 4-10s | PLACEHOLDER | Why I'm the right person for X-Cite |
+| 3 — Skills Showcase | 300-450 | 10-15s | PLACEHOLDER | AI Video, Motion Graphics, UGC, Kling |
+| 4 — Logo Reveal | 450-600 | 15-20s | DONE | Animated logo + "Play. Connect. Dominate." |
 
 ## Brand Colors
 - BRAND_ORANGE: `#FF6A00`
@@ -21,7 +21,7 @@ Tool: **Remotion 4.0.436** (video in React).
 - BRAND_DARK_END: `#151530`
 - BRAND_GOLD: `#FFA700`
 
-## Stile
-Premium, cinematic, dark. Spring animations pesanti con impatto.
-Particelle gold fluttuanti. LightLeak WebGL per transizioni.
-Font: white su dark. Logo X arancione/gold 3D.
+## Style
+Premium, cinematic, dark. Heavy spring animations with impact.
+Floating gold particles. LightLeak WebGL for transitions.
+Font: white on dark. Orange/gold 3D X logo.

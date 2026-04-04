@@ -1,149 +1,149 @@
-# ANALISI COMPLETA DEI MIGLIORI TUTORIAL YOUTUBE SU SEEDANCE 2.0
+# COMPLETE ANALYSIS OF THE BEST YOUTUBE TUTORIALS ON SEEDANCE 2.0
 
-**Data di analisi:** 24 Marzo 2026
-**Video analizzati:** 10 tutorial selezionati tra oltre 60 risultati
-**Fonti:** YouTube - Canali specializzati in AI Video Generation
-
----
-
-## INDICE
-
-1. [Panoramica dei Video Analizzati](#panoramica)
-2. [Formula Universale per i Prompt](#formula-universale)
-3. [Struttura dei Prompt per Livello di Difficolta](#struttura-prompt)
-4. [Tecniche Avanzate e Funzionalita Chiave](#tecniche-avanzate)
-5. [Raccolta Completa di Prompt di Esempio](#raccolta-prompt)
-6. [Impostazioni e Parametri Consigliati](#impostazioni)
-7. [Workflow Raccomandati](#workflow)
-8. [Errori Comuni da Evitare](#errori-comuni)
-9. [Confronto con Concorrenti (Sora, Kling, Veo)](#confronto)
-10. [Piattaforme di Accesso e Costi](#piattaforme)
-11. [Consigli per Contenuti Cinematografici](#consigli-cinema)
-12. [Trucchi per Aggirare le Restrizioni](#trucchi-restrizioni)
+**Analysis date:** March 24, 2026
+**Videos analyzed:** 10 tutorials selected from over 60 results
+**Sources:** YouTube - Channels specializing in AI Video Generation
 
 ---
 
-## PANORAMICA DEI VIDEO ANALIZZATI {#panoramica}
+## TABLE OF CONTENTS
+
+1. [Overview of Analyzed Videos](#overview)
+2. [Universal Prompt Formula](#universal-formula)
+3. [Prompt Structure by Difficulty Level](#prompt-structure)
+4. [Advanced Techniques and Key Features](#advanced-techniques)
+5. [Complete Collection of Example Prompts](#prompt-collection)
+6. [Recommended Settings and Parameters](#settings)
+7. [Recommended Workflows](#workflows)
+8. [Common Mistakes to Avoid](#common-mistakes)
+9. [Comparison with Competitors (Sora, Kling, Veo)](#comparison)
+10. [Access Platforms and Costs](#platforms)
+11. [Tips for Cinematic Content](#cinema-tips)
+12. [Tricks to Bypass Restrictions](#restriction-tricks)
+
+---
+
+## OVERVIEW OF ANALYZED VIDEOS {#overview}
 
 ### Video 1: "The ULTIMATE Seedance 2.0 Prompting Guide"
-- **Canale:** Noble Goose
+- **Channel:** Noble Goose
 - **Link:** https://www.youtube.com/watch?v=tZReV23ncuc
-- **Visualizzazioni:** 10.420
-- **Durata:** 5:50
-- **Punto di forza:** Formula strutturata per i prompt a 3 livelli di difficolta
+- **Views:** 10,420
+- **Duration:** 5:50
+- **Key strength:** Structured prompt formula at 3 difficulty levels
 
 ### Video 2: "30 Tips and Tricks for Seedance 2.0"
-- **Canale:** jylfeng
+- **Channel:** jylfeng
 - **Link:** https://www.youtube.com/watch?v=A7P8gAs4iUY
-- **Visualizzazioni:** 2.198
-- **Durata:** 31:54
-- **Punto di forza:** Il tutorial piu completo - 30 consigli pratici basati su esperienza diretta intensiva
+- **Views:** 2,198
+- **Duration:** 31:54
+- **Key strength:** The most comprehensive tutorial - 30 practical tips based on intensive hands-on experience
 
 ### Video 3: "I Tested Seedance 2.0 and It's Actually Insane (Full Tutorial)"
-- **Canale:** Julie Li
+- **Channel:** Julie Li
 - **Link:** https://www.youtube.com/watch?v=h-bO6mmrODA
-- **Visualizzazioni:** 7.147
-- **Durata:** 10:50
-- **Punto di forza:** Casi d'uso pratici (e-commerce, food blogging, MV musicali, griglia 9-pannelli)
+- **Views:** 7,147
+- **Duration:** 10:50
+- **Key strength:** Practical use cases (e-commerce, food blogging, music videos, 9-panel grid)
 
 ### Video 4: "Seedance 2.0: NEW Method for Consistent Characters Using Your OWN Face (+50 Viral Prompts)"
-- **Canale:** CyberJungle
+- **Channel:** CyberJungle
 - **Link:** https://www.youtube.com/watch?v=pbpzvmtpAZg
-- **Visualizzazioni:** 17.452
-- **Durata:** 22:29
-- **Punto di forza:** Metodo per bypassare il filtro dei volti realistici + 50 prompt virali
+- **Views:** 17,452
+- **Duration:** 22:29
+- **Key strength:** Method to bypass the realistic face filter + 50 viral prompts
 
 ### Video 5: "Seedance 2.0 Is INSANE... But There's a Catch"
-- **Canale:** Curious Refuge
+- **Channel:** Curious Refuge
 - **Link:** https://www.youtube.com/watch?v=gDP4bkeWbUs
-- **Visualizzazioni:** 63.988
-- **Durata:** 22:38
-- **Punto di forza:** Analisi professionale onesta, confronto diretto con Kling, limiti reali
+- **Views:** 63,988
+- **Duration:** 22:38
+- **Key strength:** Honest professional analysis, direct comparison with Kling, real limitations
 
 ### Video 6: "The Most Powerful Seedance 2 Feature No One Is Using"
-- **Canale:** Curious Refuge
+- **Channel:** Curious Refuge
 - **Link:** https://www.youtube.com/watch?v=hBB5SOfcg4c
-- **Visualizzazioni:** 21.083
-- **Durata:** 18:56
-- **Punto di forza:** Approfondimento su Seedance Omni (riferimenti multipli, lip-sync, VFX)
+- **Views:** 21,083
+- **Duration:** 18:56
+- **Key strength:** Deep dive on Seedance Omni (multiple references, lip-sync, VFX)
 
 ### Video 7: "Seedance 2.0 Changed How I Make Films (Full Breakdown)"
-- **Canale:** Higgsfield AI
+- **Channel:** Higgsfield AI
 - **Link:** https://www.youtube.com/watch?v=7gFp-AoeTl4
-- **Visualizzazioni:** 39.246
-- **Durata:** 10:06
-- **Punto di forza:** Workflow completo da regista - come costruire un cortometraggio d'azione
+- **Views:** 39,246
+- **Duration:** 10:06
+- **Key strength:** Complete filmmaker's workflow - how to build an action short film
 
 ### Video 8: "Seedance 2.0 Prompting Guide for Beginners (Step-by-Step)"
-- **Canale:** Oprelia AI
+- **Channel:** Oprelia AI
 - **Link:** https://www.youtube.com/watch?v=i0CTUKnq968
-- **Visualizzazioni:** 1.464
-- **Durata:** 17:11
-- **Punto di forza:** Tre formati di prompt (base, generato da GPT, per-secondo), trucchi anti-censura
+- **Views:** 1,464
+- **Duration:** 17:11
+- **Key strength:** Three prompt formats (basic, GPT-generated, per-second), anti-censorship tricks
 
 ### Video 9: "Kling 3.0 vs Seedance 2 vs Veo 3.1 vs Sora 2: The Ultimate AI Video Comparison"
-- **Canale:** Dom the AI Tutor
+- **Channel:** Dom the AI Tutor
 - **Link:** https://www.youtube.com/watch?v=-MluR9dqt5w
-- **Visualizzazioni:** 373.479
-- **Durata:** 13:18
-- **Punto di forza:** Confronto visivo diretto su 20 prompt identici tra i 4 modelli principali
+- **Views:** 373,479
+- **Duration:** 13:18
+- **Key strength:** Direct visual comparison across 20 identical prompts between the 4 main models
 
-### Video 10: Tutorial Cinese "Seedance 2.0 - 5 Ingressi Gratuiti + 11 Tecniche Virali"
-- **Canale:** Joy
+### Video 10: Chinese Tutorial "Seedance 2.0 - 5 Free Entry Points + 11 Viral Techniques"
+- **Channel:** Joy
 - **Link:** https://www.youtube.com/watch?v=F4OQbMOiRRU
-- **Visualizzazioni:** 29.870
-- **Durata:** 18:50
-- **Punto di forza:** 5 piattaforme gratuite per accedere, tecniche di replica video virali, workflow commerciale
+- **Views:** 29,870
+- **Duration:** 18:50
+- **Key strength:** 5 free platforms to access, viral video replication techniques, commercial workflow
 
 ---
 
-## FORMULA UNIVERSALE PER I PROMPT {#formula-universale}
+## UNIVERSAL PROMPT FORMULA {#universal-formula}
 
-### La Formula d'Oro (da Noble Goose)
+### The Golden Formula (from Noble Goose)
 
-Ogni prompt efficace per Seedance 2.0 segue questa struttura:
+Every effective prompt for Seedance 2.0 follows this structure:
 
 ```
-SOGGETTO + AZIONE + SCENA + CAMERA + ILLUMINAZIONE + STILE + AUDIO + SUFFISSO QUALITA + VINCOLI
+SUBJECT + ACTION + SCENE + CAMERA + LIGHTING + STYLE + AUDIO + QUALITY SUFFIX + CONSTRAINTS
 ```
 
-### Dettaglio di ogni componente:
+### Detail of each component:
 
-| Componente | Descrizione | Esempio |
+| Component | Description | Example |
 |---|---|---|
-| **Soggetto** | Chi o cosa e il protagonista | "Un ragazzo con maglia blu da calcio" |
-| **Azione** | Cosa sta facendo | "dribbla in avanti con il pallone" |
-| **Scena** | Dove si svolge | "su un campo in erba" |
-| **Camera** | Tipo di inquadratura e movimento | "medium tracking shot" |
-| **Illuminazione** | Tipo di luce | "warm afternoon sunlight" |
-| **Stile** | Estetica visiva | "cinematic texture with film grain" |
-| **Audio** | Effetti sonori specifici | "boots on grass, ball thud, crowd murmur" |
-| **Suffisso Qualita** | Sempre alla fine | "4K, ultra HD, rich detail, sharp clarity, cinematic textures, stable picture" |
-| **Vincoli** | Limitazioni per evitare errori | "maintain face and clothing consistency, without distortion, no subtitles" |
+| **Subject** | Who or what is the protagonist | "A boy in a blue soccer jersey" |
+| **Action** | What they are doing | "dribbles forward with the ball" |
+| **Scene** | Where it takes place | "on a grass pitch" |
+| **Camera** | Shot type and movement | "medium tracking shot" |
+| **Lighting** | Type of light | "warm afternoon sunlight" |
+| **Style** | Visual aesthetic | "cinematic texture with film grain" |
+| **Audio** | Specific sound effects | "boots on grass, ball thud, crowd murmur" |
+| **Quality Suffix** | Always at the end | "4K, ultra HD, rich detail, sharp clarity, cinematic textures, stable picture" |
+| **Constraints** | Limitations to avoid errors | "maintain face and clothing consistency, without distortion, no subtitles" |
 
-### La Formula Semplificata (da Julie Li)
+### The Simplified Formula (from Julie Li)
 
-Rispondi a tre domande:
-1. **CHI?** - Soggetto principale
-2. **COSA?** - Azione/situazione
-3. **COME?** - Stile visivo e tecnico
+Answer three questions:
+1. **WHO?** - Main subject
+2. **WHAT?** - Action/situation
+3. **HOW?** - Visual and technical style
 
-### Struttura per Principianti (da Oprelia AI)
+### Structure for Beginners (from Oprelia AI)
 
-1. **Scena di apertura** - Cosa si vede all'inizio
-2. **Azione** - Cosa succede
-3. **Dettagli tecnici** - 4K, illuminazione, meteo
-4. **Audio** - Effetti sonori specifici
+1. **Opening scene** - What is seen at the start
+2. **Action** - What happens
+3. **Technical details** - 4K, lighting, weather
+4. **Audio** - Specific sound effects
 
 ---
 
-## STRUTTURA DEI PROMPT PER LIVELLO DI DIFFICOLTA {#struttura-prompt}
+## PROMPT STRUCTURE BY DIFFICULTY LEVEL {#prompt-structure}
 
-### LIVELLO 1 - FACILE: Un'immagine + Un paragrafo
+### LEVEL 1 - EASY: One Image + One Paragraph
 
-**Metodo:** Carica un'immagine di riferimento e scrivi un singolo paragrafo descrittivo.
+**Method:** Upload a reference image and write a single descriptive paragraph.
 
-**Esempio pratico (scena calcistica):**
+**Practical example (soccer scene):**
 ```
 Image 1 as the first frame. A boy in a blue soccer jersey dribbles forward on
 a grass pitch. Medium tracking shot. Warm afternoon sunlight. Cinematic texture
@@ -152,30 +152,30 @@ rich detail, sharp clarity, cinematic textures, stable picture. Maintain face
 and clothing consistency, without distortion. Generate video without subtitles.
 ```
 
-**Cosa genera il modello:**
-- Fisica realistica del pallone
-- Falcate naturali della corsa
-- Audio sincronizzato
-- Tracking della camera fluido
+**What the model generates:**
+- Realistic ball physics
+- Natural running strides
+- Synchronized audio
+- Smooth camera tracking
 
 ---
 
-### LIVELLO 2 - MEDIO: Multi-Shot Prompting (Dirigere la scena)
+### LEVEL 2 - MEDIUM: Multi-Shot Prompting (Directing the scene)
 
-**Metodo:** Etichetta i tuoi inquadramenti (Shot 1, Shot 2, Shot 3) con azione, camera e audio separati per ciascuno.
+**Method:** Label your shots (Shot 1, Shot 2, Shot 3) with separate action, camera, and audio for each.
 
-**Struttura:**
+**Structure:**
 ```
-Shot 1 (0-5s): [Azione] + [Camera: medium shot] + [Audio: boots on grass]
-Shot 2 (5-10s): [Azione] + [Camera: wide shot] + [Audio: crack of the ball]
-Shot 3 (10-15s): [Azione] + [Camera: close-up] + [Audio: crowd building]
+Shot 1 (0-5s): [Action] + [Camera: medium shot] + [Audio: boots on grass]
+Shot 2 (5-10s): [Action] + [Camera: wide shot] + [Audio: crack of the ball]
+Shot 3 (10-15s): [Action] + [Camera: close-up] + [Audio: crowd building]
 ```
 
-**Tecnica cinematografica chiave:** Scalare la dimensione dell'inquadratura intenzionalmente.
-- **Wide** = dice allo spettatore DOVE siamo
-- **Close-up** = dice allo spettatore COME SI SENTE il personaggio
+**Key cinematography technique:** Scale the shot size intentionally.
+- **Wide** = tells the viewer WHERE we are
+- **Close-up** = tells the viewer HOW the character FEELS
 
-**Esempio con scena calcistica multi-shot:**
+**Example with multi-shot soccer scene:**
 ```
 Shot 1 (0-5s): The boy in blue jersey dribbles past a defender. Medium tracking
 shot. Audio: boots scraping on grass.
@@ -189,11 +189,11 @@ No subtitles.
 
 ---
 
-### LIVELLO 3 - AVANZATO: Due Immagini (Prima + Ultima) + 5 Shot
+### LEVEL 3 - ADVANCED: Two Images (First + Last) + 5 Shots
 
-**Metodo:** Carica un'immagine iniziale e una finale. L'AI costruisce tutto cio che sta nel mezzo.
+**Method:** Upload a starting image and an ending image. The AI builds everything in between.
 
-**Esempio con 5 inquadrature:**
+**Example with 5 shots:**
 ```
 Image 1 (first frame): Player receives a pass, ball at his feet.
 Image 2 (last frame): Ball hitting the back of the net.
@@ -214,128 +214,128 @@ Maintain character consistency across all shots. No subtitles.
 
 ---
 
-### LIVELLO BONUS - PER-SECONDO: Controllo Frame-per-Frame (da Oprelia AI)
+### BONUS LEVEL - PER-SECOND: Frame-by-Frame Control (from Oprelia AI)
 
-**Il formato piu preciso in assoluto.** Ogni secondo viene descritto individualmente.
+**The most precise format available.** Each second is described individually.
 
-**Struttura:**
+**Structure:**
 ```
-0-3 seconds: [Descrizione scena] + [Dettagli soggetto] + [Camera]
-3-6 seconds: [Descrizione scena] + [Dettagli soggetto] + [Camera]
-6-9 seconds: [Descrizione scena] + [Dettagli soggetto] + [Camera]
+0-3 seconds: [Scene description] + [Subject details] + [Camera]
+3-6 seconds: [Scene description] + [Subject details] + [Camera]
+6-9 seconds: [Scene description] + [Subject details] + [Camera]
 ...
 ```
 
-**Vantaggi:** Il risultato segue le istruzioni in modo molto preciso.
-**Attenzione:** Non aggiungere troppi elementi in un segmento di 3 secondi - il modello potrebbe non avere tempo di eseguire tutto.
+**Advantages:** The result follows instructions very precisely.
+**Caution:** Don't add too many elements in a 3-second segment - the model may not have time to execute everything.
 
 ---
 
-## TECNICHE AVANZATE E FUNZIONALITA CHIAVE {#tecniche-avanzate}
+## ADVANCED TECHNIQUES AND KEY FEATURES {#advanced-techniques}
 
-### 1. Omni Reference (Riferimento Universale)
+### 1. Omni Reference (Universal Reference)
 
-**Cos'e:** La funzionalita piu potente di Seedance 2.0. Permette di caricare fino a 12 elementi di riferimento:
-- Fino a **9 immagini**
-- Fino a **3 video**
-- Fino a **3 clip audio**
+**What it is:** The most powerful feature of Seedance 2.0. Allows uploading up to 12 reference elements:
+- Up to **9 images**
+- Up to **3 videos**
+- Up to **3 audio clips**
 
-**Come usarlo nel prompt:**
-- Riferisci le immagini con `@image 1`, `@image 2`, ecc.
-- Esempio: `@image 1 character is stuck in @image 2 dimension`
+**How to use it in the prompt:**
+- Refer to images with `@image 1`, `@image 2`, etc.
+- Example: `@image 1 character is stuck in @image 2 dimension`
 
-**Casi d'uso:**
-- Swap di personaggi in scene esistenti
-- Cambio di ambientazione mantenendo i personaggi
-- Lip-sync multi-personaggio con audio caricato
-- Effetti visivi (aggiunta di elementi a video esistenti)
+**Use cases:**
+- Character swapping in existing scenes
+- Setting changes while maintaining characters
+- Multi-character lip-sync with uploaded audio
+- Visual effects (adding elements to existing videos)
 
-### 2. Frame Continuation (Continuazione Frame)
+### 2. Frame Continuation
 
-**Cos'e:** Carica un fotogramma iniziale e/o finale per estendere scene.
+**What it is:** Upload a starting and/or ending frame to extend scenes.
 
-**Come funziona:**
-- **Frame iniziale (S):** Il video inizia da questa immagine
-- **Frame finale (E):** Il video termina a questa immagine
-- L'AI interpola tutto il contenuto intermedio
+**How it works:**
+- **Starting frame (S):** The video starts from this image
+- **Ending frame (E):** The video ends at this image
+- The AI interpolates all the intermediate content
 
-**Limitazione importante:** Frame Continuation e Omni Reference sono **mutuamente esclusivi** sulla piattaforma ufficiale Jimeng (Dreamina). Non puoi usarli insieme.
+**Important limitation:** Frame Continuation and Omni Reference are **mutually exclusive** on the official Jimeng (Dreamina) platform. You cannot use them together.
 
-**Trucco per aggirare il limite dei 15 secondi:** Prendi l'ultimo fotogramma di un video generato e usalo come primo fotogramma della generazione successiva. Cosi costruisci scene piu lunghe.
+**Trick to bypass the 15-second limit:** Take the last frame of a generated video and use it as the first frame of the next generation. This way you build longer scenes.
 
-### 3. Metodo Griglia 3x3 (per Volti Realistici)
+### 3. 3x3 Grid Method (for Realistic Faces)
 
-**Problema:** Seedance 2.0 blocca le immagini con volti realistici in primo piano.
+**Problem:** Seedance 2.0 blocks images with realistic close-up faces.
 
-**Soluzione di CyberJungle:**
-1. Crea una griglia 3x3 con la tua foto ripetuta 9 volte
-2. Caricala come riferimento in Seedance Omni
-3. Nel prompt scrivi: `use character @image 1`
+**CyberJungle's solution:**
+1. Create a 3x3 grid with your photo repeated 9 times
+2. Upload it as a reference in Seedance Omni
+3. In the prompt write: `use character @image 1`
 
-**Perche funziona:** La griglia riduce la prominenza di un singolo volto, rendendo piu difficile per il filtro rilevarlo.
+**Why it works:** The grid reduces the prominence of a single face, making it harder for the filter to detect it.
 
-### 4. Metodo 3D-to-Fotorealistico
+### 4. 3D-to-Photorealistic Method
 
-**Alternativa alla griglia quando serve un full body shot:**
-1. Trasforma la tua foto in un'illustrazione 3D usando Nano Banana Pro
-2. Prompt per Nano Banana: `Turn this into a highly detailed 3D drawing art character design with white background concept art`
-3. Usa l'illustrazione 3D come riferimento in Seedance
-4. Nel prompt aggiungi keywords: `4K, photorealistic, live-action, lifelike`
+**Alternative to the grid when you need a full body shot:**
+1. Transform your photo into a 3D illustration using Nano Banana Pro
+2. Prompt for Nano Banana: `Turn this into a highly detailed 3D drawing art character design with white background concept art`
+3. Use the 3D illustration as a reference in Seedance
+4. In the prompt add keywords: `4K, photorealistic, live-action, lifelike`
 
-### 5. Metodo Griglia 9-Pannelli (Storyboard)
+### 5. 9-Panel Grid Method (Storyboard)
 
-**Come usarlo (da Julie Li):**
-- Crea un'immagine con 9 scene disposte in griglia (come uno storyboard)
-- Caricala come riferimento
-- Prompt: `Generate a video based on the 9-grid image showing the step-by-step process of [soggetto]`
+**How to use it (from Julie Li):**
+- Create an image with 9 scenes arranged in a grid (like a storyboard)
+- Upload it as a reference
+- Prompt: `Generate a video based on the 9-grid image showing the step-by-step process of [subject]`
 
-**Ideale per:**
-- Tutorial di cucina
-- Showcase prodotti
-- Video musicali
-- Pubblicita commerciali
+**Ideal for:**
+- Cooking tutorials
+- Product showcases
+- Music videos
+- Commercial advertisements
 
-### 6. Video Reference (Riferimento Video)
+### 6. Video Reference
 
-**Come funziona:**
-- Carica un video originale + la tua immagine
+**How it works:**
+- Upload an original video + your image
 - Prompt: `Reference the exact plot and rhythm of video 1, but replace the character with image 1. Keep all actions and scenes identical.`
 
-**Possibilita:**
-- Replica coreografie
-- Cambia personaggi mantenendo le azioni
-- Cambia stile artistico (es. da live-action ad anime)
-- Cambia ambientazione mantenendo l'azione
+**Possibilities:**
+- Replicate choreographies
+- Change characters while keeping the actions
+- Change artistic style (e.g. from live-action to anime)
+- Change setting while keeping the action
 
-### 7. Tecnica dello Stile da Riferimento (da jylfeng - IL CONSIGLIO PIU IMPORTANTE)
+### 7. Style from Reference Technique (from jylfeng - THE MOST IMPORTANT TIP)
 
-**Passaggio critico che molti ignorano:**
+**Critical step that many ignore:**
 
-1. Prendi un fotogramma da un film/anime/show che ti piace
-2. Dallo a un chatbot AI (Claude, ChatGPT, Gemini)
-3. Chiedigli: "Descrivi lo stile visivo di questa immagine"
-4. Incolla la risposta come **PRIMA PARTE** del tuo prompt
+1. Take a frame from a film/anime/show you like
+2. Give it to an AI chatbot (Claude, ChatGPT, Gemini)
+3. Ask it: "Describe the visual style of this image"
+4. Paste the response as the **FIRST PART** of your prompt
 
-**Perche funziona:** In AI generation, cio che viene PRIMA nel prompt ha la MASSIMA priorita. Mettere lo stile all'inizio garantisce coerenza visiva.
+**Why it works:** In AI generation, what comes FIRST in the prompt has the HIGHEST priority. Putting style at the beginning ensures visual consistency.
 
-**Esempio pratico:**
+**Practical example:**
 ```
-[STILE - generato da AI chatbot dalla scena del cimitero di Harry Potter]:
+[STYLE - generated by AI chatbot from Harry Potter graveyard scene]:
 Dark atmospheric scene with cool blue-green color grading, misty graveyard
 setting with gothic tombstones, dramatic low-key lighting with harsh shadows,
 cinematic 35mm film grain texture, desaturated palette with subtle green tints...
 
-[POI IL RESTO DEL PROMPT]:
+[THEN THE REST OF THE PROMPT]:
 Shot 1: A teenage boy with glasses stands among tombstones...
 ```
 
-**Ridefinisci lo stile per ogni cambio di scena importante** all'interno dello stesso video/progetto.
+**Redefine the style for every major scene change** within the same video/project.
 
 ---
 
-## RACCOLTA COMPLETA DI PROMPT DI ESEMPIO {#raccolta-prompt}
+## COMPLETE COLLECTION OF EXAMPLE PROMPTS {#prompt-collection}
 
-### Prompt 1: Scena Drammatica TV (Julie Li)
+### Prompt 1: TV Drama Scene (Julie Li)
 ```
 A suburban kitchen. A woman stands at the counter, arms crossed, clearly
 frustrated. A man enters through the back door.
@@ -349,7 +349,7 @@ Man: [pauses] "Yes. Finally. Peace."
 Cinematic TV drama style. Natural indoor lighting. 4K.
 ```
 
-### Prompt 2: Scena Epica di Film (Julie Li - 5 Shot)
+### Prompt 2: Epic Film Scene (Julie Li - 5 Shots)
 ```
 Shot 1 (0-3s): Wide establishing shot of a burning medieval city at night.
 Flames reflecting off wet cobblestones.
@@ -363,27 +363,27 @@ Epic cinematic style. Dramatic orchestral score implied. Sound effects: metal
 clashing, fire crackling, distant screams. 4K, ultra HD.
 ```
 
-### Prompt 3: Trasformazione Outfit (Julie Li)
+### Prompt 3: Outfit Transformation (Julie Li)
 ```
 Based on @image 1, create a character transformation video where the person
 walks forward confidently like a professional model the whole time. Clothes
 fly onto them quickly to achieve a fast outfit change effect.
 ```
 
-### Prompt 4: Video Musicale da Griglia (Julie Li)
+### Prompt 4: Music Video from Grid (Julie Li)
 ```
 Generate a beautiful MV based on the scene-by-scene grid image with fitting
 original English song included.
 ```
 
-### Prompt 5: Scena d'Azione Cinematografica (CyberJungle)
+### Prompt 5: Cinematic Action Scene (CyberJungle)
 ```
 Use character @image 1. He's arriving to a tropical beach after his ship
 sank. 4K, photorealistic, live-action, lifelike. Dramatic natural lighting,
 waves crashing on shore. Cinematic wide shot.
 ```
 
-### Prompt 6: Dialogo tra Due Personaggi (Curious Refuge)
+### Prompt 6: Two-Character Dialogue (Curious Refuge)
 ```
 Two men stand in a dimly lit alley. Man 1 hands over a briefcase.
 Man 1: "Is it all there?"
@@ -391,7 +391,7 @@ Man 2: "It's all there, boss. Extra pickle. Hold the tomatoes."
 Film noir style. Moody overhead lighting. 4K cinematic.
 ```
 
-### Prompt 7: Scena Multi-Shot Fantascienza (Curious Refuge)
+### Prompt 7: Multi-Shot Sci-Fi Scene (Curious Refuge)
 ```
 [Upload starting image of spaceship bridge]
 
@@ -406,18 +406,18 @@ Sci-fi cinematic style. Blue-tinted lighting. Sound effects: hum of engines,
 beeping instruments.
 ```
 
-### Prompt 8: Combattimento Wuxia (Tutorial Cinese - Joy)
+### Prompt 8: Wuxia Combat (Chinese Tutorial - Joy)
 ```
-@immagine 1 personaggio e @immagine 2 personaggio si affrontano in
-@immagine 3 scenario. Notte di luna piena, due maestri di arti marziali
-si affrontano in un duello epico. Movimenti fluidi di kung fu, salti
-acrobatici. Stile cinematografico wuxia. Musica tradizionale cinese con
-effetti sonori di spade. 9:16 verticale.
+@image 1 character and @image 2 character face off in
+@image 3 setting. Full moon night, two martial arts masters
+face off in an epic duel. Fluid kung fu movements, acrobatic
+jumps. Cinematic wuxia style. Traditional Chinese music with
+sword sound effects. 9:16 vertical.
 ```
 
-### Prompt 9: Pubblicita Commerciale con Storyboard (Joy)
+### Prompt 9: Commercial Ad with Storyboard (Joy)
 ```
-[Carica griglia 9-pannelli dello storyboard]
+[Upload 9-panel grid storyboard]
 
 Generate a dynamic ski wear TVC commercial based on the storyboard grid.
 Include tracking shots, close-ups, perspective shots, and diving camera
@@ -425,25 +425,25 @@ movements. Fast-paced rhythm with dynamic music. Professional commercial
 quality. 4K.
 ```
 
-### Prompt 10: Replica/Clone di Video Virale (Joy)
+### Prompt 10: Viral Video Replica/Clone (Joy)
 ```
-[Carica video originale + immagine del tuo personaggio]
+[Upload original video + your character image]
 
 Completely imitate the original video. Only replace the character with
 @image 1. Keep all actions, camera movements, lighting, and scene
 composition identical to the reference video.
 ```
 
-### Prompt 11: Mostro/Drago Volante (Curious Refuge - Omni)
+### Prompt 11: Flying Monster/Dragon (Curious Refuge - Omni)
 ```
-[Carica video di paesaggio + immagine del drago]
+[Upload landscape video + dragon image]
 
 Add a massive dragon flying through the background sky. The dragon should
 cast shadows on the ground below. Include wing flapping sound effects and
 a deep roar. Match the lighting and perspective of the original footage.
 ```
 
-### Prompt 12: Scena sotto il Treno (Higgsfield AI)
+### Prompt 12: Under the Train Scene (Higgsfield AI)
 ```
 Image 1 as look reference. Image 2 as character Ben. Video 1 as motion
 control source.
@@ -459,44 +459,44 @@ heartbeat. 4K cinematic.
 
 ---
 
-## IMPOSTAZIONI E PARAMETRI CONSIGLIATI {#impostazioni}
+## RECOMMENDED SETTINGS AND PARAMETERS {#settings}
 
-### Modello: Fast vs Slow/Pro
+### Model: Fast vs Slow/Pro
 
-| Parametro | Fast | Slow/Pro |
+| Parameter | Fast | Slow/Pro |
 |---|---|---|
-| **Costo crediti** | Basso (es. 15 crediti) | Alto (es. 25 crediti per lo stesso prompt) |
-| **Qualita** | Eccellente per la maggior parte degli usi | Leggermente migliore per scene molto complesse |
-| **Raccomandazione** | **USARE SEMPRE FAST come default** | Solo per scene estremamente complesse |
+| **Credit cost** | Low (e.g. 15 credits) | High (e.g. 25 credits for the same prompt) |
+| **Quality** | Excellent for most uses | Slightly better for very complex scenes |
+| **Recommendation** | **ALWAYS USE FAST as default** | Only for extremely complex scenes |
 
-**Consiglio di jylfeng:** "Uso praticamente sempre Fast. Se Fast non capisce il prompt, Slow non e molto meglio. Meglio semplificare il prompt o dividerlo in parti."
+**jylfeng's advice:** "I practically always use Fast. If Fast doesn't understand the prompt, Slow isn't much better. Better to simplify the prompt or break it into parts."
 
 ### Aspect Ratio
 
-| Formato | Uso Consigliato |
+| Format | Recommended Use |
 |---|---|
-| **16:9** | Default raccomandato per la maggior parte dei contenuti |
-| **9:16** | Video verticali per social media (TikTok, Reels, Shorts) |
-| **1:1** | Post social media quadrati |
-| **21:9** | Ultra-widescreen cinematografico |
+| **16:9** | Recommended default for most content |
+| **9:16** | Vertical videos for social media (TikTok, Reels, Shorts) |
+| **1:1** | Square social media posts |
+| **21:9** | Ultra-widescreen cinematic |
 
-**Nota importante:** Cambiare l'aspect ratio NON modifica il costo in crediti. Quindi meglio andare con formati piu grandi quando possibile.
+**Important note:** Changing the aspect ratio does NOT change the credit cost. So better to go with larger formats when possible.
 
-### Durata Video
+### Video Duration
 
-- **Range disponibile:** 4-15 secondi (su Dreamina/Jimeng)
-- **Piattaforme terze:** Opzioni limitate (5, 10 o 15 secondi)
-- **Consiglio:** Durate piu corte = maggior controllo, meno errori
-- **Per esperimenti:** Usare 5 secondi per testare idee nuove
-- **Risoluzione nativa:** 720p (necessario upscaling per qualita professionale)
+- **Available range:** 4-15 seconds (on Dreamina/Jimeng)
+- **Third-party platforms:** Limited options (5, 10 or 15 seconds)
+- **Advice:** Shorter durations = more control, fewer errors
+- **For experiments:** Use 5 seconds to test new ideas
+- **Native resolution:** 720p (upscaling needed for professional quality)
 
-### Suffisso Qualita Standard (da aggiungere SEMPRE)
+### Standard Quality Suffix (ALWAYS add)
 
 ```
 4K, ultra HD, rich detail, sharp clarity, cinematic textures, stable picture.
 ```
 
-### Vincoli Standard (da aggiungere SEMPRE alla fine)
+### Standard Constraints (ALWAYS add at the end)
 
 ```
 Maintain face and clothing consistency, without distortion or high detail.
@@ -505,294 +505,294 @@ Generate the video without subtitles.
 
 ---
 
-## WORKFLOW RACCOMANDATI {#workflow}
+## RECOMMENDED WORKFLOWS {#workflows}
 
-### Workflow 1: Cortometraggio d'Azione (da Higgsfield AI)
+### Workflow 1: Action Short Film (from Higgsfield AI)
 
-1. **Brainstorm:** Scrivi un logline chiaro (1 frase che riassume la storia)
-2. **Personaggi:** Usa Claude/ChatGPT per generare un "character sheet prompt" con close-up + vista a 360 gradi
-3. **Ambientazione:** Genera UN key frame che definisce il look dell'intero film (color grade, lente, contrasto)
-4. **Prima scena (Hook):** Il visual hook e la parte piu importante - cattura l'attenzione
-5. **Scene successive:** Usa look reference + character sheet + video come motion reference
-6. **Ogni input va descritto al modello** per fargli capire cosa e cosa
-7. **Dirigi 3 shot per generazione** con timing preciso per ciascuno
-8. **Editing finale:** Aggiungi sound effects, mirroring, speed ramp. Anche i take "scadenti" possono avere 2 secondi utili
+1. **Brainstorm:** Write a clear logline (1 sentence that summarizes the story)
+2. **Characters:** Use Claude/ChatGPT to generate a "character sheet prompt" with close-up + 360-degree view
+3. **Setting:** Generate ONE key frame that defines the look of the entire film (color grade, lens, contrast)
+4. **First scene (Hook):** The visual hook is the most important part - capture attention
+5. **Subsequent scenes:** Use look reference + character sheet + video as motion reference
+6. **Every input must be described to the model** so it understands what is what
+7. **Direct 3 shots per generation** with precise timing for each
+8. **Final editing:** Add sound effects, mirroring, speed ramp. Even "bad" takes can have 2 useful seconds
 
-**Citazione chiave:** "AI non sostituisce il gusto. Il gusto viene dall'esperienza, dall'analisi, dai tuoi sentimenti. Impara il linguaggio del cinema e l'AI diventa solo un altro strumento nelle tue mani."
+**Key quote:** "AI doesn't replace taste. Taste comes from experience, from analysis, from your feelings. Learn the language of cinema and AI becomes just another tool in your hands."
 
-### Workflow 2: Progetto Multi-Scena (da jylfeng)
+### Workflow 2: Multi-Scene Project (from jylfeng)
 
-1. **La prima scena e la piu importante** - Definisce stile, tono e blocking per tutto il resto
-2. **Costruisci il video in ordine sequenziale** - Non cercare di fare la fine prima dell'inizio
-3. **Assicurati che l'ultimo frame di ogni generazione contenga tutti i personaggi rilevanti** - Questo da all'AI un migliore contesto spaziale
-4. **Usa il frame continuation** solo per casi minori dove i dettagli non contano troppo
-5. **Quando una scena non funziona, dividila in parti piu piccole**
+1. **The first scene is the most important** - Defines style, tone and blocking for everything else
+2. **Build the video in sequential order** - Don't try to do the end before the beginning
+3. **Make sure the last frame of each generation contains all relevant characters** - This gives the AI better spatial context
+4. **Use frame continuation** only for minor cases where details don't matter too much
+5. **When a scene doesn't work, break it into smaller parts**
 
-### Workflow 3: Pubblicita Commerciale (dal Tutorial Cinese - Joy)
+### Workflow 3: Commercial Ad (from Chinese Tutorial - Joy)
 
-1. **Prepara una griglia di storyboard** (4, 6 o 9 pannelli)
-2. **Carica come riferimento** in modalita Omni Reference
-3. **Seleziona il rapporto d'aspetto** appropriato (9:16 per verticale)
-4. **Usa prompt dettagliati** che descrivono movimenti di camera specifici
-5. **Se vuoi qualita cinematografica**, carica immagini di riferimento in 2K/4K
+1. **Prepare a storyboard grid** (4, 6 or 9 panels)
+2. **Upload as reference** in Omni Reference mode
+3. **Select the appropriate aspect ratio** (9:16 for vertical)
+4. **Use detailed prompts** describing specific camera movements
+5. **For cinematic quality**, upload reference images in 2K/4K
 
-### Workflow 4: Replica Video Virale (dal Tutorial Cinese - Joy)
+### Workflow 4: Viral Video Replica (from Chinese Tutorial - Joy)
 
-1. **Trova il video virale** da replicare
-2. **Caricalo come riferimento video** (su piattaforma Xiaoyunque/Lark o simile)
-3. **Carica la tua immagine personaggio** come riferimento
-4. **Usa @image 1** per riferire il personaggio nel prompt
-5. **Scrivi prompt dettagliati** se vuoi alta fedelta di replica (azioni, ambiente, illuminazione)
-6. **Per risultati migliori:** Piu dettagliato e il prompt, maggiore la fedelta della replica
-
----
-
-## ERRORI COMUNI DA EVITARE {#errori-comuni}
-
-### 1. Non mettere lo stile all'inizio del prompt
-**Problema:** Il modello non capisce che estetica visiva vuoi.
-**Soluzione:** Lo stile va SEMPRE come prima cosa nel prompt. Usa un AI chatbot per descrivere l'estetica di un fotogramma di riferimento.
-
-### 2. Non descrivere l'ambientazione in dettaglio
-**Problema:** Seedance di default genera ambientazioni generiche (strade di citta, foreste).
-**Soluzione:** Fornisci descrizioni dettagliate, specialmente per location fantastiche. Meglio ancora, fornisci un'immagine di riferimento.
-
-### 3. Usare Slow/Pro quando non necessario
-**Problema:** Spreco di crediti (quasi il doppio rispetto a Fast).
-**Soluzione:** Usa Fast come default. Slow solo per scene estremamente complesse.
-
-### 4. Prompt troppo lunghi e complessi in una sola generazione
-**Problema:** Il modello non riesce a gestire troppe azioni in una singola clip.
-**Soluzione:** Spezza le scene complesse in generazioni separate. "Scene piu corte sono migliori, ma solo se sai cosa stai facendo."
-
-### 5. Dimenticare di aggiungere "no subtitles" alla fine
-**Problema:** Seedance aggiunge automaticamente sottotitoli quando c'e dialogo, spesso con errori di ortografia.
-**Soluzione:** Aggiungi sempre `Generate video without subtitles` o `No subtitles` alla fine del prompt.
-
-### 6. Mescolare lingue diverse nello stesso prompt
-**Problema:** Se una parte del dialogo e in francese e un'altra in inglese, il modello potrebbe usare l'accento sbagliato ovunque.
-**Soluzione:** Usa UNA SOLA LINGUA per prompt. Aggiungi le altre lingue in post-produzione.
-
-### 7. Non specificare la musica di sottofondo
-**Problema:** La musica generata automaticamente non sara coerente tra clip successive.
-**Soluzione:** Aggiungi `no background music` quando devi montare piu clip insieme. Aggiungi la musica in post-produzione.
-
-### 8. Non controllare i dettagli prima di generare
-**Problema:** Non puoi annullare una generazione dopo l'invio. Crediti sprecati.
-**Soluzione:** Ricontrolla sempre: aspect ratio, durata, outfit dei personaggi nelle reference, forme/trasformazioni dei personaggi.
-
-### 9. Non specificare le forme/trasformazioni dei personaggi
-**Problema:** Per personaggi anime con trasformazioni (Super Saiyan, Gear Five, ecc.), il modello tende a tornare alla forma base.
-**Soluzione:** OGNI VOLTA che menzioni il personaggio, specifica la sua forma attuale. Es: `Goku, in his Super Saiyan form, charges forward...`
-
-### 10. Usare riferimenti con outfit diversi dalla scena
-**Problema:** Se il personaggio nella reference indossa BLU ma nella scena indossa BIANCO, il modello potrebbe creare DUE versioni del personaggio.
-**Soluzione:** Assicurati che l'outfit nella reference corrisponda a quello della scena.
-
-### 11. Aspettarsi fisica "cartoon" dal modello
-**Problema:** Seedance e eccellente per fisica realistica ma pessimo per fisica cartoon (allungamenti elastici, rimbalzi esagerati).
-**Soluzione:** Evita scene che richiedono fisica impossibile. Se necessario, mostra la reazione di altri personaggi invece del movimento impossibile stesso.
-
-### 12. Non fare upscaling del video
-**Problema:** Seedance genera nativamente a 720p con molti artefatti di compressione.
-**Soluzione:** Passa SEMPRE i video attraverso un AI video upscaler prima dell'uso professionale.
-
-### 13. Cercare la perfezione a ogni generazione
-**Problema:** Diminishing returns - continui a spendere crediti per lo stesso prompt.
-**Soluzione:** Classifica ogni generazione in 3 categorie:
-- **Good clip:** Usabile cosi com'e
-- **Viable clip:** Parti utilizzabili (audio, video parziale)
-- **Learning experience:** Non usabile ma hai imparato qualcosa
+1. **Find the viral video** to replicate
+2. **Upload it as a video reference** (on Xiaoyunque/Lark platform or similar)
+3. **Upload your character image** as a reference
+4. **Use @image 1** to refer to the character in the prompt
+5. **Write detailed prompts** if you want high replication fidelity (actions, environment, lighting)
+6. **For best results:** The more detailed the prompt, the higher the replication fidelity
 
 ---
 
-## CONFRONTO CON CONCORRENTI {#confronto}
+## COMMON MISTAKES TO AVOID {#common-mistakes}
+
+### 1. Not putting style at the beginning of the prompt
+**Problem:** The model doesn't understand what visual aesthetic you want.
+**Solution:** Style should ALWAYS be the first thing in the prompt. Use an AI chatbot to describe the aesthetic of a reference frame.
+
+### 2. Not describing the setting in detail
+**Problem:** Seedance by default generates generic settings (city streets, forests).
+**Solution:** Provide detailed descriptions, especially for fantastical locations. Better yet, provide a reference image.
+
+### 3. Using Slow/Pro when not necessary
+**Problem:** Wasting credits (almost double compared to Fast).
+**Solution:** Use Fast as default. Slow only for extremely complex scenes.
+
+### 4. Prompts that are too long and complex in a single generation
+**Problem:** The model can't handle too many actions in a single clip.
+**Solution:** Break complex scenes into separate generations. "Shorter scenes are better, but only if you know what you're doing."
+
+### 5. Forgetting to add "no subtitles" at the end
+**Problem:** Seedance automatically adds subtitles when there's dialogue, often with spelling errors.
+**Solution:** Always add `Generate video without subtitles` or `No subtitles` at the end of the prompt.
+
+### 6. Mixing different languages in the same prompt
+**Problem:** If part of the dialogue is in French and another in English, the model might use the wrong accent everywhere.
+**Solution:** Use ONE LANGUAGE per prompt. Add other languages in post-production.
+
+### 7. Not specifying background music
+**Problem:** Auto-generated music won't be consistent between successive clips.
+**Solution:** Add `no background music` when you need to edit multiple clips together. Add music in post-production.
+
+### 8. Not checking details before generating
+**Problem:** You can't cancel a generation after submission. Wasted credits.
+**Solution:** Always double-check: aspect ratio, duration, character outfits in references, character forms/transformations.
+
+### 9. Not specifying character forms/transformations
+**Problem:** For anime characters with transformations (Super Saiyan, Gear Five, etc.), the model tends to revert to the base form.
+**Solution:** EVERY TIME you mention the character, specify their current form. E.g.: `Goku, in his Super Saiyan form, charges forward...`
+
+### 10. Using references with different outfits from the scene
+**Problem:** If the character in the reference wears BLUE but in the scene wears WHITE, the model might create TWO versions of the character.
+**Solution:** Make sure the outfit in the reference matches the one in the scene.
+
+### 11. Expecting "cartoon" physics from the model
+**Problem:** Seedance excels at realistic physics but is poor at cartoon physics (elastic stretching, exaggerated bouncing).
+**Solution:** Avoid scenes requiring impossible physics. If necessary, show the reaction of other characters instead of the impossible movement itself.
+
+### 12. Not upscaling the video
+**Problem:** Seedance generates natively at 720p with many compression artifacts.
+**Solution:** ALWAYS pass videos through an AI video upscaler before professional use.
+
+### 13. Seeking perfection with every generation
+**Problem:** Diminishing returns - you keep spending credits on the same prompt.
+**Solution:** Classify each generation into 3 categories:
+- **Good clip:** Usable as-is
+- **Viable clip:** Usable parts (audio, partial video)
+- **Learning experience:** Not usable but you learned something
+
+---
+
+## COMPARISON WITH COMPETITORS {#comparison}
 
 ### Seedance 2.0 vs Kling 3.0 vs Sora 2 vs Veo 3.1
 
-| Aspetto | Seedance 2.0 | Kling 3.0 | Sora 2 | Veo 3.1 |
+| Aspect | Seedance 2.0 | Kling 3.0 | Sora 2 | Veo 3.1 |
 |---|---|---|---|---|
-| **Fisica realistica** | MIGLIORE | Buono | Medio | Buono |
-| **Multi-shot in singola clip** | MIGLIORE | Buono (recente) | Limitato | Limitato |
-| **Lip-sync** | Buono (con Omni) | Meccanico | N/A | N/A |
-| **Effetti sonori** | ECCELLENTE (auto-generati) | Presenti | Limitati | Limitati |
-| **Stili animazione** | ECCELLENTE (stop-motion, 2D, 3D) | Buono | Buono | Buono |
-| **Risoluzione nativa** | 720p (necessita upscale) | Migliore | Variabile | Buona |
-| **Artefatti/Flickering** | PROBLEMA - presente | Meno | Meno | Meno |
-| **Consistenza personaggi secondari** | DEBOLE - volti deformati | Simile | Simile | Migliore |
-| **Profondita colore** | 8-bit (limitato) | Migliore | Variabile | Migliore |
-| **Censura/Restrizioni** | MOLTO RESTRITTIVO | Moderato | Moderato | Moderato |
-| **Costo** | ~$0.12/secondo su UART | Variabile | Variabile | Variabile |
-| **Prompt adherence (aderenza)** | MOLTO BUONO | Buono | Medio | Buono |
-| **VFX/Esplosioni** | ECCELLENTE | Medio | Medio | Buono |
+| **Realistic physics** | BEST | Good | Medium | Good |
+| **Multi-shot in single clip** | BEST | Good (recent) | Limited | Limited |
+| **Lip-sync** | Good (with Omni) | Mechanical | N/A | N/A |
+| **Sound effects** | EXCELLENT (auto-generated) | Present | Limited | Limited |
+| **Animation styles** | EXCELLENT (stop-motion, 2D, 3D) | Good | Good | Good |
+| **Native resolution** | 720p (needs upscale) | Better | Variable | Good |
+| **Artifacts/Flickering** | PROBLEM - present | Less | Less | Less |
+| **Secondary character consistency** | WEAK - deformed faces | Similar | Similar | Better |
+| **Color depth** | 8-bit (limited) | Better | Variable | Better |
+| **Censorship/Restrictions** | VERY RESTRICTIVE | Moderate | Moderate | Moderate |
+| **Cost** | ~$0.12/second on UART | Variable | Variable | Variable |
+| **Prompt adherence** | VERY GOOD | Good | Medium | Good |
+| **VFX/Explosions** | EXCELLENT | Medium | Medium | Good |
 
-### Punti di forza unici di Seedance 2.0:
-- **Fisica:** Di gran lunga la migliore simulazione fisica tra tutti i modelli
-- **Multi-shot:** Comprensione intelligente di quando tagliare tra inquadrature
-- **Audio:** Genera automaticamente effetti sonori, musica e voci molto convincenti
-- **VFX:** Eccezionale per esplosioni, inseguimenti, scenari di azione su larga scala
-- **Omni Reference:** Supporta 12 elementi di riferimento (9 img + 3 video + 3 audio)
+### Unique strengths of Seedance 2.0:
+- **Physics:** By far the best physics simulation among all models
+- **Multi-shot:** Intelligent understanding of when to cut between shots
+- **Audio:** Automatically generates very convincing sound effects, music, and voices
+- **VFX:** Exceptional for explosions, chases, large-scale action scenarios
+- **Omni Reference:** Supports 12 reference elements (9 img + 3 video + 3 audio)
 
-### Limitazioni principali di Seedance 2.0:
-- Risoluzione nativa bassa (720p)
-- Flickering/sfarfallio dell'esposizione
-- Artefatti di compressione visibili quando si ingrandisce
-- Movimenti umani piccoli possono sembrare robotici
-- Censura molto aggressiva (specialmente su versione globale)
-- Profondita colore insufficiente per distribuzione cinematografica
-- Potenziali problemi di proprieta intellettuale nelle generazioni
+### Main limitations of Seedance 2.0:
+- Low native resolution (720p)
+- Exposure flickering
+- Visible compression artifacts when zooming in
+- Small human movements can look robotic
+- Very aggressive censorship (especially on global version)
+- Insufficient color depth for cinematic distribution
+- Potential intellectual property issues in generations
 
 ---
 
-## PIATTAFORME DI ACCESSO E COSTI {#piattaforme}
+## ACCESS PLATFORMS AND COSTS {#platforms}
 
-### 1. Jimeng / Dreamina (Piattaforma Ufficiale ByteDance)
-- **URL:** dreamina.jianying.com (cinese) / dreamina.com (globale)
-- **Modello:** Seedance 2.0 Fast + Slow
-- **Funzionalita:** PIU COMPLETA - tutte le opzioni di personalizzazione
-- **Costo:** Crediti giornalieri gratuiti + acquisto
-- **Pro:** Supporta immagini, video E audio come riferimento
-- **Contro:** Watermark mobile (floating), versione globale potrebbe non avere ancora 2.0
+### 1. Jimeng / Dreamina (Official ByteDance Platform)
+- **URL:** dreamina.jianying.com (Chinese) / dreamina.com (global)
+- **Model:** Seedance 2.0 Fast + Slow
+- **Features:** MOST COMPLETE - all customization options
+- **Cost:** Daily free credits + purchase
+- **Pro:** Supports images, video AND audio as reference
+- **Con:** Floating watermark, global version may not yet have 2.0
 
-### 2. UART.ai (Accesso Pro)
+### 2. UART.ai (Pro Access)
 - **URL:** uart.ai
-- **Modello:** Seedance 2.0 Pro (la versione migliore)
-- **Costo:** $0.12/secondo di video
-- **Pro:** Qualita massima, versione Pro del modello, supporta Omni
-- **Contro:** Tempi di generazione lunghi, richiede approvazione per accesso
+- **Model:** Seedance 2.0 Pro (the best version)
+- **Cost:** $0.12/second of video
+- **Pro:** Maximum quality, Pro model version, supports Omni
+- **Con:** Long generation times, requires approval for access
 
-### 3. Doubao / Xiaoyunque (Piattaforme Terze ByteDance)
-- **Doubao:** App mobile con Seedance 2.0 Fast
-- **Xiaoyunque (Lark):** App con funzione di replica video
-- **Pro:** Crediti giornalieri gratuiti aggiuntivi
-- **Contro:** Opzioni limitate (solo 5 o 10 secondi), meno funzionalita
+### 3. Doubao / Xiaoyunque (ByteDance Third-Party Platforms)
+- **Doubao:** Mobile app with Seedance 2.0 Fast
+- **Xiaoyunque (Lark):** App with video replication feature
+- **Pro:** Additional daily free credits
+- **Con:** Limited options (only 5 or 10 seconds), fewer features
 
-### 4. Suibian App (Scoperta dal Tutorial Cinese)
-- **Caratteristica:** Seedance 2.0 attualmente ILLIMITATO E GRATUITO
-- **Accesso:** App mobile (cerca "Suibian" negli store cinesi)
-- **Contro:** Tempi di attesa lunghi (~10+ minuti), periodo promozionale
+### 4. Suibian App (Discovered from Chinese Tutorial)
+- **Feature:** Seedance 2.0 currently UNLIMITED AND FREE
+- **Access:** Mobile app (search "Suibian" in Chinese stores)
+- **Con:** Long wait times (~10+ minutes), promotional period
 
 ### 5. Volcano Engine (Huoshan Yinqing)
-- **URL:** Piattaforma web di ByteDance
-- **Crediti gratuiti:** 5 milioni di token (~20+ video da 10 secondi)
-- **Velocita:** La piu veloce tra tutte le piattaforme (pochi minuti)
-- **Bonus:** Libreria di template/casi d'uso con prompt pronti
+- **URL:** ByteDance web platform
+- **Free credits:** 5 million tokens (~20+ 10-second videos)
+- **Speed:** The fastest among all platforms (a few minutes)
+- **Bonus:** Template/use case library with ready-made prompts
 
 ---
 
-## CONSIGLI PER CONTENUTI CINEMATOGRAFICI {#consigli-cinema}
+## TIPS FOR CINEMATIC CONTENT {#cinema-tips}
 
-### Da Higgsfield AI (Regista Professionista):
+### From Higgsfield AI (Professional Filmmaker):
 
-1. **Scrivi sempre il brainstorming.** Ogni piccolo dettaglio puo fare una grande differenza.
-2. **Usa LLM (Claude, ChatGPT) per tutti i prompt.** Chiedi prompt per character sheet, scene, dialoghi.
-3. **Non serve sempre un frame iniziale.** Puoi dare al modello: location + personaggio + look reference + video motion reference.
-4. **Descrivi OGNI input al modello** cosi capisce il ruolo di ciascun elemento.
-5. **Trova il bilanciamento tra prompt forte e semplicita** per non sovraccaricare il modello.
-6. **Anche i take pessimi hanno valore.** 2 secondi da un take mediocre possono salvare una scena.
-7. **A volte non e questione di prompting** - E questione di usare tecniche cinematografiche per raccontare la storia da un'angolazione diversa.
-8. **L'editing e fondamentale.** Puoi trasformare un take terribile in uno incredibile con sound effects, mirroring e speed ramp.
-9. **Usa la funzione "estendi video"** quando sei bloccato creativamente - il modello puo suggerire azioni che sbloccano la scena.
+1. **Always write down your brainstorming.** Every small detail can make a big difference.
+2. **Use LLMs (Claude, ChatGPT) for all prompts.** Ask for character sheet prompts, scenes, dialogue.
+3. **You don't always need a starting frame.** You can give the model: location + character + look reference + video motion reference.
+4. **Describe EVERY input to the model** so it understands the role of each element.
+5. **Find the balance between a strong prompt and simplicity** to not overload the model.
+6. **Even bad takes have value.** 2 seconds from a mediocre take can save a scene.
+7. **Sometimes it's not about prompting** - It's about using cinematographic techniques to tell the story from a different angle.
+8. **Editing is fundamental.** You can transform a terrible take into an incredible one with sound effects, mirroring and speed ramp.
+9. **Use the "extend video" feature** when you're creatively stuck - the model can suggest actions that unblock the scene.
 
-### Da Curious Refuge (Analisi Professionale):
+### From Curious Refuge (Professional Analysis):
 
-1. **Seedance e perfetto per social media e YouTube** ma NON per distribuzione 4K/cinema.
-2. **Usa SEMPRE un AI video upscaler** (es. Topaz) prima dell'uso professionale.
-3. **Per il flickering**, usa un plugin de-flicker in DaVinci Resolve o Premiere Pro.
-4. **I movimenti grandi funzionano meglio dei piccoli.** Per scene emotive, tieni il personaggio relativamente statico.
-5. **Lo stile stop-motion e il piu impressionante** su Seedance - quasi perfetto.
-6. **Gli stili di animazione (2D, 3D, stop-motion)** sono dove Seedance brilla davvero rispetto alla competizione.
-
----
-
-## TRUCCHI PER AGGIRARE LE RESTRIZIONI {#trucchi-restrizioni}
-
-### Restrizione 1: Personaggi sotto Copyright
-
-**Metodo A - Rinomina (da jylfeng):**
-- Cambia i nomi dei personaggi con nomi simili
-- Es: "Jamie Lannister" diventa "James", "Aragorn" diventa "Eric"
-- Il modello RICONOSCERA comunque il personaggio dall'immagine di riferimento
-
-**Metodo B - Descrizione senza nome (da jylfeng):**
-- Descrivi l'aspetto senza usare il nome
-- Es: "A teenage boy with brown glasses, messy dark hair, and a lightning bolt scar on his forehead"
-- Non includere il volto del personaggio nella reference image
-
-**Metodo C - Prompt in cinese/mandarino (da Oprelia AI):**
-- Traduci il prompt in cinese mandarino
-- Il filtro della versione cinese e meno restrittivo
-- Piu probabilita di passare contenuti che sarebbero bloccati in inglese
-
-**Metodo D - Immagini senza volto (da jylfeng):**
-- Usa immagini di riferimento che non mostrano direttamente il volto del personaggio protetto
-- Seedance riconosce il contesto (costumi, ambientazione) e inferisce il personaggio
-
-### Restrizione 2: Contenuti Violenti
-
-- **NON usare parole come:** fight, battle, destroy, kill, blood, brutal, attack, punch, slash
-- **USA alternative cinematografiche:** "intense power confrontation", "dramatic energy clash", "powerful forces meeting", "epic visual impact"
-- **Avvolgi l'azione in un contesto narrativo:** Invece di "a person fires a rifle" scrivi "a rider on a horse galloping through a snowy landscape raises an old rifle overhead and fires once into the gray sky as a signal"
-
-### Restrizione 3: Volti Realistici
-
-- **Metodo griglia 3x3** (vedi sezione Tecniche Avanzate)
-- **Metodo 3D-to-Fotorealistico** (vedi sezione Tecniche Avanzate)
-- **NON usare parole come:** boy, girl, child, kid, young (trigger immediato del filtro)
-- **Usa ruoli al posto di descrizioni:** "a rider on a gray horse" invece di "a young boy"
-
-### Restrizione 4: Figure Pubbliche
-
-- **Personaggi "intoccabili":** Leader politici cinesi, icone nazionali cinesi (es. Jackie Chan per certi tipi di contenuto)
-- **Personaggi consentiti:** Altre figure pubbliche internazionali (con cautela)
-- **Nota:** I dialoghi sono quasi sempre sicuri, anche con nomi di personaggi protetti
-- **Trucco per le foto personali:** Assicurati che le foto che carichi siano state pubblicate pubblicamente online (il sistema verifica)
-
-### Restrizione 5: "Skinless" e Descrizioni Grottesche
-
-- Evita descrizioni di anatomia esposta, pelle mancante, ecc.
-- Es: Per il Colossal Titan di Attack on Titan, scrivi semplicemente "the Titan" senza descriverlo come "skinless"
-- Una volta passato il filtro, il modello sa comunque cosa generare
-
-### Consiglio Generale Anti-Censura (da CyberJungle):
-
-> "La cosa piu semplice per generare video e usare image-to-video e mantenere i prompt CORTI per minimizzare il rischio. Inizia con un'immagine e scrivi un prompt semplice - il modello capira che si tratta di una produzione cinematografica e che non hai intenzioni nocive."
-
-### Nota Importante sulla "AI generated character" (da Julie Li):
-
-> "Scrivo intenzionalmente che si tratta di un 'AI generated character' nel prompt - questo implica che non e un essere umano reale, aiutando a superare il censore."
+1. **Seedance is perfect for social media and YouTube** but NOT for 4K/cinema distribution.
+2. **ALWAYS use an AI video upscaler** (e.g. Topaz) before professional use.
+3. **For flickering**, use a de-flicker plugin in DaVinci Resolve or Premiere Pro.
+4. **Large movements work better than small ones.** For emotional scenes, keep the character relatively static.
+5. **The stop-motion style is the most impressive** on Seedance - almost perfect.
+6. **Animation styles (2D, 3D, stop-motion)** are where Seedance truly shines compared to the competition.
 
 ---
 
-## RIEPILOGO OPERATIVO: CHECKLIST PER OGNI GENERAZIONE
+## TRICKS TO BYPASS RESTRICTIONS {#restriction-tricks}
 
-- [ ] Hai definito lo **stile visivo** all'inizio del prompt?
-- [ ] Hai specificato **soggetto + azione + scena + camera + illuminazione**?
-- [ ] Hai aggiunto il **suffisso qualita** (4K, ultra HD, ecc.)?
-- [ ] Hai aggiunto i **vincoli** (no subtitles, maintain consistency)?
-- [ ] Hai verificato l'**aspect ratio** corretto?
-- [ ] Hai verificato la **durata** appropriata?
-- [ ] Hai caricato **immagini di riferimento** per i personaggi?
-- [ ] Le reference hanno lo **stesso outfit** della scena?
-- [ ] Hai specificato le **forme/trasformazioni** dei personaggi (se applicabile)?
-- [ ] Il prompt usa **UNA SOLA LINGUA**?
-- [ ] Hai aggiunto **"no background music"** se devi montare piu clip?
-- [ ] Hai aggiunto **"no subtitles"** se c'e dialogo?
-- [ ] Hai usato **nomi alternativi** per personaggi sotto copyright?
-- [ ] Hai evitato **parole violente** che potrebbero triggerare il filtro?
-- [ ] Stai usando **Fast** (a meno che non sia necessario Pro)?
+### Restriction 1: Copyrighted Characters
+
+**Method A - Rename (from jylfeng):**
+- Change character names to similar names
+- E.g.: "Jamie Lannister" becomes "James", "Aragorn" becomes "Eric"
+- The model WILL still recognize the character from the reference image
+
+**Method B - Description without name (from jylfeng):**
+- Describe the appearance without using the name
+- E.g.: "A teenage boy with brown glasses, messy dark hair, and a lightning bolt scar on his forehead"
+- Don't include the character's face in the reference image
+
+**Method C - Prompt in Chinese/Mandarin (from Oprelia AI):**
+- Translate the prompt into Chinese Mandarin
+- The Chinese version's filter is less restrictive
+- Higher chance of passing content that would be blocked in English
+
+**Method D - Faceless images (from jylfeng):**
+- Use reference images that don't directly show the protected character's face
+- Seedance recognizes the context (costumes, setting) and infers the character
+
+### Restriction 2: Violent Content
+
+- **DON'T use words like:** fight, battle, destroy, kill, blood, brutal, attack, punch, slash
+- **USE cinematic alternatives:** "intense power confrontation", "dramatic energy clash", "powerful forces meeting", "epic visual impact"
+- **Wrap the action in a narrative context:** Instead of "a person fires a rifle" write "a rider on a horse galloping through a snowy landscape raises an old rifle overhead and fires once into the gray sky as a signal"
+
+### Restriction 3: Realistic Faces
+
+- **3x3 grid method** (see Advanced Techniques section)
+- **3D-to-Photorealistic method** (see Advanced Techniques section)
+- **DON'T use words like:** boy, girl, child, kid, young (immediate filter trigger)
+- **Use roles instead of descriptions:** "a rider on a gray horse" instead of "a young boy"
+
+### Restriction 4: Public Figures
+
+- **"Untouchable" characters:** Chinese political leaders, Chinese national icons (e.g. Jackie Chan for certain types of content)
+- **Allowed characters:** Other international public figures (with caution)
+- **Note:** Dialogue is almost always safe, even with protected character names
+- **Trick for personal photos:** Make sure the photos you upload have been publicly published online (the system verifies)
+
+### Restriction 5: "Skinless" and Grotesque Descriptions
+
+- Avoid descriptions of exposed anatomy, missing skin, etc.
+- E.g.: For the Colossal Titan from Attack on Titan, simply write "the Titan" without describing it as "skinless"
+- Once past the filter, the model still knows what to generate
+
+### General Anti-Censorship Advice (from CyberJungle):
+
+> "The simplest thing for generating videos is to use image-to-video and keep prompts SHORT to minimize risk. Start with an image and write a simple prompt - the model will understand it's a cinematic production and that you have no harmful intent."
+
+### Important Note about "AI generated character" (from Julie Li):
+
+> "I intentionally write that it's an 'AI generated character' in the prompt - this implies it's not a real human being, helping bypass the censor."
 
 ---
 
-## RISORSE UTILI MENZIONATE NEI VIDEO
+## OPERATIONAL SUMMARY: CHECKLIST FOR EVERY GENERATION
 
-- **Noble Goose GPT Prompter:** Tool personalizzato per Claude/ChatGPT/Gemini che genera prompt ottimizzati per Seedance 2.0 (link nella descrizione del suo video)
-- **Nano Banana Pro / Nano Banana 2:** Per generare immagini base, storyboard a griglia, conversione foto-to-3D
-- **Higgsfield Cinema Studio:** Per generare key frame che definiscono il look del progetto
-- **DaVinci Resolve / Premiere Pro:** Per editing, de-flickering, color grading post-generazione
-- **AI Video Upscaler (Topaz o simili):** Essenziale per portare i video da 720p a risoluzione professionale
-- **Claude / ChatGPT / Gemini:** Per generare descrizioni di stile, prompt strutturati, character sheets
+- [ ] Have you defined the **visual style** at the beginning of the prompt?
+- [ ] Have you specified **subject + action + scene + camera + lighting**?
+- [ ] Have you added the **quality suffix** (4K, ultra HD, etc.)?
+- [ ] Have you added **constraints** (no subtitles, maintain consistency)?
+- [ ] Have you verified the correct **aspect ratio**?
+- [ ] Have you verified the appropriate **duration**?
+- [ ] Have you uploaded **reference images** for characters?
+- [ ] Do the references have the **same outfit** as the scene?
+- [ ] Have you specified character **forms/transformations** (if applicable)?
+- [ ] Does the prompt use **ONE LANGUAGE ONLY**?
+- [ ] Have you added **"no background music"** if you need to edit multiple clips?
+- [ ] Have you added **"no subtitles"** if there's dialogue?
+- [ ] Have you used **alternative names** for copyrighted characters?
+- [ ] Have you avoided **violent words** that might trigger the filter?
+- [ ] Are you using **Fast** (unless Pro is necessary)?
 
 ---
 
-*Documento compilato analizzando 10 video tutorial per un totale di oltre 3 ore di contenuto. Tutti i link sono funzionanti alla data di compilazione. Per aggiornamenti sulle restrizioni e nuove funzionalita, controllare i commenti fissati dei rispettivi video.*
+## USEFUL RESOURCES MENTIONED IN THE VIDEOS
+
+- **Noble Goose GPT Prompter:** Custom tool for Claude/ChatGPT/Gemini that generates optimized prompts for Seedance 2.0 (link in his video description)
+- **Nano Banana Pro / Nano Banana 2:** For generating base images, grid storyboards, photo-to-3D conversion
+- **Higgsfield Cinema Studio:** For generating key frames that define the project look
+- **DaVinci Resolve / Premiere Pro:** For editing, de-flickering, color grading post-generation
+- **AI Video Upscaler (Topaz or similar):** Essential for upscaling videos from 720p to professional resolution
+- **Claude / ChatGPT / Gemini:** For generating style descriptions, structured prompts, character sheets
+
+---
+
+*Document compiled by analyzing 10 video tutorials totaling over 3 hours of content. All links are functional as of compilation date. For updates on restrictions and new features, check the pinned comments of the respective videos.*

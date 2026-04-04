@@ -1,203 +1,203 @@
-# Stai Animando le Caption nel Modo Sbagliato - Il Sistema Corretto
+# You're Animating Captions the Wrong Way - The Right System
 
-> **Autore:** Patrik Key
+> **Author:** Patrik Key
 > **Video:** https://www.youtube.com/watch?v=hjNH5JUVgEw
-> **Concetto chiave:** Il sistema esatto per creare caption animate stile pro con 3 movimenti master riutilizzabili
+> **Key concept:** The exact system for creating pro-style animated captions with 3 reusable master movements
 
 ---
 
-## I 3 Step Fondamentali
+## The 3 Fundamental Steps
 
-Se non padroneggi questi 3 step, non otterrai gli stessi risultati.
-
----
-
-## Step 1: La Base - I Due Font
-
-Devi scegliere **2 font** e decidere i loro ruoli:
-
-| Tipo | Ruolo | Uso |
-|------|-------|-----|
-| **Font Primario** | Contesto | Parole di contenuto principale |
-| **Font Secondario** | Emozione | Highlight di keyword e parole emotive |
-
-> **Trucco:** Se tratti ogni parola allo stesso modo, nulla risalta. Il font primario gestisce il contesto, il secondario gestisce le emozioni e gli highlight.
+If you don't master these 3 steps, you won't get the same results.
 
 ---
 
-## Step 2: Stilizzare il Testo PRIMA di Generare le Caption
+## Step 1: The Foundation - The Two Fonts
 
-### Impostazioni del Font Primario (Helvetica):
+You need to choose **2 fonts** and decide their roles:
+
+| Type | Role | Use |
+|------|------|-----|
+| **Primary Font** | Context | Main content words |
+| **Secondary Font** | Emotion | Keyword and emotional word highlights |
+
+> **Trick:** If you treat every word the same way, nothing stands out. The primary font handles context, the secondary handles emotions and highlights.
+
+---
+
+## Step 2: Style the Text BEFORE Generating Captions
+
+### Primary Font Settings (Helvetica):
 1. Font: **Helvetica**
-2. Attiva **Bold**
-3. Attiva **Uppercase**
-4. **Character Level** (spaziatura caratteri): **-2**
-5. **Stroke** (contorno): circa **4**
-6. **Shadow**: opacity circa **70**
+2. Enable **Bold**
+3. Enable **Uppercase**
+4. **Character Level** (character spacing): **-2**
+5. **Stroke** (outline): about **4**
+6. **Shadow**: opacity about **70**
 
-### Animazione:
-1. Vai su **Animation**
-2. Imposta **Blur** sia su **In** che su **Out**
-3. Durata: **0.6 secondi**
+### Animation:
+1. Go to **Animation**
+2. Set **Blur** on both **In** and **Out**
+3. Duration: **0.6 seconds**
 
-> Queste impostazioni creano un look professionale e cinematico.
-
----
-
-## Step 3: Creare i 3 Movimenti Master
-
-Questi 3 movimenti si riusano per tutto il video. Creali una volta, replicali all'infinito.
-
-### Setup Iniziale:
-1. Clicca **Generate Captions**
-2. Prendi il layer e portalo sopra
-3. Nascondi il layer con **V**
-4. Posiziona il layer poco sotto il mento
+> These settings create a professional and cinematic look.
 
 ---
 
-### Movimento 1: Slide Left (Da Sinistra al Centro)
+## Step 3: Create the 3 Master Movements
 
-1. Vai all'**inizio** del layer
-2. Attiva **keyframe su Transform**
-3. Attiva **keyframe su Blend** (opacity)
-4. Tieni **Shift** + premi **freccia destra 10 volte** (= 10 frame avanti)
-5. Attiva un altro keyframe su Transform e Blend
-6. Torna al **primo keyframe**:
-   - **Opacity** = 0 (crea fade in)
-   - **Position X** = **-600** (parte da sinistra)
-7. **Smoothing:** Apri Variable Speed Animation > seleziona entrambi i keyframe > **Shift + W** (shortcut per smoothare)
-8. Fai lo stesso per l'opacity
+These 3 movements are reused throughout the entire video. Create them once, replicate them endlessly.
 
-> **Shortcut Shift + W** = smooth automatico dei keyframe selezionati
+### Initial Setup:
+1. Click **Generate Captions**
+2. Take the layer and bring it up
+3. Hide the layer with **V**
+4. Position the layer just below the chin
 
 ---
 
-### Movimento 2: Slide Right (Da Destra al Centro)
+### Movement 1: Slide Left (From Left to Center)
 
-1. **Duplica** il layer Slide Left
-2. Vai al primo keyframe
-3. Cambia **Position X** da -600 a **+600**
+1. Go to the **beginning** of the layer
+2. Enable **keyframe on Transform**
+3. Enable **keyframe on Blend** (opacity)
+4. Hold **Shift** + press **right arrow 10 times** (= 10 frames forward)
+5. Enable another keyframe on Transform and Blend
+6. Go back to the **first keyframe**:
+   - **Opacity** = 0 (creates fade in)
+   - **Position X** = **-600** (starts from the left)
+7. **Smoothing:** Open Variable Speed Animation > select both keyframes > **Shift + W** (shortcut for smoothing)
+8. Do the same for opacity
 
-> Tutto il resto rimane identico.
-
----
-
-### Movimento 3: Slide Up (Dal Basso verso l'Alto)
-
-1. **Duplica** il layer
-2. Nascondi con **V**
-3. Vai al primo keyframe
-4. **Position X** = **0** (non si muove orizzontalmente)
-5. **Position Y** = **-1200** (parte dal basso)
-6. Apri il **Graph Editor** e smooth tutti i keyframe
-
-> Direzione diversa = devi ri-smoothare nel graph editor.
+> **Shortcut Shift + W** = automatic smoothing of selected keyframes
 
 ---
 
-### Organizzazione dei Movimenti:
+### Movement 2: Slide Right (From Right to Center)
 
-1. Rinomina i 3 layer:
+1. **Duplicate** the Slide Left layer
+2. Go to the first keyframe
+3. Change **Position X** from -600 to **+600**
+
+> Everything else stays identical.
+
+---
+
+### Movement 3: Slide Up (From Bottom to Top)
+
+1. **Duplicate** the layer
+2. Hide with **V**
+3. Go to the first keyframe
+4. **Position X** = **0** (doesn't move horizontally)
+5. **Position Y** = **-1200** (starts from the bottom)
+6. Open the **Graph Editor** and smooth all keyframes
+
+> Different direction = you need to re-smooth in the graph editor.
+
+---
+
+### Organizing the Movements:
+
+1. Rename the 3 layers:
    - `Slide Left`
    - `Slide Right`
    - `Slide Up`
-2. **Copia tutti e 3** e incollali alla **fine della clip** (backup per non perderli)
+2. **Copy all 3** and paste them at the **end of the clip** (backup so you don't lose them)
 
 ---
 
-## Creare le Caption con i Movimenti
+## Creating Captions with the Movements
 
-### Procedura:
-1. Crea un **Compound Clip** per ognuno dei 3 layer (separatamente)
-2. Scrivi la prima parola nel layer appropriato
-3. Posiziona visivamente sotto la caption precedente
+### Procedure:
+1. Create a **Compound Clip** for each of the 3 layers (separately)
+2. Write the first word in the appropriate layer
+3. Visually position below the previous caption
 
-### Esempio Pratico ("If you buy make smooth captions in CapCut"):
+### Practical Example ("If you buy make smooth captions in CapCut"):
 
-| Parola | Movimento | Note |
-|--------|-----------|------|
-| "if" | Slide Up | Font primario |
-| "you" | Slide Left | Font primario |
-| "buy" | Slide Left | Font primario, layer 3 |
+| Word | Movement | Notes |
+|------|----------|-------|
+| "if" | Slide Up | Primary font |
+| "you" | Slide Left | Primary font |
+| "buy" | Slide Left | Primary font, layer 3 |
 | "make" | Slide Left | Compound, font size ~18 |
 | "smooth" | Slide Up | Font size ~20 |
-| "captions" | Slide Right | **Font secondario** (Shell), title case, no bold, character level 0 |
+| "captions" | Slide Right | **Secondary font** (Shell), title case, no bold, character level 0 |
 
-### Per Ogni Parola:
-1. Duplica il movimento che vuoi usare
-2. Posiziona sulla timeline
-3. Cambia il testo
-4. Regola dimensione font se necessario
-5. Crea **Compound Clip**
-6. Posiziona visivamente nel frame
+### For Each Word:
+1. Duplicate the movement you want to use
+2. Position on the timeline
+3. Change the text
+4. Adjust font size if needed
+5. Create **Compound Clip**
+6. Visually position in the frame
 
 ### Timing:
-- Seleziona tutti i layer
-- **Offsetta** ogni layer per allinearsi con il parlato
-- Ogni parola appare quando viene detta
+- Select all layers
+- **Offset** each layer to align with the speech
+- Each word appears when it's spoken
 
 ---
 
-## Highlight delle Parole Chiave
+## Keyword Highlighting
 
-1. Apri il compound della parola da evidenziare
-2. Seleziona il **text layer** interno
-3. **Cambia il colore** della parola
+1. Open the compound of the word to highlight
+2. Select the **inner text layer**
+3. **Change the color** of the word
 
-> Questo fa risaltare le keyword importanti rispetto al resto delle caption.
+> This makes important keywords stand out from the rest of the captions.
 
 ---
 
-## Font Secondario - Impostazioni
+## Secondary Font - Settings
 
-Quando usi il font secondario (es. per "captions"):
+When using the secondary font (e.g. for "captions"):
 
-| Impostazione | Valore |
-|--------------|--------|
-| Font | Shell (o altro secondario) |
-| Bold | **Disattivato** |
+| Setting | Value |
+|---------|-------|
+| Font | Shell (or other secondary) |
+| Bold | **Disabled** |
 | Character Level | **0** (reset) |
-| Title Case | **Attivato** |
-| Font Size | Piu grande del primario |
+| Title Case | **Enabled** |
+| Font Size | Larger than the primary |
 
 ---
 
-## Workflow Completo Riassunto
+## Complete Workflow Summary
 
 ```
-1. STILIZZA il testo (Helvetica, bold, uppercase, -2 char, stroke 4, shadow 70)
-2. ANIMA con Blur in/out a 0.6s
-3. CREA i 3 movimenti master (Left, Right, Up)
-4. RINOMINA e SALVA i movimenti come backup
-5. Per ogni parola:
-   a. Duplica il movimento giusto
-   b. Cambia il testo
-   c. Crea compound
-   d. Posiziona nel frame
-   e. Offsetta per il timing
-6. HIGHLIGHT le keyword con il font secondario + colore diverso
-7. RIPETI per tutto il video
+1. STYLE the text (Helvetica, bold, uppercase, -2 char, stroke 4, shadow 70)
+2. ANIMATE with Blur in/out at 0.6s
+3. CREATE the 3 master movements (Left, Right, Up)
+4. RENAME and SAVE the movements as backup
+5. For each word:
+   a. Duplicate the right movement
+   b. Change the text
+   c. Create compound
+   d. Position in the frame
+   e. Offset for timing
+6. HIGHLIGHT keywords with secondary font + different color
+7. REPEAT for the entire video
 ```
 
 ---
 
-## Shortcuts Importanti
+## Important Shortcuts
 
-| Shortcut | Azione |
+| Shortcut | Action |
 |----------|--------|
-| **V** | Nascondi/Mostra layer |
-| **Shift + freccia** | Avanza di 10 frame |
-| **Shift + W** | Smooth keyframe selezionati |
-| **Option + G** (Mac) | Crea Compound Clip |
+| **V** | Hide/Show layer |
+| **Shift + arrow** | Advance 10 frames |
+| **Shift + W** | Smooth selected keyframes |
+| **Option + G** (Mac) | Create Compound Clip |
 | **S** | Split All |
 
 ---
 
-## Note Finali
+## Final Notes
 
-- All'inizio ci vuole tempo, ma diventa **memoria muscolare**
-- I 3 movimenti master sono la chiave: creali una volta, usali per sempre
-- Mescola i movimenti per varieta visiva
-- Il font secondario crea **gerarchia visiva** nelle caption
-- Versione CapCut consigliata: **6.40+**
+- It takes time at first, but it becomes **muscle memory**
+- The 3 master movements are the key: create them once, use them forever
+- Mix movements for visual variety
+- The secondary font creates **visual hierarchy** in captions
+- Recommended CapCut version: **6.40+**

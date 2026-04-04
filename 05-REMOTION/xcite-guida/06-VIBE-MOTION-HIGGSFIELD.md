@@ -1,104 +1,104 @@
 # The Secret Weapon Every Motion Designer Will Use in 2026
-**Fonte:** [YouTube — Higgsfield AI](https://www.youtube.com/watch?v=yvuVH6Zg5Vk)
-**Autore:** Adil (Higgsfield AI)
+**Source:** [YouTube — Higgsfield AI](https://www.youtube.com/watch?v=yvuVH6Zg5Vk)
+**Author:** Adil (Higgsfield AI)
 
 ---
 
-## Cos'e' Higgsfield Vibe Motion
+## What is Higgsfield Vibe Motion
 
-Un tool che combina il **reasoning di Anthropic Claude** con un **canvas di editing real-time**. Non genera un video fisso (come Sora/Veo) — genera un **progetto editabile e dinamico**.
+A tool that combines the **reasoning of Anthropic Claude** with a **real-time editing canvas**. It doesn't generate a fixed video (like Sora/Veo) — it generates an **editable, dynamic project**.
 
 > "Think of it as **vibe coding for motion design**. This new model doesn't just generate a flat video file that you're stuck with. It generates an editable dynamic project."
 
-### Differenza chiave vs Sora/Veo
-- **Sora/Veo**: output fisso, se non ti piace devi rigenerare
-- **Vibe Motion**: output editabile — cambi font, colori, layout, tutto in real-time
-- Sei un **direttore creativo**, non solo chi scrive il prompt
+### Key difference vs Sora/Veo
+- **Sora/Veo**: fixed output, if you don't like it you have to regenerate
+- **Vibe Motion**: editable output — change fonts, colors, layout, everything in real-time
+- You are a **creative director**, not just the person writing the prompt
 
 ---
 
-## Come funziona
+## How it works
 
-1. Vai sul sito → click **Vibe Motion**
-2. Scegli un **preset** oppure parti da zero
-3. **Carica asset** (logo, SVG, PNG, qualsiasi formato)
-4. Scrivi il **prompt** descrivendo l'animazione
-5. L'AI genera un progetto **real-time editabile**
-6. **Tweaka tutto**: testo, colori, background, layout — aggiornamento istantaneo
+1. Go to the website → click **Vibe Motion**
+2. Choose a **preset** or start from scratch
+3. **Upload assets** (logo, SVG, PNG, any format)
+4. Write the **prompt** describing the animation
+5. The AI generates a **real-time editable project**
+6. **Tweak everything**: text, colors, background, layout — instant update
 
-### Tipi di input supportati
-- Logo PNG
-- File SVG
-- Immagini prodotto
-- Nessun asset (genera da zero)
+### Supported input types
+- PNG logos
+- SVG files
+- Product images
+- No assets (generate from scratch)
 
-### Presets disponibili
-- **Poster** — per social media/Instagram reels
-- **From scratch** — prompt libero completo
+### Available presets
+- **Poster** — for social media/Instagram reels
+- **From scratch** — fully open prompt
 
 ---
 
-## Esempi dal video
+## Examples from the video
 
-### Esempio 1 — Logo Animation (Easy)
+### Example 1 — Logo Animation (Easy)
 **Prompt:** "Animate this logo in stroke glow style and Higgsfield AI is revealed below it"
-**Risultato:** Animazione pulita del logo con glow effect, testo rivelato sotto
+**Result:** Clean logo animation with glow effect, text revealed below
 
-### Esempio 2 — Prompt complesso con SVG multipli
+### Example 2 — Complex prompt with multiple SVGs
 **Prompt:** "Start with the word Higgsfield in a neon yellow green glow centered on a black background. Transition to a horizontal row of 10 uploaded icons flickering into view. Then zoom into a single square logo that pulses with light. Finally, show the hashtag #JoinHiggsfield being typed out with cursor. All maintaining a vibrant neon green glow in a sleek high contrast aesthetic."
-**Risultato:** Tutti i loghi, testo, animazioni perfette — pronto per il sito web
+**Result:** All logos, text, animations perfect — ready for the website
 
-### Esempio 3 — Data Visualization
+### Example 3 — Data Visualization
 **Prompt:** "Gather performance metrics for Pixel AI and animate it into a chart in the company's brand colors"
-**Risultato:** Metriche accurate, brand colors mantenuti, fonti citate in basso
-> Tool ha conoscenza di dati real-time
+**Result:** Accurate metrics, brand colors maintained, sources cited at the bottom
+> The tool has real-time data knowledge
 
-### Esempio 4 — Festival Poster (Preset: Poster)
-**Brief:** Instagram reel per Bougie Rock Festival in Giappone
+### Example 4 — Festival Poster (Preset: Poster)
+**Brief:** Instagram reel for Bougie Rock Festival in Japan
 **Prompt:** "Instagram reel showcasing the Bougie Rock Festival. Use a purple background with a Japanese gate to set the atmosphere. Animate the festival name, date, and location clearly so they're easily readable."
-**Risultato:** Animazione Instagram-ready, testo perfetto
+**Result:** Instagram-ready animation, perfect text
 > "This finally bridges the massive gap between Canva templates (too rigid) and After Effects (too complex). This is the perfect middle layer for high-end content at scale."
 
-### Esempio 5 — Product Catalog (Digital Homes)
-**Brief:** Catalogo digitale per Nova Home (case modulari hi-tech)
+### Example 5 — Product Catalog (Digital Homes)
+**Brief:** Digital catalog for Nova Home (hi-tech modular homes)
 **Workflow:**
-1. Raccogli reference (3 immagini per casa)
-2. Brainstorm motion (swipe one by one, nome + prezzo + feature)
-3. Prompt dettagliato
+1. Gather references (3 images per home)
+2. Brainstorm motion (swipe one by one, name + price + feature)
+3. Detailed prompt
 
 **Prompt:** "Animate these three home images like a digital catalog. Each home should swipe onto the screen one by one. Show the home name, price, and a key tag or sustainable feature next to each image. Keep it clean, smooth."
-**Risultato:** Case che scorrono perfettamente, info overlay accurati
+**Result:** Homes slide in perfectly, accurate info overlays
 
-### Esempio 6 — App UI/UX Prototype
-**Brief:** App per hotel unmanned — check-in + chiave digitale
+### Example 6 — App UI/UX Prototype
+**Brief:** Unmanned hotel app — check-in + digital key
 **Prompt:** "Generate an interactive smartphone UX UI prototype. Start with a check-in page and once the button is clicked, smoothly transition into the digital key page."
-**Risultato:** Prototipo funzionante con design generato automaticamente
+**Result:** Working prototype with automatically generated design
 > "It's amazing how fast we can see the app functionality in motion without building anything."
 
 ---
 
-## Posizionamento nel mercato
+## Market positioning
 
-| Tool | Pro | Contro |
-|------|-----|--------|
-| **Canva** | Facile | Template rigidi |
-| **After Effects** | Controllo totale | Troppo complesso, lento |
-| **Sora/Veo** | AI potente | Output fisso, no editing |
-| **Vibe Motion** | AI + editing real-time | Nuovo, da esplorare |
-
----
-
-## Takeaway per il nostro progetto X-Cite
-
-- **Prompt dettagliati** funzionano meglio — piu' dettagli = output migliore
-- **Stile "vibe coding"**: descrivere l'intenzione creativa, non i parametri tecnici
-- Il futuro del motion design e' **AI-directed, human-refined**
-- Possiamo usare prompt simili come ispirazione per le nostre scene Remotion
-- Il workflow "prompt → preview → tweak → export" e' simile a quello che facciamo con Remotion Studio
+| Tool | Pros | Cons |
+|------|------|------|
+| **Canva** | Easy | Rigid templates |
+| **After Effects** | Total control | Too complex, slow |
+| **Sora/Veo** | Powerful AI | Fixed output, no editing |
+| **Vibe Motion** | AI + real-time editing | New, to be explored |
 
 ---
 
-## Transcript completo (con timestamp)
+## Takeaways for our X-Cite project
+
+- **Detailed prompts** work better — more details = better output
+- **"Vibe coding" style**: describe the creative intent, not the technical parameters
+- The future of motion design is **AI-directed, human-refined**
+- We can use similar prompts as inspiration for our Remotion scenes
+- The "prompt → preview → tweak → export" workflow is similar to what we do with Remotion Studio
+
+---
+
+## Full transcript (with timestamps)
 
 ```
 [0:02] What if you could turn a simple text prompt into a polished motion design

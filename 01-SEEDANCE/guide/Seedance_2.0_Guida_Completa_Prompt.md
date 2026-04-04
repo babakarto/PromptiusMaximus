@@ -1,247 +1,247 @@
-# SEEDANCE 2.0 - GUIDA COMPLETA AI PROMPT PERFETTI
+# SEEDANCE 2.0 - COMPLETE GUIDE TO PERFECT PROMPTS
 
-> Raccolta completa di guide, tecniche, template e 100+ prompt pronti all'uso per creare video cinematografici con Seedance 2.0.
-
----
-
-## INDICE
-
-1. [Cos'e Seedance 2.0](#cose-seedance-20)
-2. [Struttura del Prompt Perfetto](#struttura-del-prompt-perfetto)
-3. [I 3 Framework Principali](#i-3-framework-principali)
-4. [Vocabolario Camera e Shot](#vocabolario-camera-e-shot)
-5. [Sistema @Reference Multimodale](#sistema-reference-multimodale)
-6. [Template Copia-Incolla per Categoria](#template-copia-incolla-per-categoria)
-7. [Negative Prompt e Cosa Evitare](#negative-prompt-e-cosa-evitare)
-8. [Tips Avanzati e Troubleshooting](#tips-avanzati-e-troubleshooting)
-9. [70+ Prompt Pronti all'Uso per Categoria](#70-prompt-pronti-alluso-per-categoria)
-10. [Risorse e Link Utili](#risorse-e-link-utili)
+> Complete collection of guides, techniques, templates and 100+ ready-to-use prompts for creating cinematic videos with Seedance 2.0.
 
 ---
 
-# 1. COS'E SEEDANCE 2.0
+## TABLE OF CONTENTS
 
-Seedance 2.0 e il modello AI di generazione video di nuova generazione di ByteDance, rilasciato a febbraio 2026. E il primo modello che supporta l'input simultaneo quad-modale (immagine, video, audio, testo).
-
-### Capacita Chiave
-
-- **Input Multimodale**: Testo + fino a 9 immagini + 3 video + 3 tracce audio di riferimento
-- **Controllo da Regista**: Movimenti camera, espressioni facciali, gesti, illuminazione, pacing tramite linguaggio naturale
-- **Audio-Video Sync Nativo**: Genera video completi con audio integrato; dialoghi sincronizzati con lip-sync
-- **Realismo Fisico Avanzato**: Architettura DiT con mani stabili, movimento naturale dei tessuti, gravita e collisioni accurate
-- **Consistenza dei Personaggi**: Volti, abbigliamento, tipo corporeo e stile visivo restano coerenti tra angolazioni e scene
-- **Risoluzione**: Fino a 1080p, durata 4-30 secondi
-- **Accesso**: Attualmente tramite Jimeng/Dreamina
+1. [What is Seedance 2.0](#what-is-seedance-20)
+2. [Perfect Prompt Structure](#perfect-prompt-structure)
+3. [The 3 Main Frameworks](#the-3-main-frameworks)
+4. [Camera and Shot Vocabulary](#camera-and-shot-vocabulary)
+5. [Multimodal @Reference System](#multimodal-reference-system)
+6. [Copy-Paste Templates by Category](#copy-paste-templates-by-category)
+7. [Negative Prompts and What to Avoid](#negative-prompts-and-what-to-avoid)
+8. [Advanced Tips and Troubleshooting](#advanced-tips-and-troubleshooting)
+9. [70+ Ready-to-Use Prompts by Category](#70-ready-to-use-prompts-by-category)
+10. [Resources and Useful Links](#resources-and-useful-links)
 
 ---
 
-# 2. STRUTTURA DEL PROMPT PERFETTO
+# 1. WHAT IS SEEDANCE 2.0
 
-## Formula Base
+Seedance 2.0 is ByteDance's next-generation AI video generation model, released in February 2026. It is the first model that supports simultaneous quad-modal input (image, video, audio, text).
+
+### Key Capabilities
+
+- **Multimodal Input**: Text + up to 9 images + 3 videos + 3 reference audio tracks
+- **Director-Level Control**: Camera movements, facial expressions, gestures, lighting, pacing via natural language
+- **Native Audio-Video Sync**: Generates complete videos with integrated audio; dialogues synchronized with lip-sync
+- **Advanced Physical Realism**: DiT architecture with stable hands, natural fabric movement, accurate gravity and collisions
+- **Character Consistency**: Faces, clothing, body type and visual style remain consistent across angles and scenes
+- **Resolution**: Up to 1080p, duration 4-30 seconds
+- **Access**: Currently via Jimeng/Dreamina
+
+---
+
+# 2. PERFECT PROMPT STRUCTURE
+
+## Basic Formula
 
 ```
-SOGGETTO + AZIONE + CAMERA + SCENA + STILE + VINCOLI
+SUBJECT + ACTION + CAMERA + SCENE + STYLE + CONSTRAINTS
 ```
 
-## Anatomia in 5 Parti (Framework WaveSpeed)
+## 5-Part Anatomy (WaveSpeed Framework)
 
-| # | Elemento | Cosa Fa | Esempio |
-|---|----------|---------|---------|
-| 1 | **Subject** | Chi o cosa appare nella scena | "30s ceramic mug on a workbench, matte white" |
-| 2 | **Action** | Cosa fa il soggetto (verbo presente, singolo) | "Steam rises as a hand slides the mug into frame" |
-| 3 | **Camera** | Come vediamo la scena (shot + movimento + lente) | "Medium close-up, slow dolly-in, eye level, normal lens" |
-| 4 | **Style** | L'aspetto visivo (un riferimento ancora) | "Soft morning window light, subtle film grain, muted palette" |
-| 5 | **Constraints** | Cosa tenere fisso, cosa escludere, timing | "No logos, no text overlays, hold on hand steady for 2s" |
+| # | Element | What It Does | Example |
+|---|---------|--------------|---------|
+| 1 | **Subject** | Who or what appears in the scene | "30s ceramic mug on a workbench, matte white" |
+| 2 | **Action** | What the subject does (present tense verb, single) | "Steam rises as a hand slides the mug into frame" |
+| 3 | **Camera** | How we see the scene (shot + movement + lens) | "Medium close-up, slow dolly-in, eye level, normal lens" |
+| 4 | **Style** | The visual look (one anchor reference) | "Soft morning window light, subtle film grain, muted palette" |
+| 5 | **Constraints** | What to keep fixed, what to exclude, timing | "No logos, no text overlays, hold on hand steady for 2s" |
 
-### Perche Questo Ordine Funziona
+### Why This Order Works
 
-- **Subject prima** ancora il modello a un punto centrale
-- **Action** e l'ancora cinetica per il movimento
-- **Camera** imposta la logica di inquadratura
-- **Style** aggiunge carattere senza interferire con l'azione
-- **Constraints** fungono da guardrail
+- **Subject first** anchors the model to a central point
+- **Action** is the kinetic anchor for movement
+- **Camera** sets the framing logic
+- **Style** adds character without interfering with the action
+- **Constraints** act as guardrails
 
-### Regole d'Oro
+### Golden Rules
 
-- **Lunghezza ottimale**: 100-280 parole (troppo corto = risultati vaghi, troppo lungo = diluisce il focus)
-- **Un verbo di movimento per shot** — combinare due verbi crea caos
-- **Il modello priorizza gli elementi che appaiono per primi** nel prompt
-- **Prompt specifici > prompt vaghi**: "The tires smoke as the car drifts 90 degrees" >> "car turns"
-- **Framing positivo**: Seedance risponde meglio a istruzioni affermative
-  - `Detailed hands`, `Anatomically correct` → anatomia migliore
-  - `Physically accurate`, `Natural motion` → movimento migliore
-  - `Ultra sharp`, `Masterpiece` → qualita visiva superiore
+- **Optimal length**: 100-280 words (too short = vague results, too long = dilutes focus)
+- **One movement verb per shot** — combining two verbs creates chaos
+- **The model prioritizes elements that appear first** in the prompt
+- **Specific prompts > vague prompts**: "The tires smoke as the car drifts 90 degrees" >> "car turns"
+- **Positive framing**: Seedance responds better to affirmative instructions
+  - `Detailed hands`, `Anatomically correct` → better anatomy
+  - `Physically accurate`, `Natural motion` → better movement
+  - `Ultra sharp`, `Masterpiece` → superior visual quality
 
 ---
 
-# 3. I 3 FRAMEWORK PRINCIPALI
+# 3. THE 3 MAIN FRAMEWORKS
 
-## Framework 1: Five-Segment Structure (Principianti)
+## Framework 1: Five-Segment Structure (Beginners)
 
-**Logica**: Subject + Scene/Atmosphere + Action/Performance + Camera Movement + Style/Lighting
+**Logic**: Subject + Scene/Atmosphere + Action/Performance + Camera Movement + Style/Lighting
 
-Ideale per video single-shot con composizioni semplici.
+Ideal for single-shot videos with simple compositions.
 
-**Esempio - Uomo con Ombrello Rosso:**
+**Example - Man with Red Umbrella:**
 
 > A serious man in a black overcoat, expression firm but tinged with melancholy. He slowly opens a red umbrella as raindrops slide along its edge. He stands on a neon-lit urban street; water splashes around him. The camera performs a slow push from a wide shot to a medium shot. Strong cinematic style, film grain, teal-orange color grading, 4K ultra HD, realistic physical simulation.
 
 ---
 
-## Framework 2: CRAFT (Progetti Multi-Asset)
+## Framework 2: CRAFT (Multi-Asset Projects)
 
 **C**ontext + **R**eference (@assets) + **A**ction + **F**raming/Timing + **T**one/Audio
 
-Ideale quando lavori con piu riferimenti (immagini, video, audio).
+Ideal when working with multiple references (images, video, audio).
 
-**Esempio - Scena Detective Film Noir:**
+**Example - Film Noir Detective Scene:**
 
 > Context: 1940s film noir detective office, heavy with smoke. Reference: Character face and wardrobe strictly follow @Image1; movement pacing is based on @Video1. Action: The detective steps out of the shadows, moves to the desk, and picks up a photograph, studying it with a grave expression. Framing: Dutch Angle composition with a tracking camera shot. Tone: Tense and melancholic atmosphere, classic film grain, background music @Audio1.
 
 ---
 
-## Framework 3: Timeline Storyboard (Narrativa Multi-Shot)
+## Framework 3: Timeline Storyboard (Multi-Shot Narrative)
 
-Dividi il video in segmenti temporali specifici (0-4s, 4-9s...) e descrivi cosa succede in ciascuno.
+Split the video into specific time segments (0-4s, 4-9s...) and describe what happens in each.
 
-**Esempio - Duello Samurai Epico:**
+**Example - Epic Samurai Duel:**
 
 > 0-4s: Wide shot. The samurai walks forward from a distance through a bamboo forest; wind ripples his clothing; morning mist fills the scene. Style: @Image1.
 > 4-9s: Medium tracking shot. He draws his sword and takes his opening stance; leaves fall around him.
 > 9-13s: Close-up. The blade cuts through the air; slow-motion water splashes.
 > 13-15s: Whip pan. Sword flashes, Japanese-inspired epic atmosphere.
 
-### Quale Framework Usare?
+### Which Framework to Use?
 
-| Obiettivo | Framework |
-|-----------|-----------|
-| Narrativa multi-shot | Timeline Storyboard |
-| Piu asset di riferimento | CRAFT |
-| Singolo shot o principiante | Five-Segment Structure |
+| Goal | Framework |
+|------|-----------|
+| Multi-shot narrative | Timeline Storyboard |
+| Multiple reference assets | CRAFT |
+| Single shot or beginner | Five-Segment Structure |
 
 ---
 
-# 4. VOCABOLARIO CAMERA E SHOT
+# 4. CAMERA AND SHOT VOCABULARY
 
-## Tipi di Shot
+## Shot Types
 
-| Tipo | Uso | Note |
-|------|-----|------|
-| **Wide** | Stabilisce spazio e contesto | Abbina con dolly lento o camera fissa; evita pan veloci |
-| **Medium** | Soggetto + contesto, dialogo | Handheld = personale; gimbal = professionale |
-| **Close-up** | Dettaglio ed emozione | Push-in piccoli funzionano meglio; pan possono risultare fastidiosi |
+| Type | Use | Notes |
+|------|-----|-------|
+| **Wide** | Establishes space and context | Pair with slow dolly or static camera; avoid fast pans |
+| **Medium** | Subject + context, dialogue | Handheld = personal; gimbal = professional |
+| **Close-up** | Detail and emotion | Small push-ins work best; pans can feel annoying |
 
-## Tipi di Movimento
+## Movement Types
 
-| Movimento | Effetto | Note |
-|-----------|---------|------|
-| **Pan** | Rotazione laterale per rivelare info | Tieni lento per evitare sbavature |
-| **Tilt** | Pan up/down per rivelare verticalmente | Tilt up = grandezza; Tilt down = scoperta |
-| **Dolly/Track** | Movimento fisico verso/da/lungo il soggetto | Cinematografico a qualsiasi velocita |
-| **Crane** | Movimento verticale | Implica grandiosita |
-| **Handheld** | Oscillazione leggera e micro-shake | Perfetto per UGC; rischioso vicino al testo |
-| **Gimbal** | Movimento fluido e stabilizzato | Aspetto professionale |
-| **Steadicam** | Long take fluido | Ideale per seguire personaggi |
+| Movement | Effect | Notes |
+|----------|--------|-------|
+| **Pan** | Lateral rotation to reveal info | Keep slow to avoid smearing |
+| **Tilt** | Pan up/down to reveal vertically | Tilt up = grandeur; Tilt down = discovery |
+| **Dolly/Track** | Physical movement toward/from/along the subject | Cinematic at any speed |
+| **Crane** | Vertical movement | Implies grandeur |
+| **Handheld** | Light sway and micro-shake | Perfect for UGC; risky near text |
+| **Gimbal** | Smooth stabilized movement | Professional look |
+| **Steadicam** | Smooth long take | Ideal for following characters |
 
-## Shot Speciali
+## Special Shots
 
-| Shot | Descrizione |
+| Shot | Description |
 |------|-------------|
-| **POV** | Prima persona |
-| **360 orbit** | Movimento avvolgente attorno al soggetto |
-| **Rack focus** | Cambio di fuoco tra primo piano e sfondo |
-| **Whip pan** | Transizione dinamica velocissima |
-| **Dutch angle** | Angolazione inclinata per tensione |
+| **POV** | First person |
+| **360 orbit** | Wrapping movement around the subject |
+| **Rack focus** | Focus shift between foreground and background |
+| **Whip pan** | Ultra-fast dynamic transition |
+| **Dutch angle** | Tilted angle for tension |
 
-## Descrittori Lenti (Evita Millimetri Esatti)
+## Lens Descriptors (Avoid Exact Millimeters)
 
-| Tipo | Equivalente |
-|------|-------------|
+| Type | Equivalent |
+|------|------------|
 | **Wide** | 24-28mm feel |
 | **Normal** | 35-50mm feel |
 | **Telephoto** | 85mm+ feel |
 
-## Velocita e Distanza
+## Speed and Distance
 
-Usa scalari con distanza approssimativa:
+Use scalars with approximate distance:
 - `slow dolly-in, 1-2 feet`
 - `medium pan right`
 - `fast whip pan left`
 
-### REGOLA CRITICA
-**Un verbo per shot.** Movimenti composti funzionano meglio come beat sequenziali:
+### CRITICAL RULE
+**One verb per shot.** Compound movements work better as sequential beats:
 > "Start: slow dolly-in. Then: gentle pan right for final 2 seconds"
 
 ---
 
-# 5. SISTEMA @REFERENCE MULTIMODALE
+# 5. MULTIMODAL @REFERENCE SYSTEM
 
-## Gerarchia dei Riferimenti
+## Reference Hierarchy
 
-| Tipo | Funzione | Priorita |
+| Type | Function | Priority |
 |------|----------|----------|
-| **@Audio** | Lip-sync e beat matching, timing edit | Ancora ritmica |
-| **@Video** | Trasferimento traiettorie di movimento e linguaggio camera | Ancora di movimento |
-| **@Image** | Blocco aspetto personaggio (volto, guardaroba, stile) | Ancora visiva |
+| **@Audio** | Lip-sync and beat matching, edit timing | Rhythmic anchor |
+| **@Video** | Transfer of movement trajectories and camera language | Motion anchor |
+| **@Image** | Lock character appearance (face, wardrobe, style) | Visual anchor |
 
-## Limiti
+## Limits
 
-- Fino a **9 immagini** di riferimento
-- Fino a **3 video** di riferimento
-- Fino a **3 tracce audio**
-- **Totale massimo: 12 asset** in un singolo prompt
+- Up to **9 reference images**
+- Up to **3 reference videos**
+- Up to **3 audio tracks**
+- **Maximum total: 12 assets** in a single prompt
 
-## Come Usare i Riferimenti
+## How to Use References
 
-### Generazione Base
+### Basic Generation
 ```
-@image1 as the first frame, [descrivi soggetto, azione, camera, scena]
-```
-
-### Lock Video di Riferimento
-```
-Reference @video1 for camera movement and shot language, [descrivi nuovo contenuto]
+@image1 as the first frame, [describe subject, action, camera, scene]
 ```
 
-### Combinazione Multi-Modale
+### Lock Reference Video
+```
+Reference @video1 for camera movement and shot language, [describe new content]
+```
+
+### Multi-Modal Combination
 ```
 @image1 as the first frame, reference @video1 for motion,
-@audio1 for rhythm and mood, [descrivi scena completa]
+@audio1 for rhythm and mood, [describe complete scene]
 ```
 
-### Imitazione Movimento
+### Motion Imitation
 ```
 Imitate the action of @Video1
 ```
-> Il modello prendera il personaggio dalla tua immagine e lo fara muovere come la persona nel video, tracciando fisica e timing perfettamente.
+> The model will take the character from your image and make it move like the person in the video, tracking physics and timing perfectly.
 
-### Editing Video
+### Video Editing
 ```
-Replace [elemento A] in @video1 with [elemento B], [vincoli aggiuntivi]
-```
-
-### Estensione Video
-```
-Extend @video1 by [X] seconds, [descrivi nuovo contenuto]
+Replace [element A] in @video1 with [element B], [additional constraints]
 ```
 
-## Best Practice per i Riferimenti
+### Video Extension
+```
+Extend @video1 by [X] seconds, [describe new content]
+```
 
-- **@Image**: Usa ritratti a mezzo busto con composizione semplice per i migliori risultati
-- **Consistenza personaggio**: Aggiungi sempre "Maintain facial features and wardrobe fully consistent with @Image1"
-- **Rinforzo testuale**: Ribadisci i tratti chiave nel testo anche con immagine di riferimento (es. "short silver hair", "mole under left eye")
-- **Ancora visiva**: Usa sempre la stessa reference facciale (@Image1) in tutti i prompt di un progetto
+## Best Practices for References
+
+- **@Image**: Use half-body portraits with simple composition for best results
+- **Character consistency**: Always add "Maintain facial features and wardrobe fully consistent with @Image1"
+- **Textual reinforcement**: Reiterate key traits in text even with a reference image (e.g. "short silver hair", "mole under left eye")
+- **Visual anchor**: Always use the same face reference (@Image1) across all prompts in a project
 
 ---
 
-# 6. TEMPLATE COPIA-INCOLLA PER CATEGORIA
+# 6. COPY-PASTE TEMPLATES BY CATEGORY
 
-## Template 1: UGC (Stile Phone-in-Hand)
+## Template 1: UGC (Phone-in-Hand Style)
 
 ```
-Subject: [persona, fascia eta, ambientazione]
+Subject: [person, age range, setting]
 
-Action: [parla casualmente di X mentre fa Y]
+Action: [casually talks about X while doing Y]
 
 Camera: Medium, handheld phone perspective, slight sway, eye level, normal lens feel
 
@@ -252,12 +252,12 @@ Constraints: No captions, no snap zooms, keep hands natural, 8-10s, keep backgro
 
 ---
 
-## Template 2: Product Ad (Pulito e Stabile)
+## Template 2: Product Ad (Clean and Stable)
 
 ```
-Subject: [nome prodotto/materiale/colore]
+Subject: [product name/material/color]
 
-Action: [ruota lentamente / scivola nell'inquadratura / movimento hero sottile]
+Action: [rotates slowly / slides into frame / subtle hero movement]
 
 Camera: Close-up to medium close-up, slow dolly-in, locked horizon, normal-to-tele feel
 
@@ -268,28 +268,28 @@ Constraints: No logos/labels, no flares, hold final frame 2s, 6-8s total
 
 ---
 
-## Template 3: Cinematico (Mood-First)
+## Template 3: Cinematic (Mood-First)
 
 ```
-Subject: [personaggio o luogo]
+Subject: [character or location]
 
-Action: [beat specifico: aspetta, si gira, respira, entra nella luce]
+Action: [specific beat: waits, turns, breathes, steps into the light]
 
 Camera: Wide establishing for 2s then slow push to medium, gimbal-smooth, eye level
 
-Style: [singolo riferimento ancora, es. "overcast natural light, muted blues"]
+Style: [single anchor reference, e.g. "overcast natural light, muted blues"]
 
 Constraints: No Dutch angles, no crowd, no neon, maintain overcast look, 10-12s
 ```
 
 ---
 
-## Template 4: Talking Head (Stabile e Leggibile)
+## Template 4: Talking Head (Stable and Readable)
 
 ```
-Subject: [descrizione speaker]
+Subject: [speaker description]
 
-Action: [pronuncia una frase chiara]
+Action: [delivers a clear sentence]
 
 Camera: Medium close-up, locked tripod or very subtle dolly-in, eye level
 
@@ -300,12 +300,12 @@ Constraints: No auto captions, no whip pans, skin tones natural, 12-15s, keep ey
 
 ---
 
-## Template 5: Montage (Beat Rapidi Senza Caos)
+## Template 5: Montage (Fast Beats Without Chaos)
 
 ```
-Subject: [tema, es. "morning coffee ritual"]
+Subject: [theme, e.g. "morning coffee ritual"]
 
-Action: Beat 1 [wide contesto], Beat 2 [close-up mani], Beat 3 [dettaglio vapore], Beat 4 [sorso]
+Action: Beat 1 [wide context], Beat 2 [close-up hands], Beat 3 [steam detail], Beat 4 [sip]
 
 Camera: Each beat 2s, clear shot size per beat, no compound moves: transitions by cut
 
@@ -316,12 +316,12 @@ Constraints: No text overlays, no speed ramps, keep tempo steady, 8-10s total
 
 ---
 
-## Template 6: Rotazione Prodotto 360 (E-commerce)
+## Template 6: 360 Product Rotation (E-commerce)
 
 ```
-Subject: [prodotto] on a pure white infinite studio background
+Subject: [product] on a pure white infinite studio background
 
-Action: rotating smoothly 360 degrees clockwise. [dettagli specifici del prodotto visibili]
+Action: rotating smoothly 360 degrees clockwise. [specific visible product details]
 
 Camera: Fixed macro camera, smooth turntable motion
 
@@ -335,14 +335,14 @@ Constraints: Logo and text remain perfectly consistent. No flicker.
 ## Template 7: Music Video Beat Sync (Audio Driven)
 
 ```
-Subject: [personaggio] dancing in [ambientazione]
+Subject: [character] dancing in [setting]
 
 Action: Every strong beat triggers a cut or speed-ramped camera move.
-[dettagli specifici dell'ambientazione]
+[specific setting details]
 
-Camera: [stile specifico], fast-paced editing, multi-shot continuity
+Camera: [specific style], fast-paced editing, multi-shot continuity
 
-Style: [stile visivo], neon reflections
+Style: [visual style], neon reflections
 
 Constraints: Dance movements and character appearance remain consistent.
 Reference: @Audio1 for beat sync + @Video1 for dance reference
@@ -353,14 +353,14 @@ Reference: @Audio1 for beat sync + @Video1 for dance reference
 ## Template 8: Digital Avatar / Explainer
 
 ```
-Subject: [descrizione persona/avatar, abbigliamento, eta]
+Subject: [person/avatar description, clothing, age]
 
-Action: [pausa, respira, inizia a parlare: "FRASE"]. Lip-sync aligns with @Audio1.
-[gesti naturali che accompagnano il discorso]
+Action: [pauses, breathes, begins to speak: "PHRASE"]. Lip-sync aligns with @Audio1.
+[natural gestures accompanying speech]
 
 Camera: Frontal medium shot, gentle push-in
 
-Style: [illuminazione], [tono colore], [atmosfera]
+Style: [lighting], [color tone], [atmosphere]
 
 Constraints: Consistent eye contact with camera. Expressions follow speech flow
 without feeling mechanical or repetitive. 12-15s.
@@ -368,106 +368,106 @@ without feeling mechanical or repetitive. 12-15s.
 
 ---
 
-# 7. NEGATIVE PROMPT E COSA EVITARE
+# 7. NEGATIVE PROMPTS AND WHAT TO AVOID
 
-## Checklist Negative Prompt
+## Negative Prompt Checklist
 
-### Rumore Visivo da Bannare
-- No text overlays, watermarks, floating UI, lens flares (a meno che specificato)
+### Visual Noise to Ban
+- No text overlays, watermarks, floating UI, lens flares (unless specified)
 
-### Prevenzione Drift Identita
+### Identity Drift Prevention
 - No extra characters, crowds, mirrors reflecting others
 
-### Controllo Caos Camera
-- No snap zooms, whip pans, Dutch angles, jump cuts (a meno che voluti)
+### Camera Chaos Control
+- No snap zooms, whip pans, Dutch angles, jump cuts (unless intentional)
 
-### Prevenzione Artefatti Corporei
+### Body Artifact Prevention
 - No extra fingers, deformed hands, warped handles, melting edges
 
 ### Branding
 - No logos, labels, recognizable brands
 
-### Colore/Grading
-- No neon lighting, heavy teal/orange, cartoon saturation (a meno che voluti)
+### Color/Grading
+- No neon lighting, heavy teal/orange, cartoon saturation (unless intentional)
 
-### Ambiente
-- No rain/fog/smoke (a meno che specificato), confetti, dust particles
+### Environment
+- No rain/fog/smoke (unless specified), confetti, dust particles
 
-### Audio/Testo
-- Ban auto captions se aggiungi voiceover in post-produzione
+### Audio/Text
+- Ban auto captions if adding voiceover in post-production
 
-### Nota Strategica
-Usa **3-5 negative per prompt**. Troppi ban rendono l'immagine piatta. Se gli artefatti persistono dopo due tentativi, modifica il testo del soggetto o semplifica le note camera piuttosto che aggiungere piu vincoli.
+### Strategic Note
+Use **3-5 negatives per prompt**. Too many bans make the image flat. If artifacts persist after two attempts, modify the subject text or simplify the camera notes rather than adding more constraints.
 
 ---
 
-# 8. TIPS AVANZATI E TROUBLESHOOTING
+# 8. ADVANCED TIPS AND TROUBLESHOOTING
 
-## Tips di Scrittura
+## Writing Tips
 
-### Fisicita e Peso
-Piuttosto che "car turns", specifica:
+### Physicality and Weight
+Rather than "car turns", specify:
 > "The tires smoke as the car drifts 90 degrees."
 
-Questo dice all'AI di calcolare attrito e forza, producendo risultati realistici in 2K.
+This tells the AI to calculate friction and force, producing realistic results in 2K.
 
-### Audio Nativo
-Includi terminologia specifica per il suono: "reverb", "muffled", "high-pitched" per attivare il motore audio nativo.
-> "metallic clink of a coin" genera un suono sharp sincronizzato con la vibrazione visiva.
+### Native Audio
+Include specific sound terminology: "reverb", "muffled", "high-pitched" to activate the native audio engine.
+> "metallic clink of a coin" generates a sharp sound synchronized with the visual vibration.
 
-### Illuminazione
-Specifica la qualita della luce: "God rays", "Volumetric fog", "Cyberpunk neon" — calcolano il rimbalzo della luce sulle superfici. Indica sempre se la luce e "soft", "harsh" o "flickering".
+### Lighting
+Specify the light quality: "God rays", "Volumetric fog", "Cyberpunk neon" -- these calculate light bounce on surfaces. Always indicate if the light is "soft", "harsh" or "flickering".
 
-### Timestamps per il Pacing
-Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
-> 00:00-00:04 – Wide Tracking Shot: [descrizione]
-> 00:04-00:07 – Cockpit / Tight Action Shot: [descrizione]
-> 00:07-00:10 – Epic Pull-Back: [descrizione]
+### Timestamps for Pacing
+When the scene has multiple moments, timestamps give much more control:
+> 00:00-00:04 – Wide Tracking Shot: [description]
+> 00:04-00:07 – Cockpit / Tight Action Shot: [description]
+> 00:07-00:10 – Epic Pull-Back: [description]
 
 ## Troubleshooting
 
-### Problema: Break di Consistenza Personaggio
-**Soluzione:** Aggiungi vincolo: "Keep the same character, same clothing, same hairstyle, no face changes, no flicker, high consistency."
+### Problem: Character Consistency Break
+**Solution:** Add constraint: "Keep the same character, same clothing, same hairstyle, no face changes, no flicker, high consistency."
 
-### Problema: Distorsione Mani e Testo
-**Soluzioni:**
-- Evita close-up veloci delle mani
-- Usa testo piu grande e centrato
-- Aggiungi: "hands with perfect anatomy, text clear and readable"
+### Problem: Hand and Text Distortion
+**Solutions:**
+- Avoid fast close-ups of hands
+- Use larger, centered text
+- Add: "hands with perfect anatomy, text clear and readable"
 
-### Problema: Artefatti di Movimento
-**Soluzioni:**
-- Cambia "fast" in "medium speed"
-- Usa video reference per bloccare il movimento
+### Problem: Movement Artifacts
+**Solutions:**
+- Change "fast" to "medium speed"
+- Use video reference to lock the movement
 
-### Problema: Troppa Casualita
-**Soluzioni:**
-- Carica piu riferimenti
-- Abbassa le impostazioni di creativita
-- Aggiungi piu vincoli nel prompt
+### Problem: Too Much Randomness
+**Solutions:**
+- Upload more references
+- Lower the creativity settings
+- Add more constraints in the prompt
 
-### Problema: Video Lunghi
-**Soluzione:** Genera clip perfette da 5-10s, poi usa la funzione di estensione video per continuare.
+### Problem: Long Videos
+**Solution:** Generate perfect 5-10s clips, then use the video extension function to continue.
 
-## Albero Decisionale per Re-Prompting
+## Re-Prompting Decision Tree
 
-| Problema | Azione |
-|----------|--------|
-| Inquadratura sbagliata, azione OK | Re-prompt: sistema prima Camera. Tieni Subject e Action identici |
-| Movimento troppo tremolante/veloce | Re-prompt: scambia "handheld" con "gimbal", imposta velocita |
-| Drift stile/colore, movimento OK | Re-prompt: sostituisci la riga Style con un'ancora piu forte, rimuovi aggettivi |
-| Soggetto che muta (persone/oggetti extra) dopo 2 tentativi | Cambia reference: semplifica Subject con meno descrittori |
-| Artefatti ripetuti dopo 3 tentativi | Cambia vincoli o piano shot; considera di allontanarti dal close-up |
+| Problem | Action |
+|---------|--------|
+| Wrong framing, action OK | Re-prompt: fix Camera first. Keep Subject and Action identical |
+| Movement too shaky/fast | Re-prompt: swap "handheld" with "gimbal", set speed |
+| Style/color drift, movement OK | Re-prompt: replace the Style line with a stronger anchor, remove adjectives |
+| Subject mutating (extra people/objects) after 2 attempts | Change reference: simplify Subject with fewer descriptors |
+| Repeated artifacts after 3 attempts | Change constraints or shot plan; consider moving away from close-up |
 
-**Gestione tempo**: Dai 2 re-prompt rapidi (sotto 5 minuti totali). Se continui a correggere lo stesso errore, cambia la reference o il tipo di shot.
-
----
-
-# 9. 70+ PROMPT PRONTI ALL'USO PER CATEGORIA
+**Time management**: Give 2 quick re-prompts (under 5 minutes total). If you keep correcting the same error, change the reference or shot type.
 
 ---
 
-## CATEGORIA 1: Cinematico - Narrativa e Dramma
+# 9. 70+ READY-TO-USE PROMPTS BY CATEGORY
+
+---
+
+## CATEGORY 1: Cinematic - Narrative and Drama
 
 ### 1. Pizza Shop Cinematic Sequence
 > Single continuous cinematic shot, no music. From outside the glass window, the dim camera slowly pushes inward into a pizza shop. A bearded white male employee is baking pizza. He removes the pizza from the oven with a metal tray, places it into a red takeaway box, closes the lid, and then hands it to a customer with a warm smile. Final shot: over-the-shoulder perspective.
@@ -495,7 +495,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 2: Azione, Combattimento e Inseguimenti
+## CATEGORY 2: Action, Combat and Chases
 
 ### 9. Green-Screen Fight Scene
 > Make the characters from Image 1 and Image 2 fight using the movements from the green-screen reference video. Setting: abandoned parking lot. Add visual effects during combat.
@@ -518,7 +518,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 ### 15. AAA Game-Style Fight
 > They meet in the dead of night and engage in a fight. The fighting style is incredibly flashy, the atmosphere is tense, and the camera work is cinematic. It's like a promotional trailer for a AAA game, featuring CG and Unreal Engine 5.
 
-### 16. Mirror Breakdown Scene (con @Reference)
+### 16. Mirror Breakdown Scene (with @Reference)
 > The woman in @Image1 walks up to the mirror and looks at her reflection. Her pose should reference @Image2. After a moment of contemplation, she suddenly breaks down and starts screaming. The action of grabbing the mirror, as well as the emotions and facial expressions during the breakdown and scream, should fully reference @Video1.
 
 ### 17. Battlefield Tactical Action
@@ -538,7 +538,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 3: Sport, Corse e Arti Marziali
+## CATEGORY 3: Sports, Racing and Martial Arts
 
 ### 22. Competitive Pairs Figure Skating
 > A live performance of competitive pairs figure skating. A low-angle camera follows the skaters, showing ice chips and reflections. During the spin section, the male skater miscalculates briefly, and the female skater adjusts to guide him back into rhythm. They perform a seamless lift with clean, stable lines, followed by synchronized jumps with straight postures, decisive landings, and perfect audio-visual sync. The female wears a dark blue skirt, and the male wears competitive sportswear.
@@ -560,7 +560,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 4: ASMR, Macro e Sensoriale
+## CATEGORY 4: ASMR, Macro and Sensory
 
 ### 28. ASMR Skincare Macro
 > Create a vertical ASMR video with no music, focusing on macro details. A light blue skincare gel bottle sits on glass. A pale, elegant hand gently taps the glass, producing crisp fingernail tapping sounds. The hand picks up the bottle and slowly twists the cap, with the rotation sound clearly audible. A spoon scoops a portion of gel and drops it onto the glass with a soft 'plop,' showing dense gel with tiny air bubbles. Dramatic cool lighting from behind makes the gel glow like a gemstone.
@@ -576,7 +576,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 5: Commerciale e Prodotto
+## CATEGORY 5: Commercial and Product
 
 ### 32. Luxury Perfume Commercial
 > An ultra-luxury perfume commercial with a dreamy electronic soundtrack and steady drum beats. Begin with a macro shot of a transparent rectangular glass bottle surrounded by violently swirling purple liquid. Capture the churning liquid with bubbles and splashes, accompanied by crisp water sounds. Dissolve into surface ripples of the purple liquid, then show a close-up of delicate iris flowers floating underwater. Cut to the perfume bottle tilted on a textured light surface, refracting dreamy halos. Shift style: a Latina female model elegantly lifts the perfume bottle to her neck and shoulder in a pure white high-end studio, gazing into the camera.
@@ -608,7 +608,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 6: Lifestyle, Cultura e Personaggi
+## CATEGORY 6: Lifestyle, Culture and Characters
 
 ### 40. Girlfriend POV Vlog
 > Create a 15-second vertical (9:16) handheld vlog in natural golden-hour light, with film grain and slight camera shake. Protagonist: A Taiwanese girl with long, slightly curled hair, wearing a soft knit cardigan. Scene: Taipei Tamsui riverbank at sunset. Shot 1: She walks quickly, looking back pretending to be annoyed. Shot 2: She stops, shows the golden sunset, smiling. Shot 3: She holds ice cream to the camera, licks it, giggles as some lands on her nose.
@@ -621,7 +621,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 7: Creativo, Multi-Reference e Workflow R2V
+## CATEGORY 7: Creative, Multi-Reference and R2V Workflow
 
 ### 43. Traversing Famous Paintings
 > @Image 1 The girl breaks the fourth wall, traversing multiple worlds of famous paintings while retaining realistic textures. She stands under the rotating starry sky in @Image 2; watches the couple embracing in @Image 3; takes a selfie with the Girl with a Pearl Earring in @Image 4; enters @Image 5 and passes between two samurai; makes faces with @Image 6; the Mona Lisa in @Image 7 pats her head; she exchanges greetings with the woman in @Image 8; paints with Van Gogh in @Image 9; finally turns to the camera and smiles sweetly. High contrast, cinematic quality, smooth transitions.
@@ -631,7 +631,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 8: Commedia e Concept
+## CATEGORY 8: Comedy and Concept
 
 ### 45. Avengers Alternate Scene
 > Avengers Endgame big fight scene, cinematic style. Thanos suddenly freezes the battle and holds up his hands, looking genuinely apologetic. The superheroes pause, looking surprised, and slowly start to nod and walk away, accepting his apology. Then Spider-Man shouts, 'Oh no, he literally killed a bajillion people!' Everyone immediately turns back and rushes at Thanos, comically tackling and kicking him. Add expressive facial reactions, dynamic poses, and humorous timing.
@@ -644,7 +644,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 9: Fantasy e Sci-Fi
+## CATEGORY 9: Fantasy and Sci-Fi
 
 ### 48. Alien Jungle Exploration
 > A team of explorers moves cautiously through a dense alien jungle, bioluminescent plants glowing softly around them. The camera pans and tilts to reveal enormous alien trees, mist rising from the ground, and strange creatures watching from a distance. The explorers wear advanced exosuits.
@@ -669,7 +669,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 10: Momenti Quieti e Slice of Life
+## CATEGORY 10: Quiet Moments and Slice of Life
 
 ### 55. Rainy Night Convenience Store
 > Single continuous shot. A young woman in an oversized hoodie pushes open a convenience store door. Rain streaks the glass behind her. Warm fluorescent light floods over her face. She walks slowly down the snack aisle, trailing one finger along the shelves. She stops, picks up cup noodles, reads the label, puts it back. She stands still. Camera holds on her face - neutral expression, eyes slightly distant. She grabs the noodles again and walks to the counter. Wide shot from outside as she pays, rain blurring the frame. No music. Only ambient store sounds and rain.
@@ -688,7 +688,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 11: Natura, Paesaggi e Meteo
+## CATEGORY 11: Nature, Landscapes and Weather
 
 ### 60. Deep Sea Bioluminescence Dive
 > First-person POV dive footage. A scuba diver descends into pitch-black ocean. Only the diver's torch cuts a narrow beam. At depth, the torch clicks off. Total darkness for two seconds. Then - faint blue pulses. Bioluminescent jellyfish drifts past trailing light. A school of fish materialises as a glowing spiral. The diver reaches out; fish scatter like sparks. Camera pans to reveal vast glowing coral below. Slow exhale. No music.
@@ -707,7 +707,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 12: Artigianato, Arte e Performance dal Vivo
+## CATEGORY 12: Craftsmanship, Art and Live Performance
 
 ### 65. Elderly Hands Crafting
 > Close-up, intimate documentary-style footage. An elderly craftsman's hands work clay on a potter's wheel. Extreme close-ups alternate: fingers pressing into clay, water spreading across the spinning surface, the form rising under steady pressure. Never cuts to his face. Only hands. Natural window light from one side. Audio: low hum of the wheel, wet clay sounds, distant birdsong. No music.
@@ -726,7 +726,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 13: Magia, Meraviglia e Trasformazione
+## CATEGORY 13: Magic, Wonder and Transformation
 
 ### 70. Children's Chalk Drawing Comes to Life
 > A child crouches on a sunlit pavement, drawing with chalk. Camera slowly pushes in on the drawing. The chalk lines shimmer and lift off the ground, animating: the dog wags its tail, birds take flight, the house glows. The child sits back, delighted. Camera pulls to wide overhead shot showing the chalk world fully surrounding her. Style: warm, soft Miyazaki-inspired palette. Light orchestral music builds.
@@ -739,7 +739,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 14: Cibo, Bevande e Cultura Urbana
+## CATEGORY 14: Food, Beverages and Urban Culture
 
 ### 73. Street Food Night Market
 > Handheld camera weaves through a crowded Southeast Asian night market. Golden light from hanging bulbs reflects off wet pavement. Tight tracking shots between stalls: a wok erupts in flame, skewers char on grill, a vendor's hands fold a banana leaf around sticky rice. Medium shot: young couple shares noodles at a plastic table, steam rising between them. Camera pulls back to wide shot of the whole market. No narration. Only ambient sound.
@@ -749,7 +749,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 15: Trailer Cinematografici (da SeaArt)
+## CATEGORY 15: Cinematic Trailers (from SeaArt)
 
 ### 75. Post-Apocalyptic Survivor
 > Wind whips sand across the ruins of a collapsed city. A 28-year-old female survivor stands on a crumbling structure. Her torn gray cape billows in the wind; face covered in dust and old scars. She tilts her head against the gust. Something shifts on the horizon - the blurred silhouette of a mechanical creature. She raises her gaze. Her breathing steadies. Eyes shift from confusion to resolve. Camera pushes from medium shot to close-up. Sandstorm softens, light breaks through dust. Post-apocalyptic sci-fi style, desaturated earth tones. Realistic wind physics, light diffusion, fabric movement.
@@ -768,7 +768,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 16: Danza
+## CATEGORY 16: Dance
 
 ### 80. Latin Dance
 > A Latin dance couple in a nocturnal tropical setting - she in a red dress, he in black shirt. 0-5s: Close spin at slow tempo; dress flows softly. 5-10s: Rhythm of @Audio1 intensifies - fast spins, leg lift, exchange of glances. 10-13s: Crossed-step sequence at denser beat. 13-15s: Musical pause and final pose in embrace. Camera transitions from circular medium shot to gradual close-up.
@@ -781,7 +781,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 17: Avatar Digitali / Explainer
+## CATEGORY 17: Digital Avatars / Explainer
 
 ### 83. Professional Speaker
 > A male speaker in his early 30s, navy suit, clean short hairstyle. Frontal medium shot, modern glass-wall office, softly blurred urban skyline. Gentle push-in. He pauses, takes soft breath, begins to speak: "AI is redefining the way we live." Lip-sync aligns with @Audio1. Hands accompany speech with natural gestures; occasional nod or slight smile. Consistent eye contact. Soft cinematic lighting, warm neutral tones.
@@ -797,7 +797,7 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 18: Featured Prompt dalla Community (GitHub)
+## CATEGORY 18: Featured Prompts from the Community (GitHub)
 
 ### 87. Surreal Ronin Action Scene
 > A surreal battlefield in the sky: floating rock islands drifting through a thunderstorm. A masked ronin fighting a colossal winged beast. Cinematic, 720p, 16:9, 15 seconds.
@@ -817,9 +817,9 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-## CATEGORIA 19: Multi-Shot Storytelling
+## CATEGORY 19: Multi-Shot Storytelling
 
-### 91. Robot Story (4 Scene)
+### 91. Robot Story (4 Scenes)
 > A lonely robot wakes up in an abandoned factory (Scene 1). It walks outside and sees a sunset wasteland (Scene 2). It discovers a small flower and gently touches it (Scene 3). Finally, it looks up and smiles at the sky (Scene 4). Keep robot appearance consistent. Emotional transition from confusion to warmth. Cinematic camera, warm tones, epic mood, no flicker.
 
 ### 92. Anime Girl Healing Entrance
@@ -830,222 +830,222 @@ Quando la scena ha piu momenti, i timestamp danno molto piu controllo:
 
 ---
 
-# 10. RISORSE E LINK UTILI
+# 10. RESOURCES AND USEFUL LINKS
 
-## Guide Complete Online
+## Complete Online Guides
 
-| Risorsa | Link |
+| Resource | Link |
 |---------|------|
-| Imagine.art - 70 Prompt | https://www.imagine.art/blogs/seedance-2-0-prompt-guide |
-| SeaArt - 20+ Esempi | https://www.seaart.ai/blog/seedance-2-0-prompt |
-| GLBGPT - Da Zero a Cinematico | https://www.glbgpt.com/hub/seedance-2-0-prompt-guide/ |
+| Imagine.art - 70 Prompts | https://www.imagine.art/blogs/seedance-2-0-prompt-guide |
+| SeaArt - 20+ Examples | https://www.seaart.ai/blog/seedance-2-0-prompt |
+| GLBGPT - From Zero to Cinematic | https://www.glbgpt.com/hub/seedance-2-0-prompt-guide/ |
 | WeShop - Master Prompt Script | https://www.weshop.ai/blog/seedance-2-0-guide-how-to-master-the-prompt-script/ |
-| Freepik - Come Scrivere Prompt | https://www.freepik.com/blog/how-to-write-prompts-for-seedance-2-0/ |
+| Freepik - How to Write Prompts | https://www.freepik.com/blog/how-to-write-prompts-for-seedance-2-0/ |
 | WaveSpeed - Template Framework | https://wavespeed.ai/blog/posts/blog-seedance-2-0-prompt-template/ |
 | Vmake - 10 Prompt Multi-Shot | https://vmake.ai/blog/seedance-2-0-prompts |
-| Atlabs - Guida 2026 | https://www.atlabs.ai/blog/seedance-2-prompts-guide |
+| Atlabs - Guide 2026 | https://www.atlabs.ai/blog/seedance-2-prompts-guide |
 | VideoWeb - Tutorial + Prompt | https://videoweb.ai/blog/detail/Seedance-2-0-Video-Generation-Guide-Tutorial-Prompts-578fb91b8f46/ |
 
-## Repository GitHub
+## GitHub Repositories
 
-| Repo | Link | Prompt |
-|------|------|--------|
-| awesome-seedance-2-prompts | https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts | 1078+ prompt |
-| awesome-seedance | https://github.com/ZeroLu/awesome-seedance | Raccolta curata |
+| Repo | Link | Prompts |
+|------|------|---------|
+| awesome-seedance-2-prompts | https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts | 1078+ prompts |
+| awesome-seedance | https://github.com/ZeroLu/awesome-seedance | Curated collection |
 
-## Gallery Interattive
+## Interactive Galleries
 
-| Piattaforma | Link |
+| Platform | Link |
 |-------------|------|
 | YouMind Gallery (video playback) | https://youmind.com/en-US/seedance-2-0-prompts |
 | Seedance 2 Prompt Gallery | https://seedance2prompt.org/ |
 
-## Piattaforme di Accesso
+## Access Platforms
 
-- **Jimeng / Dreamina** (piattaforma ufficiale ByteDance): accesso diretto a Seedance 2.0
-- **SeaArt AI**: integra modelli video avanzati incluso Kling 3.0 e Wan 2.6
+- **Jimeng / Dreamina** (official ByteDance platform): direct access to Seedance 2.0
+- **SeaArt AI**: integrates advanced video models including Kling 3.0 and Wan 2.6
 
 ---
 
-# CHEAT SHEET RAPIDO
+# QUICK CHEAT SHEET
 
 ```
-FORMULA PROMPT PERFETTO:
+PERFECT PROMPT FORMULA:
 Subject + Action + Camera + Scene + Style + Constraints
 
-LUNGHEZZA: 100-280 parole
-UN VERBO PER SHOT
-SOGGETTO PRIMA DI TUTTO
-POSITIVO > NEGATIVO ("detailed hands" non "no bad hands")
-3-5 NEGATIVE MASSIMO
-TIMESTAMPS PER MULTI-BEAT
+LENGTH: 100-280 words
+ONE VERB PER SHOT
+SUBJECT FIRST
+POSITIVE > NEGATIVE ("detailed hands" not "no bad hands")
+3-5 NEGATIVES MAXIMUM
+TIMESTAMPS FOR MULTI-BEAT
 
-REFERENCE:
-@Audio = ritmo e lip-sync
-@Video = movimento e camera
-@Image = aspetto personaggio
-Max: 9 img + 3 video + 3 audio = 12 totali
+REFERENCES:
+@Audio = rhythm and lip-sync
+@Video = movement and camera
+@Image = character appearance
+Max: 9 img + 3 video + 3 audio = 12 total
 
 CAMERA VOCABULARY:
-Wide = contesto | Medium = dialogo | Close = emozione
-Dolly = cinematografico | Handheld = personale | Gimbal = professionale
-Pan lento | Un movimento per shot | Lente: wide/normal/tele
+Wide = context | Medium = dialogue | Close = emotion
+Dolly = cinematic | Handheld = personal | Gimbal = professional
+Slow pan | One movement per shot | Lens: wide/normal/tele
 ```
 
 ---
 
 ---
 
-# APPENDICE A: VIDEO TUTORIAL - Character Consistency Secrets (DeepWhite)
+# APPENDIX A: VIDEO TUTORIAL - Character Consistency Secrets (DeepWhite)
 
 > **Video**: [Seedance 2.0 Advanced: Character Consistency Secrets + 3 Ideas & Prompt Templates](https://www.youtube.com/watch?v=I5xk9QiP7QM)
-> **Autore**: DeepWhite
+> **Author**: DeepWhite
 
-## Le 3 Lezioni Chiave
+## The 3 Key Lessons
 
-### 1. Le Reference Immagini Sono Fondamentali
-- Caricare o meno un'immagine di riferimento ha un **impatto enorme** sul risultato
-- Una singola foto frontale viene riconosciuta, ma le caratteristiche facciali non sono sempre mantenute al 100%
+### 1. Image References Are Fundamental
+- Whether or not you upload a reference image has a **huge impact** on the result
+- A single frontal photo is recognized, but facial features are not always maintained 100%
 
-### 2. Usa le 4 Viste del Personaggio (Four Views)
-- Caricare **4 viste del personaggio su sfondo bianco** (fronte, retro, lato, close-up) fa fare un **salto qualitativo** alla consistenza
-- Il personaggio diventa identico all'immagine di riferimento
-- Le espressioni dinamiche e gli storyboard risultano perfetti
-- Anche 3 viste funzionano, ma 4 sono raccomandate
+### 2. Use the 4 Character Views (Four Views)
+- Uploading **4 character views on white background** (front, back, side, close-up) produces a **quality leap** in consistency
+- The character becomes identical to the reference image
+- Dynamic expressions and storyboards turn out perfect
+- Even 3 views work, but 4 are recommended
 
-### 3. Prompt Dettagliati per Controllo Totale
-- Il modello e talmente potente che anche keyword semplici producono buoni risultati
-- Ma se hai un'idea precisa in mente, i prompt dettagliati permettono di esprimere la tua visione con precisione
-- Con prompt dettagliati + four views = il video segue perfettamente la tua idea
+### 3. Detailed Prompts for Total Control
+- The model is so powerful that even simple keywords produce good results
+- But if you have a precise idea in mind, detailed prompts allow you to express your vision with precision
+- With detailed prompts + four views = the video perfectly follows your idea
 
-## I 3 Metodi di Produzione
+## The 3 Production Methods
 
-Tutti e tre partono dalla base delle **4 viste del personaggio su sfondo bianco**.
+All three start from the base of **4 character views on white background**.
 
-### Metodo 1: Singola Immagine (First Frame) + Prompt
+### Method 1: Single Image (First Frame) + Prompt
 
-1. Pensa alla storia e alla trama
-2. Determina lo stile (fotorealistico, anime, cartoon, ecc.)
-3. Genera o trova un'immagine che rappresenta la prima inquadratura
-4. Scrivi il prompt dettagliato usando un template
-5. Carica le 4 viste del personaggio + la first frame
-6. **IMPORTANTE**: Dopo il caricamento, verifica che l'ordine delle immagini (@Image1, @Image2...) corrisponda a quello nel prompt
+1. Think about the story and plot
+2. Determine the style (photorealistic, anime, cartoon, etc.)
+3. Generate or find an image representing the first frame
+4. Write the detailed prompt using a template
+5. Upload the 4 character views + the first frame
+6. **IMPORTANT**: After uploading, verify that the image order (@Image1, @Image2...) matches the one in the prompt
 
-**Quando usarlo**: Buono per la maggior parte delle situazioni
+**When to use**: Good for most situations
 
-### Metodo 2: Storyboard a 4 Griglie + Prompt
+### Method 2: 4-Grid Storyboard + Prompt
 
-1. Crea uno storyboard con 4 pannelli che mostrano le scene chiave
-2. Combina con il template dei prompt
-3. Carica le 4 viste + lo storyboard
-4. Scrivi una descrizione generale della storia
+1. Create a storyboard with 4 panels showing key scenes
+2. Combine with the prompt template
+3. Upload the 4 views + the storyboard
+4. Write a general description of the story
 
-**Quando usarlo**: Ideale per scene con molti cambi, scene di battaglia, scene intense. Per drammi emotivi o letterari, puo risultare "troppo".
+**When to use**: Ideal for scenes with many changes, battle scenes, intense scenes. For emotional or literary dramas, it may be "too much".
 
-**Durata consigliata**: 10 o 15 secondi (meno non vale la pena con lo storyboard)
+**Recommended duration**: 10 or 15 seconds (shorter is not worth it with a storyboard)
 
-### Metodo 3: Approccio Multimodale
+### Method 3: Multimodal Approach
 
-1. Parti dalle reference del personaggio (4 viste)
-2. Aggiungi opzionalmente: diagramma scena, musica, voce, ecc.
-3. Usa il template prompt multimodale
-4. La reference del personaggio e obbligatoria; la scena puo essere solo descritta via keyword
+1. Start from the character references (4 views)
+2. Optionally add: scene diagram, music, voice, etc.
+3. Use the multimodal prompt template
+4. The character reference is mandatory; the scene can be described via keywords only
 
-**Quando usarlo**: Quando vuoi il massimo controllo su tutti gli aspetti (visivo, audio, movimento)
+**When to use**: When you want maximum control over all aspects (visual, audio, movement)
 
-## Note Importanti da DeepWhite
+## Important Notes from DeepWhite
 
-- **Jimeng/Dreamina e il piu veloce** per la generazione
-- Il template dei prompt e basato sul **manuale utente ufficiale di Jimeng 2.0**
-- Per generare le 4 viste del personaggio, si puo usare un generatore di immagini AI
-- **Attenzione all'ordine delle immagini** caricate: devono corrispondere ai tag @Image1, @Image2, ecc. nel prompt
+- **Jimeng/Dreamina is the fastest** for generation
+- The prompt template is based on the **official Jimeng 2.0 user manual**
+- To generate the 4 character views, you can use an AI image generator
+- **Pay attention to the image order** when uploading: they must match the @Image1, @Image2, etc. tags in the prompt
 
 ---
 
-# APPENDICE B: VIDEO TUTORIAL - 10 Viral Prompt Testati (Dom the AI Tutor)
+# APPENDIX B: VIDEO TUTORIAL - 10 Tested Viral Prompts (Dom the AI Tutor)
 
 > **Video**: [I Tested 10 BRUTAL Viral Seedance 2.0 Prompts!](https://www.youtube.com/watch?v=KnyrIp9qRuU)
-> **Autore**: Dom the AI Tutor | Tech Tutor Zones
+> **Author**: Dom the AI Tutor | Tech Tutor Zones
 
-## Lezioni dai Test
+## Lessons from the Tests
 
-### Setup Consigliato
-- Modello: **Seedance 2.0** (non la versione "fast" — piu qualita)
-- Durata: **15 secondi**
-- Formato: **16:9**
-- Limite prompt: fino a **5.000 caratteri**
+### Recommended Setup
+- Model: **Seedance 2.0** (not the "fast" version -- more quality)
+- Duration: **15 seconds**
+- Format: **16:9**
+- Prompt limit: up to **5,000 characters**
 
 ### Test 1: Multi-Shot Text-to-Video
-- Prompt complesso con transizioni multiple
-- Le transizioni tra scene sono estremamente fluide
-- Confronto con Veo 3.1: Seedance vince nettamente
+- Complex prompt with multiple transitions
+- Transitions between scenes are extremely smooth
+- Comparison with Veo 3.1: Seedance wins decisively
 
-### Test 2: Transformer (Bus che si Trasforma)
-- Prompt di trasformazione veicolo → robot
-- Risultato divertente e convincente
+### Test 2: Transformer (Bus that Transforms)
+- Vehicle → robot transformation prompt
+- Fun and convincing result
 
-### Test 3: Omni Reference (Immagine + Video)
-- Caricata un'immagine di una creatura come reference
-- Usato un video come reference per il movimento
-- **Prompt semplice**: "Image one doing the same as video one"
-- **Risultato**: Consistenza eccellente del personaggio, spada dal video replicata perfettamente
-- La consistenza delle caratteristiche facciali e il dettaglio della spada sono "top-notch"
+### Test 3: Omni Reference (Image + Video)
+- Uploaded a creature image as reference
+- Used a video as reference for movement
+- **Simple prompt**: "Image one doing the same as video one"
+- **Result**: Excellent character consistency, sword from the video replicated perfectly
+- Facial feature consistency and sword detail are "top-notch"
 
-### Test 4: Image-to-Video con Prima Inquadratura
-- Usata un'immagine di bassa qualita come first frame
+### Test 4: Image-to-Video with First Frame
+- Used a low-quality image as first frame
 - **Prompt**: "A cinematic and chaotic tracking shot with handheld camera motion and camera shakes"
-- Il risultato migliora l'immagine originale e produce un video impressionante
+- The result improves the original image and produces an impressive video
 
 ### Test 5: Omni Reference Anime
-- Due immagini anime + un video di danza come reference
+- Two anime images + a dance video as reference
 - **Prompt**: "Create a two model frame video where @Image1 and @Image2 dance and move completely the same as in @Video1"
-- I personaggi anime replicano i movimenti del video di riferimento
+- The anime characters replicate the movements from the reference video
 
-### Test 6: Realismo + Reference di Movimento
-- Stessa tecnica ma con persona realistica
-- Aggiunta azione specifica alla fine ("she does a split")
-- Il modello esegue sia i movimenti di riferimento che l'azione aggiunta
+### Test 6: Realism + Motion Reference
+- Same technique but with a realistic person
+- Added a specific action at the end ("she does a split")
+- The model executes both the reference movements and the added action
 
-### Test 7: Emozioni in Multi-Shot (Text-to-Video)
-- Test delle espressioni facciali e movimenti di camera
-- Le emozioni sono incredibilmente realistiche
-- **Mani perfette**: tutti i dettagli delle dita sono corretti
-- Il motion e fantastico
+### Test 7: Emotions in Multi-Shot (Text-to-Video)
+- Test of facial expressions and camera movements
+- Emotions are incredibly realistic
+- **Perfect hands**: all finger details are correct
+- The motion is fantastic
 
-### Test 8: Scena di Battaglia Complessa
-- Prompt di quasi **3.000 caratteri**
-- Specificato "without cuts" → risultato senza tagli, transizione continua della camera
-- L'astronave appare in modo cinematografico
+### Test 8: Complex Battle Scene
+- Prompt of nearly **3,000 characters**
+- Specified "without cuts" → result without cuts, continuous camera transition
+- The spaceship appears cinematically
 
-### Test 9: Trasformazione Aereo → Transformer
-- Atterraggio aereo + trasformazione in transformer
-- Risultato "brutale" e convincente
+### Test 9: Airplane → Transformer Transformation
+- Airplane landing + transformation into transformer
+- "Brutal" and convincing result
 
 ### Test 10: First Frame + Last Frame
-- Usati primo e ultimo fotogramma
-- La consistenza del personaggio tra i due frame e eccellente
+- Used first and last frame
+- Character consistency between the two frames is excellent
 
 ### Bonus: Cat Kung Fu (Viral)
-- Prompt text-to-video di gatti che combattono kung fu
-- Confronto tra modelli:
-  - **Seedance 2.0**: MIGLIORE in assoluto
-  - **Kling 3.0**: Buono, ma non al livello di Seedance
-  - **Grok**: Meglio di Veo, peggio di Seedance
-  - **Sora**: Risultati mediocri, slow motion non richiesto
-  - **Veo 3.1**: Il peggiore nel confronto
+- Text-to-video prompt of cats fighting kung fu
+- Model comparison:
+  - **Seedance 2.0**: BEST overall
+  - **Kling 3.0**: Good, but not at Seedance level
+  - **Grok**: Better than Veo, worse than Seedance
+  - **Sora**: Mediocre results, unrequested slow motion
+  - **Veo 3.1**: The worst in the comparison
 
-## Classifica Modelli (dal video)
+## Model Ranking (from the video)
 
-1. **Seedance 2.0** — Il migliore
-2. **Kling 3.0** — Buono
-3. **Grok** — Discreto
+1. **Seedance 2.0** — The best
+2. **Kling 3.0** — Good
+3. **Grok** — Decent
 4. **Sora** — Mediocre
-5. **Veo 3.1** — Il peggiore (sorprendentemente)
+5. **Veo 3.1** — The worst (surprisingly)
 
-## Piattaforma Usata
-- **LumaFlow AI**: Ha Seedance 2.0 disponibile globalmente + tutti gli altri modelli video/immagine in un unico posto
+## Platform Used
+- **LumaFlow AI**: Has Seedance 2.0 available globally + all other video/image models in one place
 
 ---
 
-> Documento compilato il 24 Marzo 2026 da 9 fonti web + 2 video YouTube.
-> Fonti: Imagine.art, SeaArt, GLBGPT, WeShop, WaveSpeed, Vmake, GitHub/YouMind-OpenLab, Atlabs, VideoWeb, DeepWhite (YouTube), Dom the AI Tutor (YouTube).
+> Document compiled on March 24, 2026 from 9 web sources + 2 YouTube videos.
+> Sources: Imagine.art, SeaArt, GLBGPT, WeShop, WaveSpeed, Vmake, GitHub/YouMind-OpenLab, Atlabs, VideoWeb, DeepWhite (YouTube), Dom the AI Tutor (YouTube).

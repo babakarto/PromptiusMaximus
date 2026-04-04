@@ -1,225 +1,225 @@
-# Fare Edit su CapCut Come After Effects
+# Editing in CapCut Like After Effects
 
-> **Autore:** Patrik Key
+> **Author:** Patrik Key
 > **Video:** https://www.youtube.com/watch?v=Uwu9_aGpDJ4
-> **Concetto chiave:** Animazioni testo stile AE, sfondi custom, morphing colori/forme, transizioni tra scene, e Deep Glow V2 - tutto in CapCut
+> **Key concept:** AE-style text animations, custom backgrounds, color/shape morphing, scene transitions, and Deep Glow V2 - all in CapCut
 
 ---
 
-## Indice
+## Table of Contents
 
 1. [Caption Animate Slide Up/Down](#1-caption-animate-slide-updown)
-2. [Sfondi Custom da Zero](#2-sfondi-custom-da-zero)
-3. [Forme Custom + Morphing Colori](#3-forme-custom--morphing-colori)
-4. [Transizioni tra Scene](#4-transizioni-tra-scene-stile-after-effects)
-5. [Deep Glow V2 (Gratis!)](#5-deep-glow-v2-senza-pagare-99)
+2. [Custom Backgrounds from Scratch](#2-custom-backgrounds-from-scratch)
+3. [Custom Shapes + Color Morphing](#3-custom-shapes--color-morphing)
+4. [Scene Transitions](#4-scene-transitions-after-effects-style)
+5. [Deep Glow V2 (Free!)](#5-deep-glow-v2-without-paying-99)
 
 ---
 
 ## 1. Caption Animate Slide Up/Down
 
-L'animazione piu pulita e premium: le caption che scorrono dal basso verso l'alto (o dall'alto verso il basso), parola per parola.
+The cleanest and most premium animation: captions that slide from bottom to top (or top to bottom), word by word.
 
-### Preparazione delle Caption:
-1. Seleziona la clip > vai su **Captions** > **Genera captions**
-2. Scegli il **font** che preferisci
-3. Vai nella sezione **Captions**
-4. **Separa ogni singola parola**: clicca tra due parole e premi **Enter**
-5. Ripeti per tutte le parole
+### Preparing the Captions:
+1. Select the clip > go to **Captions** > **Generate captions**
+2. Choose your preferred **font**
+3. Go to the **Captions** section
+4. **Separate every single word**: click between two words and press **Enter**
+5. Repeat for all words
 
-### Posizionamento delle Caption:
-1. **Seleziona tutte** le caption
-2. Su Mac: tieni **Command** e clicca sul primo layer (lo deattiva)
-3. Sposta tutti i layer sopra, creando un **gap di 2 frame** tra ogni layer
-4. Su Mac: **Command** + click sul primo layer di nuovo > ripeti per il resto
-5. Seleziona tutto > trascina in alto
-6. Posiziona il playhead > premi **S** per tagliare > elimina la parte in eccesso
-7. Seleziona tutte le caption > premi **V** per disabilitarle
+### Positioning the Captions:
+1. **Select all** captions
+2. On Mac: hold **Command** and click on the first layer (deactivates it)
+3. Move all layers up, creating a **2-frame gap** between each layer
+4. On Mac: **Command** + click on the first layer again > repeat for the rest
+5. Select all > drag upward
+6. Position the playhead > press **S** to cut > delete the excess part
+7. Select all captions > press **V** to disable them
 
-### Posizionamento Visivo:
-1. Attiva layer per layer con **V**
-2. Usa la **linea guida** per allineare tutto sullo stesso livello
-3. Posiziona ogni parola accanto alla precedente
-4. Seleziona tutti i testi > posiziona dove vuoi (es. in basso)
-5. Ridimensiona se necessario
+### Visual Positioning:
+1. Activate layer by layer with **V**
+2. Use the **guide line** to align everything on the same level
+3. Position each word next to the previous one
+4. Select all text > position where you want (e.g. at the bottom)
+5. Resize if necessary
 
-### Applicare l'Animazione:
-- **Slide Up:** Vai su **Animation** > cerca **"Slide Up"** > aggiungilo ai **Favoriti**
-- **Slide Down:** Vai su **Animation** > cerca **"Slide Down"** > aggiungilo ai **Favoriti**
+### Applying the Animation:
+- **Slide Up:** Go to **Animation** > search **"Slide Up"** > add to **Favorites**
+- **Slide Down:** Go to **Animation** > search **"Slide Down"** > add to **Favorites**
 
-### Bonus - Animazione di Uscita:
-1. Vai su **Animation** > **Out**
-2. Seleziona **Blur**
-3. Imposta velocita a **0.6 secondi**
-4. Quando attivi il secondo layer, crea un effetto di transizione fluido
-
----
-
-## 2. Sfondi Custom da Zero
-
-Basta cercare sfondi su internet. Costruiscili tu con qualsiasi colore e texture, tutto dentro CapCut.
-
-### Costruire lo Sfondo Base:
-1. Vai su **Text** > aggiungi **Default Text**
-2. Allunga il layer
-3. Rimuovi il testo di default
-4. Vai su **Font Size** > metti al **massimo**
-5. Scorri fino a **Background** > scegli il **primo colore** (es. blu)
-6. **Duplica** il layer
-7. Sul duplicato: cambia **Background** al **secondo colore** (es. nero)
-8. Crea **Compound Clip separati** per ogni layer
-
-### Creare il Gradiente:
-1. Seleziona il **layer scuro** > **Video** > mettilo su **Layer 2**
-2. Vai su **Mask**
-
-**Opzione A - Split:**
-- Seleziona **Split** > ruota > gioca con il **Feather**
-- Risultato: colore scuro in basso, chiaro in alto (o viceversa)
-
-**Opzione B - Circle:**
-- Seleziona **Circle** > attiva **Reverse** > trascina su
-- Gioca con il **Feather**
-- Risultato: gradiente circolare
-
-### Aggiungere Texture:
-
-**Metodo 1 - TV Lines:**
-1. Seleziona entrambi gli sfondi > **Create Compound**
-2. Vai su **Effects** > cerca **"TV Lines"**
-3. Trascinalo sul compound
-4. Riduci il **Range** per una texture sottile
-
-**Metodo 2 - Asset Media:**
-1. Trascina qualsiasi asset sulla timeline
-2. Trova il frame che ti piace > usa **Freeze**
-3. Elimina le parti prima e dopo
-4. Vai su **Video** > **Basic** > **Blend** > imposta **Screen**
-5. Riduci l'**Opacity**
-6. Ruota e posiziona a piacere
-
-### Cambiare Colore dello Sfondo:
-- Doppio click sul layer chiaro > seleziona il text layer > cambia colore in Background
-- Sul layer scuro: vai su **Mask** e aggiusta
-
-### Aggiungere Movimento:
-1. Vai su **Effects** > cerca **"Play Pendulum"**
-2. Trascinalo sull'asset
-3. Lo sfondo ora si muove!
-
-### Tweaking Avanzato dei Colori:
-- Vai su **Adjustments**: Temperature, Exposure, Contrast
-- Vai su **Curves** per controllo totale del colore
+### Bonus - Exit Animation:
+1. Go to **Animation** > **Out**
+2. Select **Blur**
+3. Set speed to **0.6 seconds**
+4. When you activate the second layer, it creates a smooth transition effect
 
 ---
 
-## 3. Forme Custom + Morphing Colori
+## 2. Custom Backgrounds from Scratch
 
-Crea qualsiasi forma e fai cambiare colore in modo fluido, come un vero progetto di motion graphics.
+Stop searching for backgrounds on the internet. Build them yourself with any color and texture, all inside CapCut.
 
-### Morphing dei Colori:
-1. **Text** > Default Text > rimuovi testo > max font size > **Background** > primo colore (es. verde)
-2. Clicca il **keyframe** su Background
-3. Vai **1 frame avanti**
-4. Cambia colore (es. giallo/arancione)
-5. Clicca **keyframe** di nuovo
+### Building the Base Background:
+1. Go to **Text** > add **Default Text**
+2. Extend the layer
+3. Remove the default text
+4. Go to **Font Size** > set to **maximum**
+5. Scroll to **Background** > choose the **first color** (e.g. blue)
+6. **Duplicate** the layer
+7. On the duplicate: change **Background** to the **second color** (e.g. black)
+8. Create **separate Compound Clips** for each layer
 
-> **Importante:** Il gap tra i keyframe deve essere il piu piccolo possibile (1 frame) per una transizione immediata. Gap piu grandi = colori che si mescolano.
+### Creating the Gradient:
+1. Select the **dark layer** > **Video** > put it on **Layer 2**
+2. Go to **Mask**
 
-### Forme Custom con Mask:
-1. Tasto destro sul text layer > **Create Compound Clip**
+**Option A - Split:**
+- Select **Split** > rotate > play with the **Feather**
+- Result: dark color on the bottom, light on top (or vice versa)
+
+**Option B - Circle:**
+- Select **Circle** > enable **Reverse** > drag up
+- Play with the **Feather**
+- Result: circular gradient
+
+### Adding Texture:
+
+**Method 1 - TV Lines:**
+1. Select both backgrounds > **Create Compound**
+2. Go to **Effects** > search **"TV Lines"**
+3. Drag it onto the compound
+4. Reduce the **Range** for a subtle texture
+
+**Method 2 - Asset Media:**
+1. Drag any asset onto the timeline
+2. Find the frame you like > use **Freeze**
+3. Delete the parts before and after
+4. Go to **Video** > **Basic** > **Blend** > set to **Screen**
+5. Reduce the **Opacity**
+6. Rotate and position as desired
+
+### Changing the Background Color:
+- Double-click on the light layer > select the text layer > change color in Background
+- On the dark layer: go to **Mask** and adjust
+
+### Adding Motion:
+1. Go to **Effects** > search **"Play Pendulum"**
+2. Drag it onto the asset
+3. The background now moves!
+
+### Advanced Color Tweaking:
+- Go to **Adjustments**: Temperature, Exposure, Contrast
+- Go to **Curves** for total color control
+
+---
+
+## 3. Custom Shapes + Color Morphing
+
+Create any shape and make colors change smoothly, like a real motion graphics project.
+
+### Color Morphing:
+1. **Text** > Default Text > remove text > max font size > **Background** > first color (e.g. green)
+2. Click the **keyframe** on Background
+3. Go **1 frame forward**
+4. Change color (e.g. yellow/orange)
+5. Click **keyframe** again
+
+> **Important:** The gap between keyframes must be as small as possible (1 frame) for an immediate transition. Larger gaps = colors that blend together.
+
+### Custom Shapes with Mask:
+1. Right-click on the text layer > **Create Compound Clip**
 2. **Video** > **Mask** > **Rectangle**
-3. Per un cerchio: arrotonda gli angoli al massimo
-4. Imposta **keyframe** sulla posizione
-5. Muovi qualche frame avanti > sposta la forma (es. a sinistra)
-6. Per cambiare da cerchio a rettangolo:
-   - Aggiungi keyframe > muovi avanti
-   - Riduci **Round Corners** da 100 a 15
-   - Cambia dimensione a piacere
+3. For a circle: round the corners to maximum
+4. Set **keyframe** on the position
+5. Move a few frames forward > move the shape (e.g. to the left)
+6. To change from circle to rectangle:
+   - Add keyframe > move forward
+   - Reduce **Round Corners** from 100 to 15
+   - Change size as desired
 
-### Smoothare le Animazioni:
-1. Tasto destro > **Show Variable Speed Animations**
-2. Seleziona tutti i keyframe > **Quad Out**
-3. Per keyframe singoli: seleziona uno solo > **Auto Curve**
+### Smoothing the Animations:
+1. Right-click > **Show Variable Speed Animations**
+2. Select all keyframes > **Quad Out**
+3. For single keyframes: select just one > **Auto Curve**
 
-> **Nota:** Per Auto Curve, seleziona **un solo** keyframe alla volta.
+> **Note:** For Auto Curve, select **only one** keyframe at a time.
 
-### Aggiungere Bordi (Stroke) alle Forme:
-1. **Duplica** il layer della forma
-2. **Video** > **Basic** > ingrandisci leggermente
-3. **Adjustment** > **Curves** > porta la linea in alto (bianco totale)
-4. **Video** > metti su **Layer 3**
-5. Gioca con la **Mask** per il bordo
+### Adding Borders (Stroke) to Shapes:
+1. **Duplicate** the shape layer
+2. **Video** > **Basic** > slightly enlarge
+3. **Adjustment** > **Curves** > bring the line to the top (full white)
+4. **Video** > put on **Layer 3**
+5. Play with the **Mask** for the border
 
-### Bonus - Glow sulle Forme:
-- Vai su **Effects** > cerca **"Glow Too"** > trascina sulla forma
-
----
-
-## 4. Transizioni tra Scene (Stile After Effects)
-
-La maggior parte degli editor fa solo roll cuts o usa transizioni generiche. Ecco come fare transizioni custom fluide.
-
-### Transizione con Film Strip:
-1. Costruisci lo **sfondo di destinazione** (es. bianco con gradiente nero, come nella sezione 2)
-2. Seleziona entrambi i layer > **Create Compound**
-3. Posiziona il playhead dove vuoi la transizione
-4. Vai su **Mask** > **Film Strip** > rimpicciolisci
-5. Imposta **keyframe**
-6. Vai qualche frame avanti > trascina la mask per coprire lo schermo
-7. **Smooth:** tasto destro > Variable Speed Animation > Auto Curve su entrambi i keyframe
-8. Trascina la **linea blu** per: veloce all'inizio > rallenta alla fine
-
-### Transizione con Palla Rimbalzante:
-1. Crea lo sfondo (es. viola)
-2. **Mask** > **Rectangle** > angoli a **100** (cerchio)
-3. Imposta **keyframe** iniziale
-4. Muovi il playhead > posiziona la palla > ripeti (crea il rimbalzo)
-5. Per la transizione finale: trascina il bordo della palla verso l'alto
-6. **Smooth** con Variable Speed Animation > Auto Curve su ogni keyframe
-
-> **Nota:** Il timing della transizione deve coincidere con la fine dell'animazione del testo per un risultato seamless.
+### Bonus - Glow on Shapes:
+- Go to **Effects** > search **"Glow Too"** > drag onto the shape
 
 ---
 
-## 5. Deep Glow V2 (Senza Pagare $99)
+## 4. Scene Transitions (After Effects Style)
 
-Il famoso plugin di After Effects che costa $99... gratis in CapCut.
+Most editors only do roll cuts or use generic transitions. Here's how to make smooth custom transitions.
 
-### Come Fare:
-1. Crea il tuo testo
-2. **Tasto destro** > **Create Compound Clip** (obbligatorio - non puoi applicare glow direttamente sul testo)
-3. Vai su **Effects** > cerca **"Glow"**
-4. Troverai: **Edge Glow** e **Glow Too**
-5. Aggiungi ai **Favoriti** per accesso rapido
-6. Trascina **Glow Too** sul compound del testo
-7. Gioca con le impostazioni
+### Film Strip Transition:
+1. Build the **destination background** (e.g. white with black gradient, as in section 2)
+2. Select both layers > **Create Compound**
+3. Position the playhead where you want the transition
+4. Go to **Mask** > **Film Strip** > shrink
+5. Set **keyframe**
+6. Go a few frames forward > drag the mask to cover the screen
+7. **Smooth:** right-click > Variable Speed Animation > Auto Curve on both keyframes
+8. Drag the **blue line** for: fast at the beginning > slow at the end
 
-> **Applicabile su:** testo, icone, forme, qualsiasi cosa
+### Bouncing Ball Transition:
+1. Create the background (e.g. purple)
+2. **Mask** > **Rectangle** > corners at **100** (circle)
+3. Set initial **keyframe**
+4. Move the playhead > position the ball > repeat (create the bounce)
+5. For the final transition: drag the edge of the ball upward
+6. **Smooth** with Variable Speed Animation > Auto Curve on each keyframe
 
-### Importante:
-- **Non esagerare** con il glow (i tuoi spettatori non devono aver bisogno di occhiali da sole)
-- Se non vedi le funzioni: vai su **Settings** e assicurati di avere la **versione 6.40+** di CapCut
-
----
-
-## Riepilogo degli Effetti
-
-| # | Effetto | Complessita | Equivalente AE |
-|---|---------|-------------|-----------------|
-| 1 | Slide Up/Down Captions | Media | Text Animators |
-| 2 | Custom Backgrounds | Media | Shape Layers + Gradients |
-| 3 | Shape Morphing + Color | Media-Alta | Shape Keys + Fill |
-| 4 | Scene Transitions | Alta | Matte Transitions |
-| 5 | Deep Glow V2 | Facile | Deep Glow Plugin ($99) |
+> **Note:** The timing of the transition must coincide with the end of the text animation for a seamless result.
 
 ---
 
-## Concetti Chiave Ricorrenti
+## 5. Deep Glow V2 (Without Paying $99)
 
-- **Compound Clip** = la chiave per sbloccare effetti avanzati (mask, glow, freeze)
-- **Variable Speed Animation** = per smoothare qualsiasi keyframe
-- **Auto Curve / Quad Out** = le due opzioni piu usate per easing
-- **Linea blu nei keyframe** = controlla l'accelerazione/decelerazione
-- **Mask** = lo strumento piu potente di CapCut (split, circle, film strip, rectangle)
-- **Background su Text Layer** = il modo per creare forme e sfondi custom
+The famous After Effects plugin that costs $99... free in CapCut.
+
+### How To:
+1. Create your text
+2. **Right-click** > **Create Compound Clip** (mandatory - you can't apply glow directly on text)
+3. Go to **Effects** > search **"Glow"**
+4. You'll find: **Edge Glow** and **Glow Too**
+5. Add to **Favorites** for quick access
+6. Drag **Glow Too** onto the text compound
+7. Play with the settings
+
+> **Applicable to:** text, icons, shapes, anything
+
+### Important:
+- **Don't overdo** the glow (your viewers shouldn't need sunglasses)
+- If you don't see the features: go to **Settings** and make sure you have CapCut **version 6.40+**
+
+---
+
+## Effects Summary
+
+| # | Effect | Complexity | AE Equivalent |
+|---|--------|------------|---------------|
+| 1 | Slide Up/Down Captions | Medium | Text Animators |
+| 2 | Custom Backgrounds | Medium | Shape Layers + Gradients |
+| 3 | Shape Morphing + Color | Medium-High | Shape Keys + Fill |
+| 4 | Scene Transitions | High | Matte Transitions |
+| 5 | Deep Glow V2 | Easy | Deep Glow Plugin ($99) |
+
+---
+
+## Key Recurring Concepts
+
+- **Compound Clip** = the key to unlocking advanced effects (mask, glow, freeze)
+- **Variable Speed Animation** = for smoothing any keyframe
+- **Auto Curve / Quad Out** = the two most used easing options
+- **Blue line in keyframes** = controls acceleration/deceleration
+- **Mask** = CapCut's most powerful tool (split, circle, film strip, rectangle)
+- **Background on Text Layer** = the way to create custom shapes and backgrounds

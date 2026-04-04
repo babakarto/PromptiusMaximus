@@ -1,45 +1,45 @@
-# Struttura del Progetto
+# Project File Structure
 
 ```
 REMOTION XCITE/
 ├── src/
-│   ├── index.ts              ← Entry point (registerRoot)
-│   ├── Root.tsx               ← Composition "XciteShowreel" (1920×1080, 30fps, 600f)
-│   ├── XciteShowreel.tsx      ← Timeline principale con 4 Sequence
-│   ├── config.ts              ← Brand colors + video constants + tagline
-│   ├── styles.css             ← Tailwind CSS v4 import
+│   ├── index.ts              <- Entry point (registerRoot)
+│   ├── Root.tsx               <- Composition "XciteShowreel" (1920x1080, 30fps, 600f)
+│   ├── XciteShowreel.tsx      <- Main timeline with 4 Sequences
+│   ├── config.ts              <- Brand colors + video constants + tagline
+│   ├── styles.css             <- Tailwind CSS v4 import
 │   ├── scenes/
-│   │   ├── BaseScene.tsx      ← Background gradient + floating particles (riutilizzabile)
-│   │   └── LogoReveal.tsx     ← SCENE 4: logo reveal completo con 8 fasi animate
-│   ├── components/            ← (vuoto) per elementi riutilizzabili futuri
-│   └── characters/            ← (vuoto) per SVG character futuri
+│   │   ├── BaseScene.tsx      <- Background gradient + floating particles (reusable)
+│   │   └── LogoReveal.tsx     <- SCENE 4: complete logo reveal with 8 animated phases
+│   ├── components/            <- (empty) for future reusable elements
+│   └── characters/            <- (empty) for future SVG characters
 ├── public/
-│   ├── logos/                 ← Tutti gli asset PNG del logo
-│   │   ├── x.png             ← Simbolo X arancione (1080×1920 PSD layer)
-│   │   ├── trattino.png      ← Dash "-" bianco
-│   │   ├── cite.png          ← Testo "cite" bianco
-│   │   ├── xciteventur.png   ← Testo "X·CITE VENTURES"
-│   │   ├── play.png          ← "PLAY."
-│   │   ├── CONENCT.png       ← "CONNECT." (sì, typo nel filename)
-│   │   ├── DOMINATE!.png     ← "DOMINATE!"
-│   │   ├── omino.png         ← Mascot Dali (695×843, standalone)
-│   │   ├── TOTALE.png        ← Logo assemblato (reference)
-│   │   ├── sfondo ffa700.png ← Background gold
-│   │   └── sfondo 00000.png  ← Background nero
-│   ├── audio/                 ← (vuoto) per voiceover/SFX locali
-│   └── characters/dali/      ← (vuoto) per SVG parts del mascot
-├── guida/                     ← QUESTA CARTELLA — documentazione completa
-├── remotion.config.ts         ← Config Remotion + TailwindCSS v4
+│   ├── logos/                 <- All logo PNG assets
+│   │   ├── x.png             <- Orange X symbol (1080x1920 PSD layer)
+│   │   ├── trattino.png      <- White dash "-"
+│   │   ├── cite.png          <- White "cite" text
+│   │   ├── xciteventur.png   <- "X·CITE VENTURES" text
+│   │   ├── play.png          <- "PLAY."
+│   │   ├── CONENCT.png       <- "CONNECT." (yes, typo in filename)
+│   │   ├── DOMINATE!.png     <- "DOMINATE!"
+│   │   ├── omino.png         <- Dali Mascot (695x843, standalone)
+│   │   ├── TOTALE.png        <- Assembled logo (reference)
+│   │   ├── sfondo ffa700.png <- Gold background
+│   │   └── sfondo 00000.png  <- Black background
+│   ├── audio/                 <- (empty) for local voiceover/SFX
+│   └── characters/dali/      <- (empty) for mascot SVG parts
+├── guida/                     <- THIS FOLDER — complete documentation
+├── remotion.config.ts         <- Remotion config + TailwindCSS v4
 ├── tsconfig.json
 ├── package.json
-└── .agents/skills/            ← Remotion best practices skills installate
+└── .agents/skills/            <- Remotion best practices skills installed
     └── remotion-best-practices/
 ```
 
-## Note sugli asset PNG
-Gli asset del logo (x.png, cite.png, ecc.) sono **layer PSD esportati a 1080×1920 (portrait)**.
-Ogni layer ha sfondo trasparente con il contenuto posizionato dove stava nel PSD.
-Per usarli nel video landscape 1920×1080, il componente `Crop` in LogoReveal.tsx:
-1. Mette l'immagine intera in un container con overflow:hidden
-2. Offset l'immagine con left/top negativi per mostrare solo il content bbox
-3. FONDAMENTALE: `maxWidth: "none"` sull'Img per overridare Tailwind preflight
+## Notes on PNG assets
+The logo assets (x.png, cite.png, etc.) are **PSD layers exported at 1080x1920 (portrait)**.
+Each layer has a transparent background with the content positioned where it was in the PSD.
+To use them in the landscape 1920x1080 video, the `Crop` component in LogoReveal.tsx:
+1. Places the full image in a container with overflow:hidden
+2. Offsets the image with negative left/top to show only the content bounding box
+3. CRITICAL: `maxWidth: "none"` on the Img to override Tailwind preflight

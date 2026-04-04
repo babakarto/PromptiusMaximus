@@ -1,153 +1,153 @@
-# Scorciatoie da Tastiera CapCut — Riferimento Completo
+# CapCut Keyboard Shortcuts — Complete Reference
 
-> Estratte da tutti e 5 i tutorial di Patrik Key. Il tuo cheat sheet per editare veloce.
-
----
-
-## Editing Base
-
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **S** | Taglia tutti i layer alla posizione del playhead | Usa costantemente — funziona su TUTTI i layer insieme |
-| **Q** | Elimina tutto a SINISTRA del playhead | Il modo piu veloce per trimmare. Sostituisce B > X > A (3 click → 1) |
-| **W** | Elimina tutto a DESTRA del playhead | Come Q ma nella direzione opposta |
-| **X** | Elimina la clip selezionata | Rimappato da Backspace — tieni la mano sinistra sulla tastiera |
-| **A** | Deseleziona la modalita taglio | Dopo aver tagliato, torna alla modalita selezione |
-| **B** | Attiva lo strumento taglio/lama | Strumento di taglio default (ma Q/W sono piu veloci nella maggior parte dei casi) |
+> Extracted from all 5 Patrik Key tutorials. Your cheat sheet for fast editing.
 
 ---
 
-## Layer e Visibilita
+## Basic Editing
 
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **V** | Nascondi/Mostra layer | Organizzare caption, nascondere text layer di riferimento, toggle visibilita |
-| **Command + Click** (Mac) / **Alt + Click** (Win) | Deseleziona un singolo layer da una multi-selezione | Tieni premuto mentre clicchi per escludere un layer dal gruppo |
-
----
-
-## Marker e Organizzazione
-
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **M** | Aggiungi marker alla posizione del playhead | Segna la fine di ogni reel nel batch editing, etichetta le sezioni |
+| Key | Action | Context |
+|-----|--------|---------|
+| **S** | Cut all layers at the playhead position | Use constantly — works on ALL layers together |
+| **Q** | Delete everything to the LEFT of the playhead | The fastest way to trim. Replaces B > X > A (3 clicks to 1) |
+| **W** | Delete everything to the RIGHT of the playhead | Like Q but in the opposite direction |
+| **X** | Delete the selected clip | Remapped from Backspace — keep your left hand on the keyboard |
+| **A** | Deselect cut mode | After cutting, return to selection mode |
+| **B** | Activate the cut/blade tool | Default cut tool (but Q/W are faster in most cases) |
 
 ---
 
-## Export e Punti I/O
+## Layers and Visibility
 
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **I** | Imposta il punto di INIZIO (In point) | Posiziona il playhead all'inizio del reel → premi I |
-| **O** | Imposta il punto di FINE (Out point) | Posiziona il playhead alla fine del reel → premi O, poi Esporta |
-
----
-
-## Navigazione nella Timeline
-
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **Freccia Destra** | Avanza di 1 frame | Navigazione precisa frame per frame (es. 5 frame per counter effect) |
-| **Freccia Sinistra** | Torna indietro di 1 frame | Navigazione precisa frame per frame |
-| **Shift + Freccia Destra** | Avanza di 10 frame | Salto veloce per impostare keyframe di animazione |
-| **Shift + Freccia Sinistra** | Torna indietro di 10 frame | Salto veloce indietro |
+| Key | Action | Context |
+|-----|--------|---------|
+| **V** | Hide/Show layer | Organize captions, hide reference text layers, toggle visibility |
+| **Command + Click** (Mac) / **Alt + Click** (Win) | Deselect a single layer from a multi-selection | Hold while clicking to exclude a layer from the group |
 
 ---
 
-## Animazione e Keyframe
+## Markers and Organization
 
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **Shift + W** | Smootha automaticamente i keyframe selezionati | Seleziona prima i keyframe, poi Shift+W — sostituisce l'editing manuale del grafico |
+| Key | Action | Context |
+|-----|--------|---------|
+| **M** | Add marker at the playhead position | Mark the end of each reel in batch editing, label sections |
+
+---
+
+## Export and I/O Points
+
+| Key | Action | Context |
+|-----|--------|---------|
+| **I** | Set the START point (In point) | Position the playhead at the beginning of the reel then press I |
+| **O** | Set the END point (Out point) | Position the playhead at the end of the reel then press O, then Export |
+
+---
+
+## Timeline Navigation
+
+| Key | Action | Context |
+|-----|--------|---------|
+| **Right Arrow** | Advance 1 frame | Precise frame-by-frame navigation (e.g. 5 frames for counter effect) |
+| **Left Arrow** | Go back 1 frame | Precise frame-by-frame navigation |
+| **Shift + Right Arrow** | Advance 10 frames | Fast jump for setting animation keyframes |
+| **Shift + Left Arrow** | Go back 10 frames | Fast jump backward |
+
+---
+
+## Animation and Keyframes
+
+| Key | Action | Context |
+|-----|--------|---------|
+| **Shift + W** | Automatically smooth selected keyframes | Select the keyframes first, then Shift+W — replaces manual graph editing |
 
 ---
 
 ## Compound Clip
 
-| Tasto | Azione | Contesto |
-|-------|--------|----------|
-| **Option + G** (Mac) | Crea Compound Clip | Essenziale per sbloccare: mask, glow, freeze, effetti avanzati |
-| **Tasto destro > Create Compound** | Come sopra (tutte le piattaforme) | Usa quando la scorciatoia non e disponibile |
+| Key | Action | Context |
+|-----|--------|---------|
+| **Option + G** (Mac) | Create Compound Clip | Essential to unlock: mask, glow, freeze, advanced effects |
+| **Right-click > Create Compound** | Same as above (all platforms) | Use when the shortcut is not available |
 
 ---
 
-## Controllo Velocita
+## Speed Control
 
-| Azione | Come | Contesto |
-|--------|------|----------|
-| Velocita clip a 2x | Seleziona clip > Speed > imposta 2 | Sprinta attraverso il footage nel batch editing |
-| Resetta velocita a 1x | Seleziona clip > Speed > imposta 1 | Resetta dopo il raw cut di ogni reel |
-
----
-
-## Combo Pro per il Workflow
-
-### Raw Cut Veloce (Batch Editing)
-```
-Q → Q → Q → (sposta playhead) → Q → ...
-```
-Sprinta attraverso il footage eliminando tutto a sinistra. Molto piu veloce di B > X > A.
-
-### Trim Completo di un Reel + Etichetta
-```
-S (taglia) → Q o W (elimina) → ... ripeti ...
-→ M (marker alla fine)
-→ trascina text layer → scrivi etichetta → V (nascondi etichetta)
-```
-
-### Esportare un Singolo Reel dalla Timeline Batch
-```
-(playhead all'inizio) → I (punto di inizio)
-(playhead alla fine/marker) → O (punto di fine)
-→ Export → incolla il nome → fatto
-```
-
-### Setup Animazione Caption
-```
-V (nascondi layer) → posiziona il layer
-→ keyframe su Transform + Blend
-→ Shift + Freccia Destra x10 (10 frame avanti)
-→ keyframe di nuovo
-→ torna al primo keyframe → imposta i valori
-→ seleziona entrambi i keyframe → Shift + W (smootha)
-```
-
-### Editing Solo con la Mano Sinistra (senza lasciare il mouse)
-```
-A (deseleziona) → S (taglia) → Q (elimina sx) → X (elimina) → W (elimina dx)
-Tutti i tasti sono sul lato sinistro della tastiera.
-```
+| Action | How | Context |
+|--------|-----|---------|
+| Clip speed to 2x | Select clip > Speed > set to 2 | Sprint through footage in batch editing |
+| Reset speed to 1x | Select clip > Speed > set to 1 | Reset after the raw cut of each reel |
 
 ---
 
-## Variable Speed Animation — Non e una Shortcut, Ma e Essenziale
+## Pro Workflow Combos
 
-Tasto destro su qualsiasi clip > **Show Variable Speed Animation** per accedere a:
+### Fast Raw Cut (Batch Editing)
+```
+Q → Q → Q → (move playhead) → Q → ...
+```
+Sprint through footage deleting everything to the left. Much faster than B > X > A.
 
-| Opzione | Effetto |
-|---------|---------|
-| **Auto Curve** | Ease in/out automatico (seleziona UN keyframe alla volta) |
-| **Quad Out** | Inizio veloce → fine lenta (seleziona piu keyframe) |
-| **Rebound Out** | Effetto rimbalzo/overshoot (ottimo per animazioni shine) |
-| **Trascinamento linea blu** | Controllo manuale: trascina verso l'inizio = partenza veloce, fine lenta |
+### Complete Reel Trim + Label
+```
+S (cut) → Q or W (delete) → ... repeat ...
+→ M (marker at the end)
+→ drag text layer → write label → V (hide label)
+```
 
-> **Regola:** Per Auto Curve, seleziona sempre UN SOLO keyframe. Se ne selezioni due, il pulsante non funziona.
+### Exporting a Single Reel from the Batch Timeline
+```
+(playhead at the beginning) → I (start point)
+(playhead at the end/marker) → O (end point)
+→ Export → paste the name → done
+```
+
+### Caption Animation Setup
+```
+V (hide layer) → position the layer
+→ keyframe on Transform + Blend
+→ Shift + Right Arrow x10 (10 frames forward)
+→ keyframe again
+→ go back to first keyframe → set values
+→ select both keyframes → Shift + W (smooth)
+```
+
+### Left Hand Only Editing (without leaving the mouse)
+```
+A (deselect) → S (cut) → Q (delete left) → X (delete) → W (delete right)
+All keys are on the left side of the keyboard.
+```
 
 ---
 
-## Versione Stampa Rapida
+## Variable Speed Animation — Not a Shortcut, But Essential
+
+Right-click on any clip > **Show Variable Speed Animation** to access:
+
+| Option | Effect |
+|--------|--------|
+| **Auto Curve** | Automatic ease in/out (select ONE keyframe at a time) |
+| **Quad Out** | Fast start then slow end (select multiple keyframes) |
+| **Rebound Out** | Bounce/overshoot effect (great for shine animations) |
+| **Dragging blue line** | Manual control: drag toward the beginning = fast start, slow end |
+
+> **Rule:** For Auto Curve, always select ONLY ONE keyframe. If you select two, the button won't work.
+
+---
+
+## Quick Print Version
 
 ```
-S     = Taglia tutto
-Q     = Elimina a sinistra
-W     = Elimina a destra
-X     = Elimina clip
-A     = Deseleziona modalita taglio
-V     = Nascondi/mostra layer
+S     = Cut all
+Q     = Delete left
+W     = Delete right
+X     = Delete clip
+A     = Deselect cut mode
+V     = Hide/show layer
 M     = Marker
-I     = Punto inizio
-O     = Punto fine
-⇧+→   = Salta 10 frame
-⇧+W   = Smootha keyframe
+I     = Start point
+O     = End point
+⇧+→   = Jump 10 frames
+⇧+W   = Smooth keyframes
 ⌥+G   = Compound clip (Mac)
 ```

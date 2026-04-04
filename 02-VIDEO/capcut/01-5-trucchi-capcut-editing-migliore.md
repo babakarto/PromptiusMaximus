@@ -1,96 +1,96 @@
-# 5 Trucchi CapCut Che Miglioreranno i Tuoi Edit
+# 5 CapCut Tricks That Will Improve Your Edits
 
-> **Autore:** Patrik Key (@itspatrikkey)
+> **Author:** Patrik Key (@itspatrikkey)
 > **Video:** https://www.youtube.com/watch?v=B8ogRXxtvp4
-> **Concetto chiave:** Dopo 365 giorni di CapCut, questi 5 trucchi dimezzano il tempo di editing
+> **Key concept:** After 365 days of CapCut, these 5 tricks cut editing time in half
 
 ---
 
-## 1. Layout - Impostazione Verticale vs Default
+## 1. Layout - Vertical Setup vs Default
 
-Quando apri CapCut, in alto a destra trovi l'opzione layout:
-- **Default** = ideale per video **16:9** (YouTube) - ti da abbastanza spazio per lavorare
-- **Vertical** = ideale per video **9:16** (Instagram, TikTok, YouTube Shorts)
+When you open CapCut, in the top right you'll find the layout option:
+- **Default** = ideal for **16:9** videos (YouTube) - gives you enough space to work
+- **Vertical** = ideal for **9:16** videos (Instagram, TikTok, YouTube Shorts)
 
-**Trucco:** Se editi in 9:16, vai nelle opzioni in alto a destra e cambia da "Default" a **"Vertical"**. Fa una grande differenza nello spazio di lavoro.
-
----
-
-## 2. Rulers (Righelli) - Zone Sicure per il 9:16
-
-Stare nella zona sicura e fondamentale. Usa **3 righelli principali**:
-
-| Righello | Posizione | Uso |
-|----------|-----------|-----|
-| **Eye Level** | Livello degli occhi | Righello orizzontale all'altezza degli occhi |
-| **Captions** | Sotto il mento | Non troppo in basso per non distrarre |
-| **Motion Graphics** | Centro | Dove l'attenzione va naturalmente durante lo scroll |
+**Trick:** If you edit in 9:16, go to the options in the top right and switch from "Default" to **"Vertical"**. It makes a big difference in workspace.
 
 ---
 
-## 3. Templates Personalizzati - Velocizzare il Workflow
+## 2. Rulers - Safe Zones for 9:16
 
-**NON** i template virali di CapCut. Parliamo di template **costruiti da te**.
+Staying in the safe zone is fundamental. Use **3 main rulers**:
 
-### Come creare il tuo template:
-1. Apri un **nuovo progetto**
-2. Importa tutti i tuoi: effetti sonori, transizioni, effetti, asset
-3. Organizza tutto sulla timeline
-4. **La prossima volta:** duplica il progetto e inizia a editare nel template pre-costruito
-
-> Risparmi un sacco di tempo perche tutto e gia pronto sulla timeline.
+| Ruler | Position | Use |
+|-------|----------|-----|
+| **Eye Level** | Eye level | Horizontal ruler at eye height |
+| **Captions** | Below the chin | Not too low to avoid distraction |
+| **Motion Graphics** | Center | Where attention naturally goes during scrolling |
 
 ---
 
-## 4. Shortcuts da Tastiera - Editare Piu Veloce
+## 3. Custom Templates - Speed Up Your Workflow
 
-### Delete con X (invece di Backspace)
-- Cambia il tasto di eliminazione da Backspace a **X**
-- Premi **A** per deselezionare la modalita taglio
-- Premi **X** per eliminare
-- Tutto con la mano sinistra, senza spostare la destra dal mouse
+**NOT** CapCut's viral templates. We're talking about templates **built by you**.
 
-### Split All con S
-- Posiziona il playhead dove vuoi tagliare
-- Premi **S** = taglia **tutti i layer** contemporaneamente
+### How to create your template:
+1. Open a **new project**
+2. Import all your: sound effects, transitions, effects, assets
+3. Organize everything on the timeline
+4. **Next time:** duplicate the project and start editing in the pre-built template
 
-### Delete Left/Right con Q e W
-| Tasto | Azione |
-|-------|--------|
-| **Q** | Elimina tutto a **sinistra** del playhead |
-| **W** | Elimina tutto a **destra** del playhead |
-
-> Invece di: B (taglio) + X (elimina) + A (deseleziona) = basta premere **Q**. Risparmi 3 click ogni volta.
+> You save a ton of time because everything is already ready on the timeline.
 
 ---
 
-## 5. Creare Motion Graphics in CapCut
+## 4. Keyboard Shortcuts - Edit Faster
 
-### Esempio: Barra di Ricerca (Search Bar)
+### Delete with X (instead of Backspace)
+- Change the delete key from Backspace to **X**
+- Press **A** to deselect cut mode
+- Press **X** to delete
+- All with the left hand, without moving the right hand from the mouse
 
-**Step 1 - Base della barra:**
-1. Crea un **text layer**, spazia il testo e ridimensiona
-2. Scegli il colore
-3. Aggiungi una **mask** > scegli **rectangle**
-4. Aggiusta per sembrare una barra
-5. Arrotonda gli angoli
+### Split All with S
+- Position the playhead where you want to cut
+- Press **S** = cuts **all layers** simultaneously
 
-**Step 2 - Icona di ricerca:**
-1. Crea un altro text layer, scrivi "O"
-2. Imposta il colore
-3. Crea un altro text layer con lo stesso colore
-4. Applica mask con rectangle per creare l'effetto
+### Delete Left/Right with Q and W
+| Key | Action |
+|-----|--------|
+| **Q** | Delete everything to the **left** of the playhead |
+| **W** | Delete everything to the **right** of the playhead |
 
-> In CapCut puoi creare davvero di tutto. Il video editing e questione di creativita, e la creativita e una skill che migliora con la pratica.
+> Instead of: B (cut) + X (delete) + A (deselect) = just press **Q**. You save 3 clicks every time.
 
 ---
 
-## Riepilogo Rapido
+## 5. Creating Motion Graphics in CapCut
 
-| # | Trucco | Beneficio |
-|---|--------|-----------|
-| 1 | Layout Verticale | Piu spazio per editare in 9:16 |
-| 2 | Righelli e Safe Zone | Contenuti sempre ben posizionati |
-| 3 | Template personalizzati | Workflow velocissimo |
-| 4 | Shortcuts (X, S, Q, W) | Dimezza il tempo di editing |
-| 5 | Motion Graphics con Mask | Crea grafiche pro senza altri software |
+### Example: Search Bar
+
+**Step 1 - Bar base:**
+1. Create a **text layer**, space out the text and resize
+2. Choose the color
+3. Add a **mask** > choose **rectangle**
+4. Adjust to look like a bar
+5. Round the corners
+
+**Step 2 - Search icon:**
+1. Create another text layer, type "O"
+2. Set the color
+3. Create another text layer with the same color
+4. Apply mask with rectangle to create the effect
+
+> In CapCut you can truly create anything. Video editing is a matter of creativity, and creativity is a skill that improves with practice.
+
+---
+
+## Quick Summary
+
+| # | Trick | Benefit |
+|---|-------|---------|
+| 1 | Vertical Layout | More space to edit in 9:16 |
+| 2 | Rulers and Safe Zone | Content always well positioned |
+| 3 | Custom Templates | Lightning-fast workflow |
+| 4 | Shortcuts (X, S, Q, W) | Cuts editing time in half |
+| 5 | Motion Graphics with Mask | Create pro graphics without other software |
