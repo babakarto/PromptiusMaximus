@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cover.svg" alt="Promptium Maximus — AI Prompt Library" width="100%"/>
+  <img src="assets/cover.png" alt="Promptium Maximus — AI Prompt Library" width="100%"/>
 </p>
 
 <p align="center">
