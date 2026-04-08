@@ -1,37 +1,37 @@
-# Prossimi passi
+# Next Steps
 
-## Scene da costruire
+## Scenes to Build
 
-### Scena 1 — Kling AI Transition (0–4s, 120 frames)
-- Smooth fade-in da un video Kling AI (l'utente fornirà il video)
-- Usare `<OffthreadVideo>` da remotion per il video
-- Fade/dissolve verso la scena successiva
+### Scene 1 — Kling AI Transition (0–4s, 120 frames)
+- Smooth fade-in from a Kling AI video (the user will provide the video)
+- Use `<OffthreadVideo>` from remotion for the video
+- Fade/dissolve into the next scene
 
-### Scena 2 — Why Me (4–10s, 180 frames)
-- Motion graphics che spiega perché l'utente è la persona giusta per X-Cite
-- Testo animato, icone, visual storytelling
-- Stile premium dark con accent gold/orange
+### Scene 2 — Why Me (4–10s, 180 frames)
+- Motion graphics explaining why the user is the right person for X-Cite
+- Animated text, icons, visual storytelling
+- Premium dark style with gold/orange accent
 
-### Scena 3 — Skills Showcase (10–15s, 150 frames)
-- Showcase competenze: AI Video, Motion Graphics, UGC, Kling, etc.
-- Cards/pills animate che appaiono con spring
-- Possibile integrazione con il mascot Dali
+### Scene 3 — Skills Showcase (10–15s, 150 frames)
+- Skills showcase: AI Video, Motion Graphics, UGC, Kling, etc.
+- Animated cards/pills appearing with spring
+- Possible integration with the Dali mascot
 
-### Scena 4 — Logo Reveal (15–20s, 150 frames) ✅ COMPLETA
+### Scene 4 — Logo Reveal (15–20s, 150 frames) ✅ COMPLETE
 
-## Idee dalla skill library (remotion-ultra-skills.md)
-- **Prompt 4**: Mascot + Logo Interaction — il Dali tiene/lancia il logo
-- **Prompt 11**: Hammer Smash — il Dali ha un martelletto, potrebbe spaccare qualcosa
-- **Prompt 6-10**: Slot Machine — perfetto per gaming company
-- **TransitionSeries** con fade/slide tra le scene (pacchetto già installato)
+## Ideas from the Skill Library (remotion-ultra-skills.md)
+- **Prompt 4**: Mascot + Logo Interaction — the Dali holds/throws the logo
+- **Prompt 11**: Hammer Smash — the Dali has a small hammer, could smash something
+- **Prompt 6-10**: Slot Machine — perfect for a gaming company
+- **TransitionSeries** with fade/slide between scenes (package already installed)
 
-## Pacchetti già installati e pronti
-- `@remotion/transitions` — fade, slide, wipe tra scene
-- `@remotion/light-leaks` — effetti WebGL per transizioni
+## Packages Already Installed and Ready
+- `@remotion/transitions` — fade, slide, wipe between scenes
+- `@remotion/light-leaks` — WebGL effects for transitions
 - `remotion` 4.0.436 — latest
 - `tailwindcss` v4
 
-## Asset mancanti
-- Video Kling AI per scena 1 (l'utente deve fornirlo)
-- Voiceover audio (da mettere in public/audio/)
-- Eventuali SVG parts del mascot per animazioni dettagliate
+## Missing Assets
+- Kling AI video for scene 1 (user must provide it)
+- Voiceover audio (to be placed in public/audio/)
+- Potential SVG parts of the mascot for detailed animations
