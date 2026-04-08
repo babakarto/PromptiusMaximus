@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/seedforge-logo.png" alt="SeedForge" width="800"/>
+  <img src="assets/seedforge-logo.png" alt="SeedForge — Seedance 2.0 Prompt Skill" width="800"/>
 </p>
 
 <p align="center">
