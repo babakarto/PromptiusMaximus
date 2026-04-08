@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-SeedForge / FaceForge Grid Maker — Grid overlays and texture effects
-for Seedance 2.0 face detection bypass.
+SeedForge / FaceForge Grid Maker — Grid overlays and texture effects for
+Seedance 2.0 face detection bypass.
 
 PRIMARY METHOD (proven in production):
   8x8 white grid overlay with thick lines drawn ON TOP of the image.
