@@ -1,143 +1,143 @@
 # 2D Character Rig & Body Part Separation Tools — Research Report
 
 **Date:** 2026-03-17
-**Source:** Web research (X API non disponibile — token 401)
-**Focus:** Tool AI per separazione automatica body parts, asset puppet pre-riggati, template per animazione 2D
+**Source:** Web research (X API not available — token 401)
+**Focus:** AI tools for automatic body parts separation, pre-rigged puppet assets, templates for 2D animation
 
 ---
 
-## 1. AI TOOLS — Auto-Separazione Body Parts
+## 1. AI TOOLS — Auto Body Parts Separation
 
 ### KomikoAI — AI Layer Splitter ⭐ TOP PICK
-- **Cosa fa:** Carica un'illustrazione e l'AI separa automaticamente in layer: personaggi, background, occhi, capelli, arti, props
-- **Come funziona:** Deep learning su milioni di immagini, riconosce bordi, colori, contesto
+- **What it does:** Upload an illustration and the AI automatically separates it into layers: characters, background, eyes, hair, limbs, props
+- **How it works:** Deep learning on millions of images, recognizes edges, colors, context
 - **Input:** JPG, PNG
-- **Output:** Layer separati alla risoluzione originale
-- **Compatibilità:** Live2D, Spine, After Effects (generico "animation-ready")
-- **Pricing:** Free credits (500 "Zaps") per nuovi utenti, poi piani a pagamento
-- **Limitazioni:** Scene complesse possono raggruppare elementi; dettagli fini (capelli, pelliccia) sono problematici; oggetti molto sovrapposti difficili da separare
+- **Output:** Separated layers at original resolution
+- **Compatibility:** Live2D, Spine, After Effects (generic "animation-ready")
+- **Pricing:** Free credits (500 "Zaps") for new users, then paid plans
+- **Limitations:** Complex scenes may group elements together; fine details (hair, fur) are problematic; heavily overlapping objects are difficult to separate
 - **Target:** VTuber artists, Live2D riggers, indie animators
 - **Link:** [komiko.app/layer_splitter](https://komiko.app/layer_splitter)
 - **Blog:** [How to Instantly Split Anime Art into Layers](https://komiko.app/blog/how-to-instantly-split-anime-art-into-layers-for-animation-and-rigging)
 
 ### GodMode AI — Spine Animation Generator ⭐ TOP PICK
-- **Cosa fa:** Genera automaticamente file Spine con body parts separati da un'immagine 2D
-- **Come funziona:** 1) Genera modello 3D con idle animation per capire la struttura scheletrica → 2) Converte in formato Spine 2D con layering corretto
-- **Input:** JPG, PNG, WebP (fino a 10MB)
-- **Output:** Spine JSON + PNG atlas — compatibile Unity, Unreal, Godot
-- **Auto-rigging:** Sì, crea strutture scheletriche professionali ottimizzate per Spine
-- **Animazioni:** 2000+ animazioni professionali con one-click retargeting
-- **Limitazione:** Solo personaggi umani/umanoidi
+- **What it does:** Automatically generates Spine files with separated body parts from a 2D image
+- **How it works:** 1) Generates a 3D model with idle animation to understand the skeletal structure → 2) Converts to 2D Spine format with correct layering
+- **Input:** JPG, PNG, WebP (up to 10MB)
+- **Output:** Spine JSON + PNG atlas — compatible with Unity, Unreal, Godot
+- **Auto-rigging:** Yes, creates professional skeletal structures optimized for Spine
+- **Animations:** 2000+ professional animations with one-click retargeting
+- **Limitation:** Only human/humanoid characters
 - **Pricing:**
-  - Free: 3 crediti alla registrazione
-  - Starter: $12 per 20 crediti
-  - Popular: $32 per 60 crediti
-  - Ultimate: $100 per 250 crediti
-  - Subscription: $19/mese (fino a 200 generazioni)
+  - Free: 3 credits upon registration
+  - Starter: $12 for 20 credits
+  - Popular: $32 for 60 credits
+  - Ultimate: $100 for 250 credits
+  - Subscription: $19/month (up to 200 generations)
 - **Link:** [godmodeai.co/ai-spine-animation](https://www.godmodeai.co/ai-spine-animation)
 
 ### Pixa — AI 2D Character Rigging
-- **Cosa fa:** Upload di un character design → AI rileva punti di articolazione (gomiti, ginocchia, spalle) → costruisce scheletro digitale
+- **What it does:** Upload a character design → AI detects articulation points (elbows, knees, shoulders) → builds a digital skeleton
 - **Input:** PNG, PSD
-- **Best practice:** Immagine in T-pose con arti separati dal corpo, sfondo trasparente
-- **Output:** Personaggio riggato + animazione da text prompt
+- **Best practice:** Image in T-pose with limbs separated from the body, transparent background
+- **Output:** Rigged character + animation from text prompt
 - **Pricing:** Free to try
 - **Link:** [pixa.com/create/2d-character-rigging](https://www.pixa.com/create/2d-character-rigging)
 
 ### Live2D Cubism — Material Separation Plugin
-- **Cosa fa:** Plugin Photoshop ufficiale per separare materiali/layer per Live2D
-- **Auto-mesh:** Generazione automatica mesh basata su densità di punti specificata
-- **Versione:** R1 beta2 (giugno 2025)
+- **What it does:** Official Photoshop plugin to separate materials/layers for Live2D
+- **Auto-mesh:** Automatic mesh generation based on specified point density
+- **Version:** R1 beta2 (June 2025)
 - **Link:** [docs.live2d.com - Material Separation Plugin](https://docs.live2d.com/en/cubism-editor-manual/material-separation-ps-plugin-download/)
 
 ### Cascadeur
-- **Cosa fa:** Software standalone per animazione keyframe 3D con AI-assist
-- **Focus:** Più 3D che 2D, ma utile per reference di movimenti
+- **What it does:** Standalone software for AI-assisted 3D keyframe animation
+- **Focus:** More 3D than 2D, but useful for movement reference
 - **Link:** [cascadeur.com](https://cascadeur.com)
 
 ---
 
-## 2. ASSET PUPPET PRE-RIGGATI
+## 2. PRE-RIGGED PUPPET ASSETS
 
 ### Rive — Community Templates (FREE)
-File della community con bones e constraints:
+Community files with bones and constraints:
 - [Character rigging and animation](https://rive.app/community/files/13636-25823-character-rigging-and-animation/) — bones + constraints
-- [Marty animation](https://rive.app/community/files/52-69-marty-animation/) — binding method, bones collegati a parti diverse del personaggio
-- [Character animation](https://rive.app/community/files/10837-20734-character-animation/) — animazione base con bones
-- [Joints and bones rig](https://rive.app/community/files/6082-11833-joints-and-bones-rig/) — test di rig per bending joints
-- [Mouth Rig Demo](https://rive.app/community/files/3216-6766-mouth-rig-demo/) — rig bocca con 3 controlli
+- [Marty animation](https://rive.app/community/files/52-69-marty-animation/) — binding method, bones linked to different character parts
+- [Character animation](https://rive.app/community/files/10837-20734-character-animation/) — basic animation with bones
+- [Joints and bones rig](https://rive.app/community/files/6082-11833-joints-and-bones-rig/) — rig test for bending joints
+- [Mouth Rig Demo](https://rive.app/community/files/3216-6766-mouth-rig-demo/) — mouth rig with 3 controls
 
 ### Spine 2D — Asset Packs (PAID)
-- **Hitman - Platformer** ($10) — Scheletro riggato, animazioni platformer (walk, run, jump, wall slide, punch), progetto Unity 5
-- **Gunman - Jetpack Platformer** ($10) — Scheletro IK-rigged, jetpack, 4 armi, progetto Unity 5
-- **Sconto:** 50% su tutti i pack dopo il primo
+- **Hitman - Platformer** ($10) — Rigged skeleton, platformer animations (walk, run, jump, wall slide, punch), Unity 5 project
+- **Gunman - Jetpack Platformer** ($10) — IK-rigged skeleton, jetpack, 4 weapons, Unity 5 project
+- **Discount:** 50% off all packs after the first
 - **Link:** [esotericsoftware.com/spine-asset-packs](https://esotericsoftware.com/spine-asset-packs)
 
-### Spine 2D — Marketplace di terze parti
-- **itch.io** — [Tag: 2D + Spine](https://itch.io/game-assets/newest/tag-2d/tag-spine) — asset indie
-- **GraphicRiver** — [124+ Spine 2D game assets](https://graphicriver.net/spine-and-2d-graphics-in-game-assets) — inclusi flat art characters
+### Spine 2D — Third-Party Marketplace
+- **itch.io** — [Tag: 2D + Spine](https://itch.io/game-assets/newest/tag-2d/tag-spine) — indie assets
+- **GraphicRiver** — [124+ Spine 2D game assets](https://graphicriver.net/spine-and-2d-graphics-in-game-assets) — including flat art characters
 - **GameDev Market** — [Character Spine animation](https://www.gamedevmarket.net/asset/2d-character-spine-animation-and-item-7166)
 
-### DragonBones — Asset gratuiti
-- [Free 2D Character + DragonBones setup](https://forum.starling-framework.org/d/20516-free-2d-character-dragonbones-set-up-and-animations-art-assets) — personaggio con animazioni e setup
+### DragonBones — Free Assets
+- [Free 2D Character + DragonBones setup](https://forum.starling-framework.org/d/20516-free-2d-character-dragonbones-set-up-and-animations-art-assets) — character with animations and setup
 
 ### Adobe Character Animator — Puppet Templates (FREE)
-- **Okay Samurai** — [okaysamurai.com/puppets](https://okaysamurai.com/puppets/) — libreria di puppet gratuiti, inclusi pack con Limb IK (4 puppet + project file)
-- **ElectroPuppet** — [85+ Free Puppets per il 2026](https://electropuppet.com/free-adobe-puppet-templates/) — catalogo aggiornato feb 2026
-- **Adobe ufficiale** — [Pro mode example puppets](https://pages.adobe.com/character/en/puppets)
+- **Okay Samurai** — [okaysamurai.com/puppets](https://okaysamurai.com/puppets/) — free puppet library, including packs with Limb IK (4 puppets + project file)
+- **ElectroPuppet** — [85+ Free Puppets for 2026](https://electropuppet.com/free-adobe-puppet-templates/) — catalog updated Feb 2026
+- **Adobe official** — [Pro mode example puppets](https://pages.adobe.com/character/en/puppets)
 - **GraphicMama** — [63 Free Character Animator Puppets](https://graphicmama.com/blog/free-character-animator-puppets-2021/)
 - **ReallyGoodDesigns** — [600+ Fully Rigged Puppets](https://reallygooddesigns.com/adobe-character-animator-puppets-download/)
 
 ### SVG Puppet Resources (FREE)
-- **FreeSVG** — [Vector Puppet Male](https://freesvg.org/1539432292) — puppet multi-parte posabile
-- **FreeSVG** — [Toy Clown Puppet Animation](https://freesvg.org/clown-jointtest-v4) — puppet animato con SMIL
-- **Vecteezy** — [Puppet Vectors](https://www.vecteezy.com/free-vector/puppet) — vettori gratuiti
-- **Vexels** — [Puppet vectors](https://www.vexels.com/free-vectors/puppet/) — AI, SVG, JPG, PNG con licenza commerciale
+- **FreeSVG** — [Vector Puppet Male](https://freesvg.org/1539432292) — posable multi-part puppet
+- **FreeSVG** — [Toy Clown Puppet Animation](https://freesvg.org/clown-jointtest-v4) — animated puppet with SMIL
+- **Vecteezy** — [Puppet Vectors](https://www.vecteezy.com/free-vector/puppet) — free vectors
+- **Vexels** — [Puppet vectors](https://www.vexels.com/free-vectors/puppet/) — AI, SVG, JPG, PNG with commercial license
 
 ---
 
-## 3. SOFTWARE PER RIGGING (Non-AI, Manuale)
+## 3. RIGGING SOFTWARE (Non-AI, Manual)
 
-| Software | Tipo | Costo | Note |
-|----------|------|-------|------|
-| **Rive** | Web-based, bones & constraints | Free tier + paid | Ideale per web/app, export leggero |
-| **Spine 2D** | Desktop, skeletal animation | $69 Essential / $299 Pro | Standard per gamedev |
-| **DragonBones** | Desktop, open source | FREE | Alternativa gratuita a Spine |
-| **Adobe Character Animator** | Desktop, motion capture | Creative Cloud sub | Auto-tag layers da PSD/AI |
+| Software | Type | Cost | Notes |
+|----------|------|------|-------|
+| **Rive** | Web-based, bones & constraints | Free tier + paid | Ideal for web/app, lightweight export |
+| **Spine 2D** | Desktop, skeletal animation | $69 Essential / $299 Pro | Gamedev standard |
+| **DragonBones** | Desktop, open source | FREE | Free alternative to Spine |
+| **Adobe Character Animator** | Desktop, motion capture | Creative Cloud sub | Auto-tag layers from PSD/AI |
 | **Cartoon Animator 5** | Desktop, puppet animation | ~$99-$199 | Bone-rigging, Smart IK |
-| **Duik (After Effects)** | Plugin AE, rigging | FREE (open source) | Standard per motion design |
-| **Adobe Animate** | Desktop, vector animation | Creative Cloud sub | Rigging nativo dal 2024 |
-| **Live2D Cubism** | Desktop, mesh deformation | Free tier + Pro | Ideale per VTuber/anime style |
-| **Blender (Grease Pencil)** | Desktop, 2D in 3D | FREE | Potente ma curva di apprendimento ripida |
+| **Duik (After Effects)** | AE plugin, rigging | FREE (open source) | Motion design standard |
+| **Adobe Animate** | Desktop, vector animation | Creative Cloud sub | Native rigging since 2024 |
+| **Live2D Cubism** | Desktop, mesh deformation | Free tier + Pro | Ideal for VTuber/anime style |
+| **Blender (Grease Pencil)** | Desktop, 2D in 3D | FREE | Powerful but steep learning curve |
 
 ---
 
-## 4. WORKFLOW CONSIGLIATO — Dal Character al Puppet Animato
+## 4. RECOMMENDED WORKFLOW — From Character to Animated Puppet
 
-### Opzione A: Full AI (veloce, meno controllo)
-1. **Disegna/genera** il character in stile flat vector/vinyl toy
-2. **GodMode AI** → carica immagine → ricevi Spine JSON con body parts separati + rig automatico
-3. Importa in **Unity/Godot** e applica animazioni dal catalogo di 2000+
+### Option A: Full AI (fast, less control)
+1. **Draw/generate** the character in flat vector/vinyl toy style
+2. **GodMode AI** → upload image → receive Spine JSON with separated body parts + automatic rig
+3. Import into **Unity/Godot** and apply animations from the 2000+ catalog
 
-### Opzione B: AI + Manuale (bilanciato)
-1. **Disegna** il character come illustrazione completa
-2. **KomikoAI Layer Splitter** → separa in layer (testa, corpo, braccia, gambe)
-3. Importa layer separati in **Spine 2D** o **Rive**
-4. Rigga manualmente con bones
-5. Anima
+### Option B: AI + Manual (balanced)
+1. **Draw** the character as a complete illustration
+2. **KomikoAI Layer Splitter** → separate into layers (head, body, arms, legs)
+3. Import separated layers into **Spine 2D** or **Rive**
+4. Manually rig with bones
+5. Animate
 
-### Opzione C: Manuale + Template (massimo controllo)
-1. **Disegna** ogni body part separatamente in Illustrator/Figma
-2. Esporta come SVG/PNG con layer nominati
-3. Importa in **Rive** (usando template community come base) o **After Effects + Duik**
-4. Rigga e anima con pieno controllo
+### Option C: Manual + Template (maximum control)
+1. **Draw** each body part separately in Illustrator/Figma
+2. Export as SVG/PNG with named layers
+3. Import into **Rive** (using community template as a base) or **After Effects + Duik**
+4. Rig and animate with full control
 
 ---
 
-## 5. RICERCHE EFFETTUATE
+## 5. SEARCHES PERFORMED
 
-- Queries web: 9
-- Pagine analizzate in dettaglio: 4
-- Fonte: Google Web Search (X API non disponibile)
-- Stima costo: $0 (web search gratuita)
-- Data: 2026-03-17
+- Web queries: 9
+- Pages analyzed in detail: 4
+- Source: Google Web Search (X API not available)
+- Estimated cost: $0 (free web search)
+- Date: 2026-03-17

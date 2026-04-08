@@ -21,12 +21,12 @@
 ## PYTHON SCRIPTS
 
 ### Grid Overlay (apply_grid.py)
-**File**: `C:\Users\prova\Desktop\candy porn\apply_grid.py`
+**File**: `apply_grid.py`
 **Output**: `sheet_GRID8x8.png`, `sheet_FACECROP_GRID.png`, `mezzobusto_GRID8x8.png`
 **Status**: WORKING
 
 ### Blur Center (blur_center.py)
-**File**: `C:\Users\prova\Desktop\candy porn\blur_center.py`
+**File**: `blur_center.py`
 **Usage**: Blurs the center of an image to hide the subject and give only the background to Nano Banana
 **Status**: WORKING (but better to use manual method — white over subject + inpaint)
 
@@ -676,4 +676,4 @@ Vertical 9:16 amateur park footage, low angle from the grass looking up, blurry 
 - [ ] **Girl 5:** Seedance 15s park video (POV pickup + walk + dialogue) — prompt ready
 - [ ] **Girl 5:** Kling 3.0 video same scene — prompt ready
 - [ ] **Girl 5:** Lip sync with ElevenLabs/Sync on the final video
-- [ ] **Remotion project** in the candy porn folder (to be created)
+- [ ] **Remotion project** (to be created)

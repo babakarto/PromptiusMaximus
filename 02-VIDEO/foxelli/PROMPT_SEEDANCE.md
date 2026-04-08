@@ -1,20 +1,20 @@
-# Prompt Seedance 2.0 — Mrs. Quilty AI Ad
+# Seedance 2.0 Prompts — Mrs. Quilty AI Ad
 
-## Setup Omni Reference (uguale per ogni clip)
+## Omni Reference Setup (same for every clip)
 
-**@Image1** = La foto del personaggio AI generato (donna bionda, maglia a righe)
-**@Audio1** = Il file audio ElevenLabs della clip corrispondente
+**@Image1** = The AI-generated character photo (blonde woman, striped t-shirt)
+**@Audio1** = The ElevenLabs audio file for the corresponding clip
 
-> REGOLA: Ogni clip va generata SEPARATAMENTE con il suo audio.
-> Formato: 9:16 verticale | Durata: 10-15s | Modalita: Fast | Stile: Realistico
+> RULE: Each clip must be generated SEPARATELY with its own audio.
+> Format: 9:16 vertical | Duration: 10-15s | Mode: Fast | Style: Realistic
 
 ---
 
 ## CLIP 1 — INTRO SELFIE (10s)
 
 **Upload:**
-- @Image1 = personaggio AI (volto)
-- @Audio1 = audio clip 1 ("OK quilters, I need to tell you about...")
+- @Image1 = AI character (face)
+- @Audio1 = clip 1 audio ("OK quilters, I need to tell you about...")
 
 **Prompt:**
 ```
@@ -36,11 +36,11 @@ no subtitles. 10 seconds.
 
 ---
 
-## CLIP 2 — APPOGGIA IL TELEFONO (10s)
+## CLIP 2 — PUTS PHONE DOWN (10s)
 
 **Upload:**
-- @Image1 = personaggio AI (volto)
-- @Audio1 = audio clip 2 ("Let me show you what's inside, hold on...")
+- @Image1 = AI character (face)
+- @Audio1 = clip 2 audio ("Let me show you what's inside, hold on...")
 
 **Prompt:**
 ```
@@ -63,11 +63,11 @@ Natural hand movements, face stable, no subtitles. 10 seconds.
 
 ---
 
-## CLIP 3 — UNBOXING TESSUTI (15s)
+## CLIP 3 — FABRIC UNBOXING (15s)
 
 **Upload:**
-- @Image1 = personaggio AI (volto)
-- @Audio1 = audio clip 3 ("So first of all, you get twelve fat quarters...")
+- @Image1 = AI character (face)
+- @Audio1 = clip 3 audio ("So first of all, you get twelve fat quarters...")
 
 **Prompt:**
 ```
@@ -89,17 +89,17 @@ hand movements, face stable without deformation, no subtitles.
 15 seconds.
 ```
 
-**NOTA:** Qui puoi tagliare e inserire i CLOSE-UP REALI dei tessuti
-forniti da Foxelli (le foto prodotto _DSF9862.JPG e KaEDL2dg.jpeg)
-come B-roll tra le inquadrature della donna.
+**NOTE:** Here you can cut in and insert REAL CLOSE-UPS of the fabrics
+provided by Foxelli (product photos _DSF9862.JPG and KaEDL2dg.jpeg)
+as B-roll between the woman's shots.
 
 ---
 
-## CLIP 4 — MAGAZINE E VALORE (15s)
+## CLIP 4 — MAGAZINE AND VALUE (15s)
 
 **Upload:**
-- @Image1 = personaggio AI (volto)
-- @Audio1 = audio clip 4 ("But here's the thing, it also comes with...")
+- @Image1 = AI character (face)
+- @Audio1 = clip 4 audio ("But here's the thing, it also comes with...")
 
 **Prompt:**
 ```
@@ -119,17 +119,17 @@ Maintain facial features and outfit consistent with @Image1. Natural
 expressions, face stable, no subtitles. 15 seconds.
 ```
 
-**NOTA:** Inserisci B-roll reale delle pagine del magazine e della
-lista valore ($103.90) dai frame estratti dal video originale o dalle
-foto prodotto Foxelli.
+**NOTE:** Insert real B-roll of the magazine pages and the value list
+($103.90) from frames extracted from the original video or from
+Foxelli product photos.
 
 ---
 
-## CLIP 5 — CTA FINALE (15s)
+## CLIP 5 — FINAL CTA (15s)
 
 **Upload:**
-- @Image1 = personaggio AI (volto)
-- @Audio1 = audio clip 5 ("They even included a cookie recipe...")
+- @Image1 = AI character (face)
+- @Audio1 = clip 5 audio ("They even included a cookie recipe...")
 
 **Prompt:**
 ```
@@ -151,27 +151,27 @@ genuine expression, face stable, no subtitles. 15 seconds.
 
 ---
 
-## MONTAGGIO FINALE — Ordine delle clip
+## FINAL EDIT — Clip Order
 
-| # | Tipo | Durata | Fonte |
-|---|------|--------|-------|
+| # | Type | Duration | Source |
+|---|------|----------|--------|
 | 1 | AI — Intro selfie | 8s | Seedance Clip 1 |
-| 2 | AI — Appoggia telefono | 3s | Seedance Clip 2 |
-| 3 | AI — Tira fuori tessuti | 5s | Seedance Clip 3 |
-| 4 | REALE — Close-up tessuti | 6s | Footage Foxelli |
-| 5 | AI — Mostra magazine | 5s | Seedance Clip 4 |
-| 6 | REALE — Close-up magazine | 5s | Footage Foxelli |
+| 2 | AI — Puts phone down | 3s | Seedance Clip 2 |
+| 3 | AI — Pulls out fabrics | 5s | Seedance Clip 3 |
+| 4 | REAL — Fabric close-ups | 6s | Foxelli footage |
+| 5 | AI — Shows magazine | 5s | Seedance Clip 4 |
+| 6 | REAL — Magazine close-ups | 5s | Foxelli footage |
 | 7 | AI — Cookie + CTA | 8s | Seedance Clip 5 |
-| 8 | REALE — Flat lay prodotti | 5s | Footage Foxelli |
+| 8 | REAL — Product flat lay | 5s | Foxelli footage |
 
-**Totale: ~45 secondi**
+**Total: ~45 seconds**
 
 ---
 
-## Checklist pre-generazione
+## Pre-generation Checklist
 
-- [ ] Personaggio AI generato e salvato in alta risoluzione
-- [ ] 5 file audio separati da ElevenLabs (uno per clip)
-- [ ] Foto prodotto Foxelli scaricate dal Dropbox
-- [ ] Account Dreamina/Jimeng pronto
-- [ ] Ogni clip: @Image1 (personaggio) + @Audio1 (audio clip) caricati
+- [ ] AI character generated and saved in high resolution
+- [ ] 5 separate audio files from ElevenLabs (one per clip)
+- [ ] Foxelli product photos downloaded from Dropbox
+- [ ] Dreamina/Jimeng account ready
+- [ ] Each clip: @Image1 (character) + @Audio1 (clip audio) uploaded

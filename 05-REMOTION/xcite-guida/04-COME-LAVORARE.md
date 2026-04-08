@@ -5,7 +5,7 @@ Every time you open a new chat, **YOU (Claude) must start the server**.
 Don't ask the user to do it. Do it directly with:
 
 ```bash
-cd "/c/Users/prova/Desktop/REMOTION XCITE" && npm install && npx remotion studio src/index.ts
+cd /path/to/remotion-xcite && npm install && npx remotion studio src/index.ts
 ```
 
 Then open the browser:

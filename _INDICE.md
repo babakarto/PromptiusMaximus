@@ -213,9 +213,4 @@ Organized collection of all guides, prompts, references, and scripts for video, 
 
 ## Duplicates removed
 - `x-research-ltx2-prompt-guide-2026-02-12.md` = identical to `cineclaw/references/ltx2-prompt-guide-advanced.md`
-- `candy-ai-addendum-pixel-perfect.md` duplicated in 2 candy folders
-- `candy-ai-wizard-steps-ULTRA-DETAIL.md` duplicated in 2 candy folders
 - `cineclaw/prompting-guide.md` and `ltx-api.md` root = older versions (references/ versions used instead)
-
-## Original sources (untouched)
-All original folders on the Desktop are intact: SEEDANCE PROMPT, REMOTION XCITE, capcut tutorial, cineclaw, comfyui-mcp-server, ltxintegration, candidatura FOXELLI, candy porn, x-research, icon, ardoino/remotion-news, File MD.
