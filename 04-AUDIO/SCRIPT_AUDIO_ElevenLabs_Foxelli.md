@@ -1,4 +1,4 @@
-# Audio Script — Mrs. Quilty AI Ad Recreation
+# Audio Script — Mrs. Quilty AI Ad
 
 ## Voice: Woman ~45 years old, American, enthusiastic, warm and genuine tone
 ## Speed: Medium-fast, like an excited TikToker
