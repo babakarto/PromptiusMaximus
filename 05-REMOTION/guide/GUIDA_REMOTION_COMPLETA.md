@@ -1,4 +1,4 @@
-# REMOTION + HIGGSFIELD VIBE MOTION COMPLETE GUIDE — Candy Project
+# REMOTION + HIGGSFIELD VIBE MOTION — COMPLETE GUIDE
 
 > Compiled: April 2, 2026
 > Sources: remotion.dev docs, LogRocket guide, Tella YouTube tutorial, Medium (Remotion + Claude Code), Higgsfield blog x2

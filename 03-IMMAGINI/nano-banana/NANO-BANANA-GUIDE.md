@@ -1,6 +1,6 @@
 # Nano Banana 2.0 — Complete Guide
 
-> Extracted from the tested production pipeline. All rules, anti-block techniques, and verified prompts.
+> Extracted from tested production pipelines. All rules, anti-block techniques, and verified prompts.
 
 ---
 
