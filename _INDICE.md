@@ -1,4 +1,4 @@
-# AI Creative Guides — Complete Index
+# PromptiusMaximus — Complete Index
 
 Organized collection of all guides, prompts, references, and scripts for video, image, audio generation and Remotion.
 
