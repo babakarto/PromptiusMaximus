@@ -192,5 +192,5 @@ This collection is for educational and creative production purposes. Individual 
 ---
 
 <p align="center">
-  <sub>Built with real production experience, not vibes.</sub>
+  <sub>Built with real production experience, not vibes</sub>
 </p>
